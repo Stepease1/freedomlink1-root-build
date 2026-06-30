@@ -1,0 +1,3 @@
+# Ceremonies
+
+Placeholder ceremonies document.

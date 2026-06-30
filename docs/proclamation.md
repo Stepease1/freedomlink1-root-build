@@ -1,0 +1,3 @@
+# Proclamation
+
+Placeholder proclamation document.

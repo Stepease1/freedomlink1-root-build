@@ -1,0 +1,3 @@
+# Seals
+
+Placeholder seals documentation.

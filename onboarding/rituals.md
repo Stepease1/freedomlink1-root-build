@@ -1,0 +1,3 @@
+# Rituals
+
+Placeholder rituals document.
