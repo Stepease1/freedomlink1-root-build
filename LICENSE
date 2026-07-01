@@ -1,0 +1,55 @@
+MIT License
+
+Copyright (c) 2026 Freedomlink Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Additional Governance and Attribution Terms:
+
+1. CONTRIBUTOR ATTRIBUTION
+All contributors to this project are recognized in lineage/contributor-registry.md
+and maintain permanent documentation in the immutable record.
+
+2. GOVERNANCE FRAMEWORK
+Contributions are subject to the governance terms outlined in:
+- governance/charter.md
+- governance/amendment-protocol.md
+- governance/licensing-ip.md
+- governance/permissions-matrix.md
+
+3. VERIFICATION AND INTEGRITY
+All code and documentation in this project may be verified using:
+- Cryptographic hashing (scripts/hashing.py)
+- Digital signature verification (scripts/signature-verification.py)
+- Blockchain anchors (anchors/blockchain-anchor.md)
+- Timestamp proofs (anchors/timestamp-proof.md)
+
+4. DISPUTES AND APPEALS
+Licensing disputes are subject to procedures in:
+- governance/oversight-appeals-sanctions.md
+
+5. IP AND LICENSING
+Individual contributor IP rights are documented in:
+- governance/licensing-ip.md
+- lineage/contributor-registry.md
+
+See VERIFY.md for complete verification procedures and governance/charter.md
+for the complete governance framework governing this software.
