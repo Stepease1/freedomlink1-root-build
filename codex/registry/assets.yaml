@@ -1,0 +1,42 @@
+assets:
+  - name: "FL1 Stable Token"
+    id: fl1-stable-token
+    type: "ERC-20"
+    category: "token"
+    provenance:
+      merkle_batch: "2025Q4"
+      source: "canonicalized ERC-20 metadata"
+    notarization:
+      filings:
+        - "SEC Form 10-12B"
+      attestations:
+        - "Circle mint attestation"
+    status: "active"
+
+  - name: "Badge Explorer Logic"
+    id: badge-explorer-logic
+    type: "smart-contract"
+    category: "access-control"
+    provenance:
+      commit_hash: "<insert-git-hash>"
+      timestamp: "<mongodb-atlas-timestamp>"
+    notarization:
+      logs:
+        - "Azure beta logs"
+      schema:
+        - "notarized badge schema"
+    status: "active"
+
+  - name: "Bounty Automation Module"
+    id: bounty-automation-module
+    type: "smart-contract"
+    category: "pipeline"
+    provenance:
+      simulation_logs:
+        - "rollup simulation logs"
+    notarization:
+      attestations:
+        - "Spotlight demo hash"
+      legal:
+        - "legal memo"
+    status: "active"
