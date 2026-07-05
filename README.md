@@ -2,6 +2,11 @@
 
 A decentralized, cryptographically-verified governance and record-keeping system with immutable blockchain anchors, timestamp proofs, and transparent verification capabilities.
 
+![Epoch: Genesis](https://img.shields.io/badge/Epoch-Genesis-4af2c5)
+![Verification: Open](https://img.shields.io/badge/Verification-Open-5f8cff)
+![Governance: Active](https://img.shields.io/badge/Governance-Active-c28bff)
+![Root Build v1.0.0](https://img.shields.io/badge/Root_Build-v1.0.0-0b1020)
+
 ## 🎯 Core Principles
 
 - **Transparent**: All records are publicly verifiable and permanently archived
