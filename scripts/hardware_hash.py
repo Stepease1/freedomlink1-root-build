@@ -1,24 +1,17 @@
-#!/usr/bin/env python3
-"""Generate a simple hardware identity hash.
-This script is intentionally conservative and only uses non-sensitive system facts.
-"""
 import hashlib
-import json
 import platform
 import uuid
 
-def main():
-    info = {
-        "node": platform.node(),
-        "system": platform.system(),
-        "machine": platform.machine(),
-        "processor": platform.processor(),
-        "python_build": platform.python_build(),
-        "uuid": str(uuid.getnode())
-    }
-    s = json.dumps(info, sort_keys=True).encode('utf-8')
-    h = hashlib.sha256(s).hexdigest()
-    print(h)
+def collect_fingerprint():
+    parts = [
+        platform.system(),
+        platform.release(),
+        platform.machine(),
+        platform.processor(),
+        str(uuid.getnode())
+    ]
+    return "|".join(parts)
 
-if __name__ == '__main__':
-    main()
+fp = collect_fingerprint()
+hw_hash = hashlib.sha256(fp.encode("utf-8")).hexdigest()
+print(hw_hash)
