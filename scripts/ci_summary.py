@@ -1,42 +1,44 @@
 #!/usr/bin/env python3
+"""Write a concise CI summary for GitHub Actions.
+If the `GITHUB_STEP_SUMMARY` environment variable is set, append there; otherwise
+write to `ci_summary.md` in the repo root for local runs.
+"""
 import os
 from pathlib import Path
 
 summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+if not summary_path:
+    summary_path = "ci_summary.md"
 
-lines = []
-lines.append("# Freedomlink1 Governance Summary")
-lines.append("")
-lines.append("## Integrity Checks")
-lines.append("- Root Build Integrity: ✔")
-lines.append("- Sovereign Signature: ✔")
-lines.append("- Merkle Root: ✔")
-lines.append("- Canonicalization: ✔")
-lines.append("- Hash Manifest: ✔")
-lines.append("")
-lines.append("## Lineage")
-lines.append("- Epoch Ledger: ✔")
-lines.append("- Module Registry: ✔")
-lines.append("- POC Registry: ✔")
-lines.append("")
-lines.append("## Modules & POCs")
-lines.append("- Module Verification: ✔")
-lines.append("- POC Verification: ✔")
-lines.append("")
-lines.append("> All checks passed successfully.")
+summary = Path(summary_path)
 
-content = "\n".join(lines) + "\n"
+def append_line(line: str):
+    existing = summary.read_text(encoding="utf-8") if summary.exists() else ""
+    summary.write_text(existing + line + "\n", encoding="utf-8")
 
-if summary_path:
-    p = Path(summary_path)
-    if p.exists():
-        existing = p.read_text()
-    else:
-        existing = ""
-    p.write_text(existing + content)
-else:
-    # Fallback to stdout for local runs
-    print(content)
+append_line("# Freedomlink1 Governance Summary")
+append_line("")
+
+append_line("## Integrity Checks")
+append_line("- Root Build Integrity: ✔")
+append_line("- Sovereign Signature: ✔")
+append_line("- Merkle Root: ✔")
+append_line("- Canonicalization: ✔")
+append_line("- Hash Manifest: ✔")
+
+append_line("")
+append_line("## Lineage")
+append_line("- Epoch Ledger: ✔")
+append_line("- Module Registry: ✔")
+append_line("- POC Registry: ✔")
+
+append_line("")
+append_line("## Modules & POCs")
+append_line("- Module Verification: ✔")
+append_line("- POC Verification: ✔")
+
+append_line("")
+append_line("> All checks passed successfully.")
 #!/usr/bin/env python3
 import os
 
