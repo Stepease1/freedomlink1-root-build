@@ -1,5 +1,38 @@
 {
   "project": "Freedomlink1",
   "version": "1.0.0",
-  "events": []
+  "events": [
+    {
+      "event": "Local CI run",
+      "timestamp": "2026-08-26T19:03:41.610146Z"
+    },
+    {
+      "event": "Local CI run",
+      "timestamp": "2026-08-26T19:03:41.667203Z"
+    },
+    {
+      "event": "Local CI run",
+      "timestamp": "2026-08-26T19:03:41.737912Z"
+    },
+    {
+      "event": "Local CI run",
+      "timestamp": "2026-08-26T19:03:41.782351Z"
+    },
+    {
+      "event": "Local CI run",
+      "timestamp": "2026-08-26T19:23:18.417297Z"
+    },
+    {
+      "event": "Local CI run",
+      "timestamp": "2026-08-26T19:23:18.441306Z"
+    },
+    {
+      "event": "Local CI run",
+      "timestamp": "2026-08-26T19:23:18.463207Z"
+    },
+    {
+      "event": "Local CI run",
+      "timestamp": "2026-08-26T19:23:18.486933Z"
+    }
+  ]
 }
