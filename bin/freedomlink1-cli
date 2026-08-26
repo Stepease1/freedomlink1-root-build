@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "Freedomlink1 CLI placeholder"
+echo "Usage: freedomlink1 <command>"
+
+case "$1" in
+    version)
+        echo "freedomlink1-cli placeholder v0.0.0"
+        ;;
+    *)
+        echo "No real functionality; replace with real CLI binary."
+        ;;
+esac
