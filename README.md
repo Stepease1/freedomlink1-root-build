@@ -129,6 +129,10 @@ All contributors are permanently recognized in our registry.
 - [docs/governance.md](docs/governance.md) - Governance overview
 - [docs/lineage.md](docs/lineage.md) - Chain of custody
 - [docs/codex.md](docs/codex.md) - Technical specifications
+- [docs/poc-domain-mapping.md](docs/poc-domain-mapping.md) - POC governance mapping
+- [docs/poc-activation-ceremony.md](docs/poc-activation-ceremony.md) - POC activation ceremony
+- [governance/poc-governance-rubric.md](governance/poc-governance-rubric.md) - POC governance rubric
+- [docs/poc-epoch-progression.md](docs/poc-epoch-progression.md) - POC epoch progression
 
 ## 🔍 External References
 
