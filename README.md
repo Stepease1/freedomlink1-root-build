@@ -7,6 +7,9 @@ A decentralized, cryptographically-verified governance and record-keeping system
 ![Governance: Active](https://img.shields.io/badge/Governance-Active-c28bff)
 ![Root Build v1.0.0](https://img.shields.io/badge/Root_Build-v1.0.0-0b1020)
 
+[![Governance Pipeline](https://github.com/Stepease1/freedomlink1-root-build/actions/workflows/root-governance-pipeline.yml/badge.svg)](https://github.com/Stepease1/freedomlink1-root-build/actions/workflows/root-governance-pipeline.yml)
+[![Pages](https://github.com/Stepease1/freedomlink1-root-build/actions/workflows/github-pages.yml/badge.svg)](https://github.com/Stepease1/freedomlink1-root-build/actions/workflows/github-pages.yml)
+
 ## 🎯 Core Principles
 
 - **Transparent**: All records are publicly verifiable and permanently archived
