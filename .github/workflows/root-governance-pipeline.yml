@@ -1,0 +1,57 @@
+name: Freedomlink1 Governance Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  governance-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Install Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install system deps
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y jq
+
+    - name: Install Python deps
+      run: |
+        python3 -m pip install --upgrade pip
+        python3 -m pip install cryptography
+
+    - name: Smoke Tests
+      run: bash tests/smoke_tests.sh
+
+    - name: Canonicalize Artifacts
+      run: python3 scripts/canonicalize_json.py artifacts/ canonical/
+
+    - name: Compute Hashes
+      run: python3 scripts/compute_hashes.py canonical/ hash_manifest.json
+
+    - name: Build Merkle Root
+      run: python3 scripts/build_merkle_tree.py hash_manifest.json merkle_root.txt
+
+    - name: Verify Sovereign Signature
+      run: python3 scripts/verify_signature.py merkle_root.txt artifacts/omni-proof-master.json
+
+    - name: Verify Lineage
+      run: python3 scripts/verify_lineage.py lineage/
+
+    - name: Module Verification
+      run: python3 tools/module_verify_all.py
+
+    - name: POC Verification
+      run: python3 tools/poc_verify_all.py
+
+    - name: Deploy (Internal Pilot Only)
+      if: github.ref == 'refs/heads/main'
+      run: bash install/deploy_internal.sh

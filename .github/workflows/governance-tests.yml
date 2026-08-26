@@ -1,0 +1,27 @@
+name: Governance Tests
+
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+
+jobs:
+  governance-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Install Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python3 -m pip install --upgrade pip
+        python3 -m pip install pytest cryptography
+
+    - name: Run Governance Test Suite
+      run: pytest tests/governance/

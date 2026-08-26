@@ -75,3 +75,5 @@ See individual documents for details.
 - [Freedomlink1 Release Page](./freedomlink1/release-page.md)
 - [Freedomlink1 Launch Tag Annotation](./freedomlink1/launch-tag-annotation.md)
 - [Freedomlink1 CHANGELOG](./freedomlink1/CHANGELOG.md)
+ 
+- 🔐 **Integrity Dashboard:** [View Dashboard](./integrity-dashboard.html)
