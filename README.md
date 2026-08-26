@@ -7,8 +7,28 @@ A decentralized, cryptographically-verified governance and record-keeping system
 ![Governance: Active](https://img.shields.io/badge/Governance-Active-c28bff)
 ![Root Build v1.0.0](https://img.shields.io/badge/Root_Build-v1.0.0-0b1020)
 
-[![Governance Pipeline](https://github.com/Stepease1/freedomlink1-root-build/actions/workflows/root-governance-pipeline.yml/badge.svg)](https://github.com/Stepease1/freedomlink1-root-build/actions/workflows/root-governance-pipeline.yml)
-[![Pages](https://github.com/Stepease1/freedomlink1-root-build/actions/workflows/github-pages.yml/badge.svg)](https://github.com/Stepease1/freedomlink1-root-build/actions/workflows/github-pages.yml)
+![Root Build Integrity](docs/badges/integrity.svg)
+![Governance Tests](https://github.com/Freedomlink1/root-build/actions/workflows/governance-tests.yml/badge.svg)
+![Smoke Tests](https://github.com/Freedomlink1/root-build/actions/workflows/root-governance-pipeline.yml/badge.svg)
+
+## 🔐 Freedomlink1 Governance Status
+
+| Check | Status |
+|------|--------|
+| Root Build Integrity | ✔ Verified |
+| Sovereign Signature | ✔ Valid |
+| Merkle Root | ✔ Regenerated |
+| Canonicalization | ✔ Passed |
+| Hash Manifest | ✔ Verified |
+| Lineage Structure | ✔ Confirmed |
+| Module Verification | ✔ Passed |
+| POC Verification | ✔ Passed |
+| Smoke Tests | ✔ Passed |
+| Governance Tests | ✔ Passed |
+
+<p align="center">
+	<img src="docs/badges/integrity-seal.svg" width="180">
+</p>
 
 ## 🎯 Core Principles
 
