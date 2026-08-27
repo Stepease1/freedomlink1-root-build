@@ -8,6 +8,7 @@ A decentralized, cryptographically-verified governance and record-keeping system
 ![Root Build v1.0.0](https://img.shields.io/badge/Root_Build-v1.0.0-0b1020)
 
 ![Root Build Integrity](docs/badges/integrity.svg)
+![Integrity Monitor](docs/badges/integrity-monitor.svg)
 ![Governance Tests](https://github.com/Freedomlink1/root-build/actions/workflows/governance-tests.yml/badge.svg)
 ![Smoke Tests](https://github.com/Freedomlink1/root-build/actions/workflows/root-governance-pipeline.yml/badge.svg)
 
@@ -28,6 +29,10 @@ A decentralized, cryptographically-verified governance and record-keeping system
 
 <p align="center">
 	<img src="docs/badges/integrity-seal.svg" width="180">
+</p>
+
+<p align="center">
+  <img src="docs/badges/sentinel-seal.svg" width="200">
 </p>
 
 ## 🎯 Core Principles

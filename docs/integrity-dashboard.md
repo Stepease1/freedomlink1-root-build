@@ -54,4 +54,25 @@ Device Sovereignty: **Active**
 
 ---
 
+# ## 🛰️ Integrity Monitor
+
+![Integrity Monitor](./badges/integrity-monitor.svg)
+
+### Status: **Active**
+### Sentinel: **Governance Sentinel 03**
+
+The Integrity Monitor runs:
+
+- On every push to `main`
+- On weekly schedule
+- On manual dispatch
+
+### Recent Runs
+- ✔ Integrity Monitor Run — Logged in lineage/governance_logbook.json
+- ✔ Lineage baseline verified
+- ✔ No corruption detected
+
+> The Integrity Monitor acts as the Root Build’s autonomous guardian.
+This makes the monitor visible in your public governance dashboard.
+
 # This dashboard is automatically updated by GitHub Actions.

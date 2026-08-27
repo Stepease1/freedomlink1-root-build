@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="260">
+  <circle cx="130" cy="130" r="120" fill="#111" stroke="#4af2c5" stroke-width="10"/>
+  <text x="130" y="115" font-size="22" fill="#4af2c5" text-anchor="middle">
+    FREEDOMLINK1
+  </text>
+  <text x="130" y="150" font-size="18" fill="#4af2c5" text-anchor="middle">
+    GOVERNANCE SENTINEL
+  </text>
+  <text x="130" y="185" font-size="20" fill="#4af2c5" text-anchor="middle">
+    WATCHFUL ✓
+  </text>
+</svg>
