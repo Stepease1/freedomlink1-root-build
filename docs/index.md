@@ -24,11 +24,17 @@ permalink: /
 - [Oversight & Appeals](../governance/oversight-appeals-sanctions.md)
 - [Licensing & IP](../governance/licensing-ip.md)
 
+- [Failure Playbook](../governance/failure_playbook.md) - Governance failure response playbook
+- [Root Build Recovery Protocol](../governance/root_build_recovery.md) - Recovery steps and commands
+
 ### Lineage & Records
 - [Contributor Registry](../lineage/contributor-registry.md)
 - [Device Registry](../lineage/device-registry.md)
 - [Epoch Ledger](../lineage/epoch-ledger.md)
 - [Ceremonies](../lineage/ceremonies.md)
+
+- [Sovereign Key Rotation Ceremony](../ceremonies/key_rotation.md)
+- [Module Retirement Ceremony](../ceremonies/module_retirement.md)
 
 ### Technical Documentation
 - [Codex](codex.md) - Technical specifications
