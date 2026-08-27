@@ -1,0 +1,24 @@
+{
+  "project": "Freedomlink1",
+  "version": "1.0.0",
+  "sentinels": [
+    {
+      "id": "GS-01",
+      "name": "Smoke Test Sentinel",
+      "status": "active",
+      "scope": "developer safety"
+    },
+    {
+      "id": "GS-02",
+      "name": "Governance Test Sentinel",
+      "status": "active",
+      "scope": "lineage safety"
+    },
+    {
+      "id": "GS-03",
+      "name": "Integrity Monitor Sentinel",
+      "status": "active",
+      "scope": "sovereign safety"
+    }
+  ]
+}
