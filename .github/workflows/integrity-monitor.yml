@@ -1,0 +1,28 @@
+name: Root Build Integrity Monitor
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 6 * * 1' # weekly on Monday at 06:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  integrity-monitor:
+    name: Run integrity monitor
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies (none required)
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Run Root Build Integrity Monitor
+        run: python3 scripts/integrity_monitor.py
