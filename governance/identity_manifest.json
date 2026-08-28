@@ -1,0 +1,21 @@
+{
+  "project": "Freedomlink1",
+  "sovereign_identity": {
+    "name": "Freedomlink1 Root Build",
+    "type": "Sovereign Digital Institution",
+    "established": "Genesis Epoch",
+    "steward": "Joshua W. Blaz",
+    "custodians": [],
+    "governance_layers": [
+      "Developer Safety",
+      "Lineage Safety",
+      "Sovereign Safety",
+      "Continuity"
+    ],
+    "constitutional_documents": [
+      "constitution_genesis.md",
+      "steward_oath.md",
+      "sentinel_activation.md"
+    ]
+  }
+}
