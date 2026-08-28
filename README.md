@@ -35,6 +35,10 @@ A decentralized, cryptographically-verified governance and record-keeping system
   <img src="docs/badges/sentinel-seal.svg" width="200">
 </p>
 
+<p align="center">
+	<img src="docs/badges/constitution-seal.svg" width="220">
+</p>
+
 ## 🎯 Core Principles
 
 - **Transparent**: All records are publicly verifiable and permanently archived
