@@ -18,6 +18,14 @@
       }
     ]
   },
-  "modules": null,
-  "pocs": null
+  "modules": {
+    "project": "Freedomlink1",
+    "version": "1.0.0",
+    "modules": []
+  },
+  "pocs": {
+    "project": "Freedomlink1",
+    "version": "1.0.0",
+    "pocs": []
+  }
 }
