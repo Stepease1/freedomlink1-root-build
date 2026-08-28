@@ -1,0 +1,31 @@
+{
+  "epoch": {
+    "project": "Freedomlink1",
+    "version": "1.0.0",
+    "epochs": [
+      {
+        "epoch": 1,
+        "started_at": "2026-08-27T00:00:00Z",
+        "advanced_at": null,
+        "modules_activated": [],
+        "pocs_graduated": [],
+        "sentinels_active": [
+          "GS-01",
+          "GS-02",
+          "GS-03"
+        ],
+        "sovereign_signature": "pending"
+      }
+    ]
+  },
+  "modules": {
+    "project": "Freedomlink1",
+    "version": "1.0.0",
+    "modules": []
+  },
+  "pocs": {
+    "project": "Freedomlink1",
+    "version": "1.0.0",
+    "pocs": []
+  }
+}
