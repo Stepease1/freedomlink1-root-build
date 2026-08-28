@@ -1,0 +1,21 @@
+name: Validate Epoch Ledger
+
+on:
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch: {}
+
+jobs:
+  validate-epoch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run epoch ledger validator
+        run: python3 scripts/validate_epoch_ledger.py

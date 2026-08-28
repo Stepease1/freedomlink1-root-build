@@ -47,6 +47,21 @@ def main(argv):
     path.write_text(json.dumps(registry, indent=2, ensure_ascii=False), encoding='utf-8')
 
     print(f"[Steward] Installed new steward: {name}")
+    # attempt to append an entry to the governance logbook for auditability
+    try:
+        import subprocess
+        import sys as _sys
+        msg = f"Steward Installed: {name}"
+        updater = Path('scripts/update_logbook.py')
+        if updater.exists():
+            _cmd = [_sys.executable, str(updater), msg]
+            subprocess.run(_cmd, check=True)
+            print(f"[Steward] Logged event to governance_logbook.json")
+        else:
+            print("[Steward] update_logbook.py not found; skipping logbook update")
+    except Exception as e:
+        print(f"[Steward] failed to update logbook: {e}")
+
     return 0
 
 
