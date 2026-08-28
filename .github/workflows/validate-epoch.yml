@@ -19,3 +19,36 @@ jobs:
 
       - name: Run epoch ledger validator
         run: python3 scripts/validate_epoch_ledger.py
+
+      - name: Notify Slack on failure
+        if: failure()
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_REF: ${{ github.ref }}
+          GITHUB_SHA: ${{ github.sha }}
+          GITHUB_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -n "$SLACK_WEBHOOK" ]; then
+            payload=$(jq -n --arg repo "$GITHUB_REPOSITORY" --arg ref "$GITHUB_REF" --arg sha "$GITHUB_SHA" --arg url "$GITHUB_RUN_URL" '{text: ("🚨 *Validate Epoch Ledger FAILED*\nRepo: " + $repo + "\nRef: " + $ref + "\nCommit: " + $sha + "\nRun: " + $url)}')
+            curl -s -X POST -H 'Content-type: application/json' --data "$payload" "$SLACK_WEBHOOK" || true
+          else
+            echo "No SLACK_WEBHOOK configured; skipping Slack notification"
+          fi
+
+      - name: Send email on failure (optional)
+        if: failure()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: "[Freedomlink1] Validate Epoch Ledger FAILED"
+          body: |
+            The epoch ledger validation failed on repository: ${{ github.repository }}
+            Ref: ${{ github.ref }}
+            Commit: ${{ github.sha }}
+            Run URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          to: ${{ secrets.GOVERNANCE_NOTIFY_EMAIL }}
+          from: ${{ secrets.SMTP_FROM }}
