@@ -1,0 +1,15 @@
+Root Build
+ ├── Lineage
+ │    ├── Epoch Ledger
+ │    ├── Module Registry
+ │    ├── POC Registry
+ │    └── Sentinel Registry
+ ├── Governance
+ │    ├── Constitution
+ │    ├── Ceremonies
+ │    ├── Protocols
+ │    └── Charters
+ └── Identity
+      ├── Steward
+      ├── Custodians
+      └── Sovereign Keys

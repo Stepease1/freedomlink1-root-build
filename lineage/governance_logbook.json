@@ -33,6 +33,22 @@
     {
       "event": "Local CI run",
       "timestamp": "2026-08-26T19:23:18.486933Z"
+    },
+    {
+      "event": "Epoch 2 Sovereign Signature",
+      "timestamp": "2026-08-28T19:26:04.819569Z"
+    },
+    {
+      "event": "Epoch 2 Sovereign Signature",
+      "timestamp": "2026-08-28T19:26:04.848342Z"
+    },
+    {
+      "event": "Epoch 2 Sovereign Signature",
+      "timestamp": "2026-08-28T19:26:04.872611Z"
+    },
+    {
+      "event": "Epoch 2 Sovereign Signature",
+      "timestamp": "2026-08-28T19:26:04.896697Z"
     }
   ]
 }

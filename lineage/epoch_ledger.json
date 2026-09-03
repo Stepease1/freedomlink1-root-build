@@ -5,11 +5,31 @@
     {
       "epoch": 1,
       "started_at": "2026-08-27T00:00:00Z",
-      "advanced_at": null,
+      "advanced_at": "2026-08-28T00:00:00Z",
       "modules_activated": [],
       "pocs_graduated": [],
-      "sentinels_active": ["GS-01", "GS-02", "GS-03"],
+      "sentinels_active": [
+        "GS-01",
+        "GS-02",
+        "GS-03"
+      ],
       "sovereign_signature": "pending"
+    },
+    {
+      "epoch": 2,
+      "started_at": "2026-08-28T00:00:00Z",
+      "advanced_at": null,
+      "modules_activated": [
+        "GIM-01"
+      ],
+      "pocs_graduated": [],
+      "sentinels_active": [
+        "GS-01",
+        "GS-02",
+        "GS-03"
+      ],
+      "sovereign_signature": "pending",
+      "metamorphosis": "Transitioning toward Institutionalization"
     }
   ]
 }

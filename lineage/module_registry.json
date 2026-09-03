@@ -1,5 +1,14 @@
 {
   "project": "Freedomlink1",
   "version": "1.0.0",
-  "modules": []
+  "modules": [
+    {
+      "id": "GIM-01",
+      "name": "Governance Intelligence Module",
+      "status": "active",
+      "epoch": 2,
+      "hash": "pending",
+      "evolution": "Expanded analytical capabilities"
+    }
+  ]
 }
