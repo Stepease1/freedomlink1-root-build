@@ -1,35 +1,115 @@
 {
-  "project": "Freedomlink1",
-  "version": "1.0.0",
   "epochs": [
     {
       "epoch": 1,
-      "started_at": "2026-08-27T00:00:00Z",
-      "advanced_at": "2026-08-28T00:00:00Z",
+      "advanced_at": "2026-08-28",
       "modules_activated": [],
-      "pocs_graduated": [],
-      "sentinels_active": [
-        "GS-01",
-        "GS-02",
-        "GS-03"
-      ],
-      "sovereign_signature": "pending"
+      "sentinels_active": ["GS-01", "GS-02", "GS-03"],
+      "build_tag": "freedomlink1-root-epoch1",
+      "status": "genesis"
     },
     {
       "epoch": 2,
-      "started_at": "2026-08-28T00:00:00Z",
-      "advanced_at": null,
-      "modules_activated": [
-        "GIM-01"
-      ],
-      "pocs_graduated": [],
-      "sentinels_active": [
-        "GS-01",
-        "GS-02",
-        "GS-03"
-      ],
-      "sovereign_signature": "pending",
-      "metamorphosis": "Transitioning toward Institutionalization"
+      "advanced_at": "2026-03-08T21:44:00Z",
+      "modules_activated": ["GIM-01"],
+      "sentinels_active": ["GS-01", "GS-02", "GS-03"],
+      "build_tag": "freedomlink1-root-2026.03.08",
+      "commit_sha": "7c40e48e73878fc9f6b0bf3a48a03609bb5e438a",
+      "status": "expansion",
+      "release": {
+        "version": "1.2",
+        "prepared_by": "Joshua",
+        "branch": "feature/admin-health-seed",
+        "root_build_state": "LIVE",
+        "governance_primitives": [
+          "Decade Seal Cycle",
+          "Steward Initialization Flow",
+          "Lineage-Anchored Artifacts",
+          "CI-Validated Governance Execution"
+        ],
+        "integration": {
+          "rootstone_i": {
+            "role": "sovereign hardware root of trust",
+            "integration_points": [
+              "Seal Engine",
+              "Attestation Engine",
+              "Ceremony Time Engine",
+              "Identity Engine",
+              "Lineage Engine"
+            ],
+            "sovereign_board_buses": ["SBUS", "IBUS", "LBUS", "Sensor Bus"]
+          }
+        },
+        "ci_pipeline": {
+          "workflow": ".github/workflows/integration-test.yml",
+          "actions": [
+            "Ephemeral Postgres + Redis startup",
+            "Prisma migrations",
+            "Agent build + start on port 8080",
+            "Steward flow simulation",
+            "Decade Seal execution",
+            "Upload of agent.log and agent.pid"
+          ]
+        },
+        "local_automation": {
+          "script": "run_local_integration.sh",
+          "capabilities": [
+            "install",
+            "migrate",
+            "build",
+            "start",
+            "readiness wait",
+            "simulation",
+            "log collection"
+          ]
+        },
+        "chip_design": {
+          "sovereign_processor": "Rootstone-I",
+          "electrical_spec": [
+            "VCORE 1.2V",
+            "VENCLAVE 1.0V",
+            "VIO 3.3V",
+            "VSEAL 1.2V",
+            "VSENSE 3.3V"
+          ],
+          "clock_domains": [
+            "CLK_MAIN 800MHz",
+            "CLK_ENCLAVE 600MHz",
+            "CLK_SEAL 400MHz",
+            "CLK_ATTEST 300MHz",
+            "CLK_FUSE 50MHz"
+          ],
+          "rtl_modules": [
+            "SC0 Sovereign Core",
+            "SE0 Seal Engine",
+            "AE0 Attestation Engine",
+            "EV0 Enclave Vault",
+            "CSR0 CSR Controller",
+            "FM0 Fuse Matrix",
+            "IE0 Identity Engine",
+            "CT0 Ceremony Time Engine",
+            "BI0 Bus Interface Engine"
+          ]
+        },
+        "artifacts": [
+          "Freedomlink1_RootstoneI_Electrical_RTL_Spec.md",
+          "Freedomlink1_Device_Hardware_Reference_Manual.md",
+          "Freedomlink1_Ceremony_Engine_Specification.md",
+          "Freedomlink1_Seal_Logic_Cryptographic_Canon.md",
+          "agent.log",
+          "agent.pid"
+        ],
+        "ci_secrets_required": [
+          "SAASPILOT_API_KEY",
+          "TEST_API_KEY",
+          "DATABASE_URL",
+          "REDIS_URL",
+          "NEXT_PUBLIC_AGENT_PUBLIC_BASE_URL",
+          "NEXT_PUBLIC_AGENT_STEWARD_BASE_URL",
+          "SENTRY_DSN (optional)",
+          "CI_SSH_KEY (optional)"
+        ]
+      }
     }
   ]
 }
