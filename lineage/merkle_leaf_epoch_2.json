@@ -1,0 +1,13 @@
+{
+  "merkle_leaf": {
+    "id": "leaf-epoch-2-build-v1.2",
+    "epoch": 2,
+    "build_tag": "freedomlink1-root-2026.03.08",
+    "commit_sha": "7c40e48e73878fc9f6b0bf3a48a03609bb5e438a",
+    "ledger_block_hash": "SHA256(<ledger_block>)",
+    "artifact_hash_root": "SHA256(<artifact_bundle>)",
+    "ci_pipeline_hash": "SHA256(<ci_pipeline>)",
+    "sovereign_state_hash": "SHA256(<ledger_block_hash + artifact_hash_root + ci_pipeline_hash>)",
+    "generated_at": "2026-03-08T21:44:00Z"
+  }
+}

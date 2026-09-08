@@ -1,0 +1,37 @@
+{
+  "sovereign_signature": {
+    "id": "signature-epoch-2-build-v1.2",
+    "epoch": 2,
+    "build_tag": "freedomlink1-root-2026.03.08",
+    "commit_sha": "7c40e48e73878fc9f6b0bf3a48a03609bb5e438a",
+    "merkle_root": "ec8ba39cf291dd95e02004f50bed946019bf1116f49e0fabf1ba3bb9f57bcb41",
+    "ledger_entry_ref": "epoch-2-build-v1.2",
+    "hash_manifest_ref": "hash-epoch-2-build-v1.2",
+    "signing_context": {
+      "purpose": "Freedomlink1 Root Build v1.2 sovereign state attestation",
+      "scope": [
+        "epoch_ledger.json",
+        "hash_manifest.json",
+        "merkle_leaf_epoch_2.json",
+        "merkle_root.txt"
+      ],
+      "canonical_state": "Root Build v1.2 (Epoch 2) anchored and validated"
+    },
+    "signature": {
+      "algorithm": "Ed25519",
+      "public_key": "PUBKEY(<sovereign-root-key>)",
+      "signature_value": "SIG(<merkle_root || commit_sha || epoch || build_tag>)"
+    },
+    "attestation": {
+      "issued_by": "Freedomlink1 Sovereign Root",
+      "issued_at": "2026-03-08T21:44:00Z",
+      "status": "final",
+      "notes": [
+        "Epoch 2 sovereign ledger entry anchored",
+        "Hash manifest recorded",
+        "Merkle root regenerated",
+        "Working tree validated clean at commit 8905575"
+      ]
+    }
+  }
+}
