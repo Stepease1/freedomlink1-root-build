@@ -9,10 +9,14 @@
     "clean": "rm -rf dist",
     "prepare": "npm run build"
   },
-  "keywords": ["typescript", "library", "freedomlink"],
+  "keywords": [
+    "typescript",
+    "library",
+    "freedomlink"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.5.0"
+    "typescript": "^5.9.3"
   }
 }
