@@ -1,0 +1,34 @@
+{
+  "codex_node": {
+    "version": 1,
+    "node_id": "NODE-1",
+    "title": "Codex Node #1 — Expansion Epoch Initiation",
+    "institution": "Freedomlink1",
+    "epoch": "Epoch 3 — Expansion & Autonomy",
+    "lineage": "Sovereign Genesis → Expansion",
+    "timestamp": "2026-09-11T00:01:00-05",
+    "anchors": {
+      "parent_node": "GENESIS-0",
+      "creator_seal": "creator-seal.json",
+      "rootstone_identity": "rootstone-identity.json",
+      "pptf_identity_anchor": "pptf-identity-anchor.json",
+      "epoch_advancement": "epoch-advancement-3.json"
+    },
+    "purpose": "Establishes the first descendant lineage entry following GENESIS-0, marking the activation of Expansion Epoch governance, autonomy systems, and institutional growth.",
+    "governance": {
+      "is_genesis": false,
+      "allows_descendants": true,
+      "allows_modification": false,
+      "requires_signature": true
+    },
+    "manifest": {
+      "node": "NODE-1",
+      "institution": "Freedomlink1",
+      "epoch": "Epoch 3 — Expansion & Autonomy",
+      "lineage": "Sovereign Genesis → Expansion",
+      "timestamp": "2026-09-11T00:01:00-05"
+    },
+    "signature_algorithm": "RSA-4096 / SHA-256",
+    "signature_base64": "<INSERT-YOUR-SIGNATURE-HERE>"
+  }
+}
