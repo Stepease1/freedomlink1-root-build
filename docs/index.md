@@ -54,6 +54,7 @@ Freedomlink1 is a sovereign digital institution built on hardware-rooted governa
 - [Codex](codex.md) - Technical specifications
 - [Rootstone-I Identity Tile](rootstone-identity-tile.md)
 - [Expansion Epoch Roadmap](epoch-3-roadmap.md)
+- [Autonomy Module Activation Spec](autonomy-module-activation-spec.md)
 - [Verification](verification.md) - Verification guide
 - [Governance](governance.md) - Governance overview
 - [Lineage](lineage.md) - Lineage overview
