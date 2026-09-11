@@ -1,0 +1,32 @@
+{
+  "codex_genesis_node": {
+    "version": 1,
+    "node_id": "GENESIS-0",
+    "title": "Sovereign Codex Genesis Node",
+    "institution": "Freedomlink1",
+    "epoch": "Root Build v1.2",
+    "lineage": "Sovereign Genesis",
+    "timestamp": "2026-09-10T22:22:00-05",
+    "anchors": {
+      "creator_seal": "creator-seal.json",
+      "rootstone_identity": "rootstone-identity.json",
+      "pptf_identity_anchor": "pptf-identity-anchor.json"
+    },
+    "purpose": "Establishes the foundational lineage entry for Freedomlink1, binding identity, hardware sovereignty, and economic governance into a unified institutional root.",
+    "governance": {
+      "is_genesis": true,
+      "allows_descendants": true,
+      "allows_modification": false,
+      "requires_signature": true
+    },
+    "manifest": {
+      "node": "GENESIS-0",
+      "institution": "Freedomlink1",
+      "epoch": "Root Build v1.2",
+      "lineage": "Sovereign Genesis",
+      "timestamp": "2026-09-10T22:22:00-05"
+    },
+    "signature_algorithm": "RSA-4096 / SHA-256",
+    "signature_base64": "<PLACEHOLDER_SIGNATURE>"
+  }
+}
