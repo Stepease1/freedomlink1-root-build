@@ -37,7 +37,7 @@ export function buildManifestString(seal: CreatorSeal["creator_seal"]): string {
     `Epoch: ${seal.manifest.epoch}`,
     `Lineage: ${seal.manifest.lineage}`,
     `Timestamp: ${seal.manifest.timestamp}`
-  ].join("\n");
+  ].join("\n") + "\n";
 }
 
 export function verifyCreatorSeal(path: string): boolean {
