@@ -1,0 +1,24 @@
+{
+  "rootstone_identity": {
+    "version": 1,
+    "creator": "Joshua W. Blaz",
+    "institution": "Freedomlink1",
+    "epoch": "Root Build v1.2",
+    "lineage": "Sovereign Genesis",
+    "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtPo/EELUlNlZ02dJpmeU\n5aZWqvG2SWlSeFAgt6WebFx9VMtU8/klv5KXjctIr0dCm4b/oTinJHeD7JJ37PQE\nwEXZU3M0EHJSctCXd2KPkbDmAITVUgCFjergYjMzvj7iA5eKghS6TlmZCXlZwoo+\nJ7HGC/yHBe/Illv4hHL+bhcPoOkBuwOE8qxt6qSAH16fr4sIsU4PgopB9T5qveRW\nfa9HqSi4c5VOP4AMxyp60JO0uA3BsLL7h/GJa5oOIHvgMt2jQ8h1+L8Aps6VBU3C\n4cPfwqUQPiPe2SU9dR58A9mjALzLsQVLOO22FK6Vi1O0JCqjI754IqkXNeaLtZh7\njnd/34erAA4155bfnV+XC2YpWsoXqduAnZgFZ8gr2pXg3Z5kVzRSJQEufxLw1jX/\nVrnsvlNKfXJIwldoNuP0LV7HNZBV1Kag+msFOtkUhPrqRoT60t1/H+zw+T+UbZ5O\nv+F1zZsO37lE8siZI5RMxlaM6k1sUSwxyDAilCGUMQ7wZjjKNa7H7V1gHKGYQX/A\nzt0eg4u51vA49CrkrRw3xDcUw5JQEXxe2NBAmYrCRSQkJQNUwl6oVm3Ix40s8gef\nlazlMcVtNASPbp4NDrWBkD51QPmL8KFJ8fqvaaBcdvxc0z4BwuV20YN8FFr2BnnT\nEUGlKIYcZn4utgiX1KjxFWMCAwEAAQ==\n-----END PUBLIC KEY-----",
+    "signature_base64": "jq0xHvkN7wMXllOPaaq1GNiQn9zKzliQKTY5D7ShXZRHq/V3Y/7tgT088FNCa1lvZCOvuSpp0sj8hKrf6RCJ19V9Hqy9eq2XyxtDpL8V+Uwn82zyKMeSrjoaVxmye59mJg7Jf9GBi5Hm7/rrg6dQCk6JmxrVlpeBvwVRd/zpe/E58QHetornDxxMph9HPSXSE9x5F01/BAKBD31X7Ng7j+kf2ODPYMAz8JZkLuggq5zNMNxH/rAqs49+MQg7Lrbtx1h/h3irH3R0iiQ7Pb2+ZMSD78xe4nIO51b2aDNFu3tkszEv/x3yMQlqhlXdqiFeoR2+2yEwLnsYwnbsOWrZZpOy+55UUGfnOuWeEASedg2gaSRwzbqmgcwMbxdk3jmb3ZU/F7jVZD5j88fSHzZ4C78894Uitl4MxHIHb14PU7dxl8GE2KvJeOBidKoDnhZt1Izx7lK0QgmLrm3xhIOc8nYiRzgWX0UVQI77o51h8j8Cv4P5G9qE39KrT8/bYVj3mevU9k8CRnANGApcCBzmZGjbK0VwKE90DI1lrMXi3E5mMb9Jop4w66xbkUQ5WNQj/Gkh/7506uVh+2vNYzxr4wIEzcY27JsgSpBcoRtlkBrjm/fJh0BG6Hj3gjUaPTGmlHedLVFt8tz3oZVdYEgziVKWF/Nfw/jX26CrOTvhDOY=",
+    "manifest": {
+      "creator": "Joshua W. Blaz",
+      "institution": "Freedomlink1",
+      "epoch": "Root Build v1.2",
+      "lineage": "Sovereign Genesis",
+      "timestamp": "2026-09-10T20:49:00-05"
+    },
+    "hardware_flags": {
+      "immutable": true,
+      "verify_on_boot": true,
+      "verify_on_epoch_advance": true,
+      "allow_external_replacement": false
+    }
+  }
+}

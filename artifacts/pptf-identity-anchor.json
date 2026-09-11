@@ -1,0 +1,35 @@
+{
+  "pptf_identity_anchor": {
+    "version": 1,
+    "pptf": {
+      "name": "Patent Protected Trust Fund",
+      "abbreviation": "PPTF",
+      "institution": "Freedomlink1",
+      "purpose": "Sovereign economic layer providing patent-backed trust governance and capital continuity."
+    },
+    "anchor": {
+      "creator_seal_reference": "creator-seal.json",
+      "rootstone_identity_reference": "rootstone-identity.json",
+      "anchor_epoch": "Root Build v1.2",
+      "anchor_lineage": "Sovereign Genesis",
+      "anchor_timestamp": "2026-09-10T22:05:00-05"
+    },
+    "governance": {
+      "economic_root": true,
+      "requires_creator_seal": true,
+      "requires_rootstone_identity": true,
+      "allow_external_modification": false
+    },
+    "integrity": {
+      "manifest": {
+        "pptf": "Patent Protected Trust Fund",
+        "institution": "Freedomlink1",
+        "epoch": "Root Build v1.2",
+        "lineage": "Sovereign Genesis",
+        "timestamp": "2026-09-10T22:05:00-05"
+      },
+      "signature_algorithm": "RSA-4096 / SHA-256",
+      "signature_base64": "<PLACEHOLDER_SIGNATURE>"
+    }
+  }
+}
