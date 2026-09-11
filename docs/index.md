@@ -1,10 +1,24 @@
 ---
-title: FreedomLink1 Documentation Index
+title: Freedomlink1 - Root Build v1.2
 layout: default
 permalink: /
 ---
 
-# FreedomLink1 Documentation Index
+# Freedomlink1 - Root Build v1.2
+
+Welcome to the public documentation and governance explorer for Freedomlink1.
+
+## Navigation
+
+- [Milestone Ledger](milestones.md)
+- [Creator Seal](../artifacts/creator-seal.json)
+- [Rootstone-I Identity Embed](../artifacts/rootstone-identity.json)
+
+## Overview
+
+Freedomlink1 is a sovereign digital institution built on hardware-rooted governance, cryptographic identity, and lineage-based continuity. This site provides public visibility into the core artifacts and milestones of the Root Build.
+
+## Documentation Index
 
 **Updated**: 2026-07-02  
 **Version**: 1.0.0 - Genesis
