@@ -27,8 +27,27 @@ This ledger records major institutional, cryptographic, and hardware-governance 
 
 ---
 
+## Epoch 3 — Expansion Release
+
+### ✔ Rootstone-I Hardware Identity Embed Published
+- Published `rootstone-identity.json`
+- Epoch 3 expansion identity release recorded
+- Immutable boot and epoch-advance verification flags preserved
+- Linked to the Epoch 3 advancement ceremony
+
+### ✔ PPTF Identity Anchor Published
+- Published `pptf-identity-anchor.json`
+- Patent Protected Trust Fund identity bound to Rootstone-I and Creator Seal
+
+### ✔ Sovereign Codex Genesis Node Published
+- Published `codex-genesis-node.json`
+- Genesis lineage node signed and anchored
+
+### ✔ Epoch 3 Advancement Ceremony Published
+- Published `epoch-advancement-3.json`
+- Epoch 2 to Epoch 3 transition recorded
+
+---
+
 ## Upcoming Milestones
-- PPTF Identity Anchor Object
-- Sovereign Codex Genesis Node
 - GitHub Pages Identity Tile
-- Epoch Advancement Ceremony
