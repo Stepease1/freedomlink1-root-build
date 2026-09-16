@@ -7,6 +7,12 @@
     "Sentinel_Activation_Charter.md",
     "Institutional_Continuity_Doctrine.md",
     "Sovereign_Proclamation_Protocol.md",
-    "Institutional_Genesis_Seal_Epoch_2.md"
-  ]
+    "Institutional_Genesis_Seal_Epoch_2.md",
+    "Epoch_3_Proclamation.md"
+  ],
+  "epoch": 3,
+  "state": "genesis",
+  "anchor": "lineage/anchors/epoch_3_anchor.json",
+  "ledger": "lineage/ledger/epoch_3.json",
+  "manifest": "governance/epoch/epoch_3.manifest"
 }
