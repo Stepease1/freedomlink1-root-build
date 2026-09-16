@@ -1,0 +1,9 @@
+{
+  "epoch": 3,
+  "sealed_at": "2026-09-15T23:24:00-05:00",
+  "merkle_root": "133f1ddbf0abbdf9e21c85dd8d98f0b520efff7c606a3831c5e35c2c2df5c6f7",
+  "sovereign_signature_epoch_3": "pending",
+  "previous_epoch": 2,
+  "previous_seal_commit": "ad1a165",
+  "seal_status": "unfinalized"
+}
