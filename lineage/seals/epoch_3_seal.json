@@ -2,8 +2,8 @@
   "epoch": 3,
   "sealed_at": "2026-09-15T23:24:00-05:00",
   "merkle_root": "133f1ddbf0abbdf9e21c85dd8d98f0b520efff7c606a3831c5e35c2c2df5c6f7",
-  "sovereign_signature_epoch_3": "pending",
+  "sovereign_signature_epoch_3": "q4ipyqDOfl1XxvyI6dmcRSSo/S1nE0sZ+j5cbxANvffQIW9FAymEySnFbLQdyJM5g/5TGFf+bFNxYIpASP5UR6OjeHmwlIvPv42bep5f0KDBhHGleOKqwrCPsI5T7OCaiqWPO8Vgl2XxgUiaaqBqEkgYiM5Q4c91gSZOpIAmkbZOMxkphARwZrPkxE9og5uPE9bpgQqNyllbW2qOfuOD4F85GsBchitLIAj9OHLonFxebUgWP9FGz+x4AtDrbWEfjeENK6GJA2/AcK7T0oXKFRQitO2vj5O4lY27uDS++1QpRNKpcOODQ95XLbKmHaQa0H9E6LJ63xiKSpR8AQdL/Ztxd+5k136Q/3DLOHfvdImb6OUP6rPLWuFVB00cB28eIf25zIx+cFPAfAaFFGVfBlo6jvhNOHZ8yXX0lB45OucTJyKzZe79R6Lntut4iMq2Jl6B9aDd/Na/t5Gw4qf1zc3MgwC95/FIVR497AMLng2GF8Wnc227z7h8ACuGQG1QQJAyaFw4DksCgxRKzvuS4vEecEQt9wq9xo4za0NqLxhFt8hETWv5MgdRnVNoGpSrasaWo4JNFENzLR+wC+pN/1Doq6ZtfWPTSgnMpCDCHxMI7Gcce79osPk93TqX0nQrRsN2eIcLXKHgLui/Z/eucxU9ls/Oz78WSivR/gP1Mcc=",
   "previous_epoch": 2,
   "previous_seal_commit": "ad1a165",
-  "seal_status": "unfinalized"
+  "seal_status": "finalized"
 }
