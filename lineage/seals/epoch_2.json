@@ -1,0 +1,18 @@
+{
+  "epoch": 2,
+  "merkle_root": "ec8ba39cf291dd95e02004f50bed946019bf1116f49e0fabf1ba3bb9f57bcb41",
+  "sovereign_signature": "K8w9OsVc4wNgdgoNPpZP7DCy9CV7aH5YZ4QfiVdwS/ZAkFML6hpeCckxzKSGb0cHmWcUvaolYd0/lkr1NFuloxrz4AUkCJpfKrKuSkXxvGKTcVEd5QEoHFtJGUeRu7GH97CJVY/z+LsCN9Wpf5dp3XtVN6Ar6OZaLMep0x/JbEPXrMC7H8TajOTZETIsBbM3SECa7pG6uz9+mZ14dFZXlrOctXBhGtldlNnc3MyU+2I9PynFrU+BCp6BvQCD1AU0KNeROQyzrjts/nC2GXV4aBihwVZlsclsyLx+BnHB+gxoD4VxTO75DEFnzSeM907EC92i8+4C2axGpa+WUPNyIGhZOEGCj9SFyWJPLodfdt4jZEOSK1OE6Vvu0QJkHAcSJ3NBAV5H4ZVTR/AToQRY5mLufPlMJcCkcNJ47etaC/IGWmtHK4BvmgjrDbKRZAj9ykPGtDPaBGHRsnffEIRe5XxxI3RVuKKfBwBCPEsPWVQeTkUCg6nO1bmT0odb+zTAXqAKRfHNaBKcX9/qdym4yw5TKbHezfdQ64tPsYvc7BPi2aB6cyhcpXbSl2yy6O4edTcaUctN619mykqtnE32SAiHVYnZAdj+nf3r2oAgaLtTWEaAuGptWTIwxQQqHU5W8hxoU9SDCOWmigaRVUUW8NI3IOZ200e2PJDNzlCwbT8=",
+  "timestamp": "2026-09-15T20:22:00-05:00",
+  "modules": {
+    "active": [
+      "governance",
+      "rights_duties",
+      "epoch",
+      "sentinel",
+      "continuity",
+      "proclamation"
+    ],
+    "inactive": []
+  },
+  "sentinel_status": "clear"
+}
