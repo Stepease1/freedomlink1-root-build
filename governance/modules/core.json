@@ -8,11 +8,20 @@
     "Institutional_Continuity_Doctrine.md",
     "Sovereign_Proclamation_Protocol.md",
     "Institutional_Genesis_Seal_Epoch_2.md",
-    "Epoch_3_Proclamation.md"
+    "Epoch_3_Proclamation.md",
+    "Epoch_3_Roadmap.md",
+    "Epoch_3_Module_Activation_Ceremony.md",
+    "Epoch_3_Lineage_Advancement_Protocol.md",
+    "Epoch_3_Governance_Charter_Addendum.md",
+    "Epoch_3_Continuity_Doctrine_Extension.md",
+    "Epoch_3_Sentinel_Activation_Protocol.md",
+    "Epoch_3_Rights_and_Duties_Expansion.md",
+    "Epoch_3_Institutional_Proclamation_II.md",
+    "Epoch_3_Closing_Proclamation.md"
   ],
-  "epoch": 3,
-  "state": "genesis",
-  "anchor": "lineage/anchors/epoch_3_anchor.json",
-  "ledger": "lineage/ledger/epoch_3.json",
-  "manifest": "governance/epoch/epoch_3.manifest"
+  "epoch": 4,
+  "state": "ascension",
+  "anchor": "lineage/anchors/epoch_4_anchor.json",
+  "ledger": "lineage/ledger/epoch_4.json",
+  "manifest": "governance/epoch/epoch_4.manifest"
 }

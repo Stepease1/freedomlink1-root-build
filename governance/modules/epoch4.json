@@ -1,0 +1,12 @@
+{
+  "epoch": 4,
+  "modules": [
+    "governance",
+    "rights_duties",
+    "epoch",
+    "sentinel",
+    "continuity",
+    "proclamation"
+  ],
+  "activation": "pending"
+}
