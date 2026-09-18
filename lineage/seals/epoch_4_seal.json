@@ -1,7 +1,7 @@
 {
   "epoch": 4,
   "sealed_at": "2026-09-17T21:10:00-05:00",
-  "merkle_root": "2a9abfdb45943d4e6df9f0716e2003437b07ffba6565e707cb9363816ac7b6ee",
+  "merkle_root": "c031325cb119cdaf5915442e13a1f13c0db002936923fe7382a34bb48f190646",
   "sovereign_signature_epoch_4": "pending",
   "previous_epoch": 3,
   "previous_seal_commit": "76875e9",
