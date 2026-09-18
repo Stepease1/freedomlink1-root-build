@@ -17,7 +17,18 @@
     "Epoch_3_Sentinel_Activation_Protocol.md",
     "Epoch_3_Rights_and_Duties_Expansion.md",
     "Epoch_3_Institutional_Proclamation_II.md",
-    "Epoch_3_Closing_Proclamation.md"
+    "Epoch_3_Closing_Proclamation.md",
+    "Epoch_4_Proclamation.md",
+    "Epoch_4_Module_Activation_Ceremony.md",
+    "Epoch_4_Roadmap.md",
+    "Epoch_4_Continuity_Doctrine_Extension.md",
+    "Epoch_4_Sentinel_Directive.md",
+    "Epoch_4_Rights_and_Duties_Addendum.md",
+    "Epoch_4_Ascension_Doctrine.md",
+    "Epoch_4_Sovereign_Elevation_Protocol.md",
+    "Epoch_4_Institutional_Proclamation_II.md",
+    "Epoch_4_Advancement_Criteria.md",
+    "Epoch_4_Closing_Proclamation.md"
   ],
   "epoch_3_ledger": "lineage/ledger/epoch_3.json",
   "epoch_3_manifest": "governance/epoch/epoch_3.manifest",
@@ -29,5 +40,15 @@
   "epoch_4_modules": "governance/modules/epoch4.json",
   "epoch_4_anchor": "lineage/anchors/epoch_4_anchor.json",
   "epoch_3_seal": "lineage/seals/epoch_3_seal.json",
-  "epoch_3_closing_proclamation": "docs/governance/Epoch_3_Closing_Proclamation.md"
+  "epoch_3_closing_proclamation": "docs/governance/Epoch_3_Closing_Proclamation.md",
+  "epoch_4_ledger": "lineage/ledger/epoch_4.json",
+  "epoch_4_manifest": "governance/epoch/epoch_4.manifest",
+  "epoch_4_modules": "governance/modules/epoch4.json",
+  "epoch_4_anchor": "lineage/anchors/epoch_4_anchor.json",
+  "epoch_4_seal": "lineage/seals/epoch_4_seal.json",
+  "epoch_4_closing_proclamation": "docs/governance/Epoch_4_Closing_Proclamation.md",
+  "epoch_5_ledger": "lineage/ledger/epoch_5.json",
+  "epoch_5_manifest": "governance/epoch/epoch_5.manifest",
+  "epoch_5_modules": "governance/modules/epoch5.json",
+  "epoch_5_anchor": "lineage/anchors/epoch_5_anchor.json"
 }

@@ -1,0 +1,15 @@
+{
+  "epoch": 5,
+  "status": "initializing",
+  "initialized_at": "2026-09-17T21:10:00-05:00",
+  "previous_epoch": 4,
+  "previous_merkle_root": "pending",
+  "modules": {
+    "governance": "pending",
+    "rights_duties": "pending",
+    "epoch": "pending",
+    "sentinel": "pending",
+    "continuity": "pending",
+    "proclamation": "pending"
+  }
+}

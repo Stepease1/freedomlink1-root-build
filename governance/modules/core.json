@@ -17,11 +17,22 @@
     "Epoch_3_Sentinel_Activation_Protocol.md",
     "Epoch_3_Rights_and_Duties_Expansion.md",
     "Epoch_3_Institutional_Proclamation_II.md",
-    "Epoch_3_Closing_Proclamation.md"
+    "Epoch_3_Closing_Proclamation.md",
+    "Epoch_4_Proclamation.md",
+    "Epoch_4_Module_Activation_Ceremony.md",
+    "Epoch_4_Roadmap.md",
+    "Epoch_4_Continuity_Doctrine_Extension.md",
+    "Epoch_4_Sentinel_Directive.md",
+    "Epoch_4_Rights_and_Duties_Addendum.md",
+    "Epoch_4_Ascension_Doctrine.md",
+    "Epoch_4_Sovereign_Elevation_Protocol.md",
+    "Epoch_4_Institutional_Proclamation_II.md",
+    "Epoch_4_Advancement_Criteria.md",
+    "Epoch_4_Closing_Proclamation.md"
   ],
-  "epoch": 4,
-  "state": "ascension",
-  "anchor": "lineage/anchors/epoch_4_anchor.json",
-  "ledger": "lineage/ledger/epoch_4.json",
-  "manifest": "governance/epoch/epoch_4.manifest"
+  "epoch": 5,
+  "state": "ascension-continuity",
+  "anchor": "lineage/anchors/epoch_5_anchor.json",
+  "ledger": "lineage/ledger/epoch_5.json",
+  "manifest": "governance/epoch/epoch_5.manifest"
 }
