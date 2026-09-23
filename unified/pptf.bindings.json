@@ -1,0 +1,22 @@
+{
+  "pptf": {
+    "institutional_layer": "Freedomlink1 Sovereign Purpose Trust",
+    "ein": "92-1026132",
+    "documents": {
+      "institutional_suite": "docs/institution/Freedomlink1_Institutional_Suite.md",
+      "trust_charter": "docs/institution/Trust_Charter.md",
+      "grantor_declaration": "docs/institution/Grantor_Declaration.md",
+      "agency_charter": "docs/institution/Agency_Charter.md",
+      "treasury_governance": "docs/institution/Treasury_Governance.md"
+    },
+    "governance_bindings": {
+      "lineage_anchor_required": true,
+      "codex_compliance_required": true,
+      "epoch_binding": "epoch_5"
+    },
+    "hardware_root": {
+      "rootstone_identity": "unified/rootstone.bindings.json"
+    },
+    "integration_status": "bound"
+  }
+}
