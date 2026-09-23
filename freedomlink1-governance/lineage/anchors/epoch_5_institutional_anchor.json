@@ -1,0 +1,13 @@
+{
+  "epoch": 5,
+  "artifact": "Freedomlink1 Institutional Suite",
+  "path": "docs/institution/Freedomlink1_Institutional_Suite.md",
+  "sha256": "286b7c3447e74ea2f114c766219c166f47c680136ad679ac969f450b42264255",
+  "timestamp": "2026-09-22T23:57:00-05:00",
+  "signed_by": {
+    "trustee": "Joshua W. Blaz",
+    "enforcer": "Sovereign Governance Enforcer"
+  },
+  "seal": "lineage/seals/epoch_5_institutional_seal.json",
+  "status": "anchored"
+}
