@@ -45,5 +45,8 @@ nav:
       - PPTF Bindings: unified/pptf.bindings.json
       - Unified Version: versioning/unified.version
 
+  - Unified Layer:
+      - Explorer: docs/unified/explorer.md
+
   - Hardware Root:
       - Rootstone‑I Identity: docs/rootstone/identity.md
