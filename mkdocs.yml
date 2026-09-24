@@ -1,0 +1,40 @@
+site_name: Freedomlink1 Governance Portal
+site_url: https://stepease1.github.io/freedomlink1-root-build/
+docs_dir: .
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+nav:
+    - Home: docs/index.md
+
+  - Institutional Suite:
+      - Overview: docs/institution/Freedomlink1_Institutional_Suite.md
+      - Trust Charter: docs/institution/Trust_Charter.md
+      - Grantor Declaration: docs/institution/Grantor_Declaration.md
+      - Agency Charter: docs/institution/Agency_Charter.md
+      - Treasury Governance: docs/institution/Treasury_Governance.md
+
+  - Governance Proposals:
+      - Proposal Index: docs/proposals/index.md
+      - A‑001 Agency Charter: docs/proposals/Freedomlink1_Agency_Charter.md
+      - B‑001 Treasury Governance: docs/proposals/Freedomlink1_Treasury_Governance.md
+
+  - Sovereign Codex:
+      - Codex Binding: docs/codex/Codex_Binding_Institutional_Suite.md
+      - Codex Bindings JSON: docs/codex/codex.bindings.json
+
+  - Lineage:
+      - Epoch 5 Anchor: freedomlink1-governance/lineage/anchors/epoch_5_institutional_anchor.json
+      - Epoch 5 Seal: freedomlink1-governance/lineage/seals/epoch_5_institutional_seal.json
+      - Lineage Version: versioning/lineage.version
+
+  - Unified Integration Layer:
+      - PPTF Bindings: unified/pptf.bindings.json
+      - Unified Version: versioning/unified.version
