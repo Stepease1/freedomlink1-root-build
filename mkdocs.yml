@@ -15,7 +15,8 @@ nav:
     - Home: docs/index.md
 
     - Institutional Suite:
-      - Overview: docs/institution/Freedomlink1_Institutional_Suite.md
+            - Overview: docs/institution/overview.md
+            - Compiled Suite: docs/institution/Freedomlink1_Institutional_Suite.md
       - Trust Charter: docs/institution/Trust_Charter.md
       - Grantor Declaration: docs/institution/Grantor_Declaration.md
       - Agency Charter: docs/institution/Agency_Charter.md
