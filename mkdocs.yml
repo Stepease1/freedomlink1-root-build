@@ -48,5 +48,8 @@ nav:
   - Unified Layer:
       - Explorer: docs/unified/explorer.md
 
+  - PPTF Governance:
+      - Governance: docs/pptf/governance.md
+
   - Hardware Root:
       - Rootstone‑I Identity: docs/rootstone/identity.md
