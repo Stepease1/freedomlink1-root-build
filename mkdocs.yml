@@ -37,6 +37,7 @@ nav:
 
   - Governance:
       - Public Governance Index: docs/governance/index.md
+      - Governance Dashboard: docs/governance/dashboard.md
       - Sovereign Continuity Doctrine: docs/governance/continuity_doctrine.md
       - Governance Review Cycle: docs/governance/review_cycle.md
 
