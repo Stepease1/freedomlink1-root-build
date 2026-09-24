@@ -28,6 +28,7 @@ nav:
     - Architecture:
             - Institutional Architecture Summary: docs/architecture/summary.md
             - Institutional Diagram: docs/architecture/diagram.md
+            - Institutional Health Monitor: docs/architecture/health_monitor.md
 
     - Governance Proposals:
       - Proposal Index: docs/proposals/index.md
