@@ -29,6 +29,7 @@ nav:
   - Sovereign Codex:
       - Codex Binding: docs/codex/Codex_Binding_Institutional_Suite.md
       - Codex Bindings JSON: docs/codex/codex.bindings.json
+      - Explorer: docs/codex/explorer.md
 
   - Lineage:
       - Epoch 5 Anchor: freedomlink1-governance/lineage/anchors/epoch_5_institutional_anchor.json
