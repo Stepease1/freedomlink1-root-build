@@ -35,6 +35,9 @@ nav:
       - Epoch 5 Seal: freedomlink1-governance/lineage/seals/epoch_5_institutional_seal.json
       - Lineage Version: versioning/lineage.version
 
+  - Epochs:
+      - Timeline: docs/epochs/timeline.md
+
   - Unified Integration Layer:
       - PPTF Bindings: unified/pptf.bindings.json
       - Unified Version: versioning/unified.version
