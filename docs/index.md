@@ -1,4 +1,57 @@
 # 🏛️ Freedomlink1 Governance Portal  
+
+<div style="display:flex; align-items:center; gap:2rem; margin-top:1.5rem;">
+
+	<!-- Rootstone‑I Monogram -->
+	<div style="text-align:center;">
+		<div style="font-size:3.2rem; font-weight:600; line-height:1;">
+			🜁
+		</div>
+		<div style="font-size:0.9rem; opacity:0.75;">
+			Rootstone‑I Monogram
+		</div>
+	</div>
+
+	<!-- Institutional Seal -->
+	<div style="text-align:center;">
+		<div style="font-size:2.4rem; font-weight:600; line-height:1;">
+			✦
+		</div>
+		<div style="font-size:0.9rem; opacity:0.75;">
+			Institutional Seal
+		</div>
+	</div>
+
+	<!-- Epoch Ribbon -->
+	<div style="text-align:center;">
+		<div style="font-size:1.4rem; font-weight:600; line-height:1;">
+			Epoch 5 — Institutional Suite Anchored
+		</div>
+		<div style="font-size:0.9rem; opacity:0.75;">
+			SHA‑256: 286b7c3447e74ea2f114c766219c166f47c680136ad679ac969f450b42264255
+		</div>
+	</div>
+
+</div>
+
+---
+
+## **Sovereign Identity Crest**
+
+The Freedomlink1 Sovereign Identity Crest represents the union of:
+
+- **Rootstone‑I** — hardware sovereignty  
+- **The Institutional Suite** — legal sovereignty  
+- **The Sovereign Codex** — manuscript sovereignty  
+- **The Lineage Anchors** — temporal sovereignty  
+- **The Unified Layer** — integration sovereignty  
+
+Together, these form the **Five Pillars of Sovereign Continuity**.
+
+Rootstone‑I  ✦  Trust Charter  ✦  Codex  ✦  Lineage  ✦  Unified Layer
+
+This crest is the symbolic identity of the Freedomlink1 institution.
+
 Sovereign Digital Institution • Established Epoch 0 • Anchored Epoch 5
 
 Welcome to the official governance portal of **Freedomlink1**, a sovereign, lineage‑anchored digital institution built on hardware‑rooted identity, trust‑based governance, and multi‑epoch continuity.
