@@ -43,3 +43,6 @@ nav:
   - Unified Integration Layer:
       - PPTF Bindings: unified/pptf.bindings.json
       - Unified Version: versioning/unified.version
+
+  - Hardware Root:
+      - Rootstone‑I Identity: docs/rootstone/identity.md
