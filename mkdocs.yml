@@ -47,6 +47,7 @@ nav:
   - Lineage:
       - Epoch 5 Anchor: freedomlink1-governance/lineage/anchors/epoch_5_institutional_anchor.json
       - Epoch 5 Seal: freedomlink1-governance/lineage/seals/epoch_5_institutional_seal.json
+      - Epoch 6 Initialization: docs/lineage/epoch_6_initialization.md
       - Lineage Version: versioning/lineage.version
       - Explorer: docs/lineage/explorer.md
 
