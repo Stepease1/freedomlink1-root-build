@@ -1,103 +1,111 @@
+# 🏛️ Freedomlink1 Governance Portal  
+Sovereign Digital Institution • Established Epoch 0 • Anchored Epoch 5
+
+Welcome to the official governance portal of **Freedomlink1**, a sovereign, lineage‑anchored digital institution built on hardware‑rooted identity, trust‑based governance, and multi‑epoch continuity.
+
+This portal provides public access to the institutional documents, governance proposals, lineage anchors, codex entries, and integration artifacts that define and preserve the Freedomlink1 institution.
+
 ---
-title: Freedomlink1 - Root Build v1.2
-layout: default
-permalink: /
+
+## ✦ Institutional Suite  
+The foundational legal and governance documents of Freedomlink1.
+
+- **Sovereign Purpose Trust Charter**  
+	`docs/institution/Trust_Charter.md`
+
+- **Grantor Trust Declaration (EIN 92‑1026132)**  
+	`docs/institution/Grantor_Declaration.md`
+
+- **Freedomlink1 Agency Charter**  
+	`docs/institution/Agency_Charter.md`
+
+- **Crypto‑Treasury Governance Specification**  
+	`docs/institution/Treasury_Governance.md`
+
+- **Compiled Institutional Suite**  
+	`docs/institution/Freedomlink1_Institutional_Suite.md`
+
 ---
 
-# Freedomlink1 - Root Build v1.2
+## ✦ Governance Proposals  
+Formal governance artifacts submitted to the institution.
 
-Welcome to the public documentation and governance explorer for Freedomlink1.
+- **Proposal Index**  
+	`docs/proposals/index.md`
 
-## Navigation
+- **A‑001 — Agency Charter**  
+	`docs/proposals/A-001_Agency_Charter.md`
 
-- [Milestone Ledger](milestones.md)
-- [Creator Seal](../artifacts/creator-seal.json)
-- [Rootstone-I Identity Embed](../artifacts/rootstone-identity.json)
+- **B‑001 — Treasury Governance Specification**  
+	`docs/proposals/B-001_Treasury_Governance.md`
 
-## Overview
+---
 
-Freedomlink1 is a sovereign digital institution built on hardware-rooted governance, cryptographic identity, and lineage-based continuity. This site provides public visibility into the core artifacts and milestones of the Root Build.
+## ✦ Sovereign Codex  
+The manuscript of Freedomlink1 — binding institutional artifacts across epochs.
 
-## Documentation Index
+- **Codex Binding: Institutional Suite**  
+	`docs/codex/Codex_Binding_Institutional_Suite.md`
 
-**Updated**: 2026-07-02  
-**Version**: 1.0.0 - Genesis
+- **Codex Bindings JSON**  
+	`docs/codex/codex.bindings.json`
 
-## Quick Navigation
+---
 
-### Getting Started
-- [WELCOME](../onboarding/WELCOME.md)
-- [README](../README.md)
-- [PROCLAMATION](../PROCLAMATION.md)
-- [VERIFY](../VERIFY.md)
+## ✦ Lineage & Epochs  
+Cryptographic continuity across generations.
 
-### Core Governance
-- [Charter](../governance/charter.md)
-- [Amendment Protocol](../governance/amendment-protocol.md)
-- [Permissions Matrix](../governance/permissions-matrix.md)
-- [Oversight & Appeals](../governance/oversight-appeals-sanctions.md)
-- [Licensing & IP](../governance/licensing-ip.md)
+- **Epoch 5 Institutional Anchor**  
+	`freedomlink1-governance/lineage/anchors/epoch_5_institutional_anchor.json`
 
-- [Failure Playbook](../governance/failure_playbook.md) - Governance failure response playbook
-- [Root Build Recovery Protocol](../governance/root_build_recovery.md) - Recovery steps and commands
+- **Epoch 5 Institutional Seal**  
+	`freedomlink1-governance/lineage/seals/epoch_5_institutional_seal.json`
 
-### Lineage & Records
-- [Contributor Registry](../lineage/contributor-registry.md)
-- [Device Registry](../lineage/device-registry.md)
-- [Epoch Ledger](../lineage/epoch-ledger.md)
-- [Ceremonies](../lineage/ceremonies.md)
+- **Lineage Version**  
+	`versioning/lineage.version`
 
-- [Sovereign Key Rotation Ceremony](../ceremonies/key_rotation.md)
-- [Module Retirement Ceremony](../ceremonies/module_retirement.md)
+---
 
-### Technical Documentation
-- [Codex](codex.md) - Technical specifications
-- [Rootstone-I Identity Tile](rootstone-identity-tile.md)
-- [Expansion Epoch Roadmap](epoch-3-roadmap.md)
-- [Autonomy Module Activation Spec](autonomy-module-activation-spec.md)
-- [Sovereign Codex](sovereign-codex.md)
-- [Verification](verification.md) - Verification guide
-- [Governance](governance.md) - Governance overview
-- [Lineage](lineage.md) - Lineage overview
-- [Epochs](epochs.md) - Timeline overview
-- [Seals](seals.md) - Visual identity
+## ✦ Unified Integration Layer  
+The declarative integration map of the institution.
 
-### POC Governance Suite
-- [POC Domain Mapping](poc-domain-mapping.md) - Formal mapping of the POC into governance architecture
-- [POC Activation Ceremony](poc-activation-ceremony.md) - Recorded activation milestone
-- [POC Governance Rubric](../governance/poc-governance-rubric.md) - Review criteria for governance integration
-- [POC Epoch Progression](poc-epoch-progression.md) - Lifecycle tracking within the epoch framework
+- **Unified Integration Layer Specification**  
+	`docs/Unified_Integration_Layer.md`
 
-### By Audience
-- **Newcomers**: Start with WELCOME
-- **Developers**: Review Codex and Tech Stack
-- **Governance**: Read Charter and Amendment Protocol
-- **Auditors**: Study Verification procedures
+- **PPTF Bindings**  
+	`unified/pptf.bindings.json`
 
-## Document Status
+- **Unified Version**  
+	`versioning/unified.version`
 
-All documents are:
-- ✓ Cryptographically signed
-- ✓ Blockchain anchored
-- ✓ Timestamp verified
-- ✓ Community auditable
-- ✓ Permanently archived
+---
 
-## Version 1.0.0 - Genesis (2026-07-02)
+## ✦ Hardware Root of Trust  
+Rootstone‑I identity and hardware‑anchored governance.
 
-See individual documents for details.
+- **Rootstone Bindings**  
+	`unified/rootstone.bindings.json` *(if present)*
 
-## Freedomlink1 Launch Artifacts
+---
 
-- [Freedomlink1 Root Build Launch Summary v1.2](./freedomlink1/launch-summary-v1.2.md)
-- [Freedomlink1 Whitepaper](./freedomlink1/whitepaper.md)
-- [Freedomlink1 Rootstone-I Hardware Codex](./freedomlink1/rootstone-i-codex.md)
-- [Freedomlink1 Ceremony Engine Specification](./freedomlink1/ceremony-engine-spec.md)
-- [Freedomlink1 Seal Logic & Cryptographic Canon](./freedomlink1/seal-logic-canon.md)
-- [Freedomlink1 Device System Architecture Codex](./freedomlink1/device-architecture-codex.md)
-- [Freedomlink1 Root Build Proclamation](./freedomlink1/root-build-proclamation.md)
-- [Freedomlink1 Release Page](./freedomlink1/release-page.md)
-- [Freedomlink1 Launch Tag Annotation](./freedomlink1/launch-tag-annotation.md)
-- [Freedomlink1 CHANGELOG](./freedomlink1/CHANGELOG.md)
- 
-- 🔐 **Integrity Dashboard:** [View Dashboard](./integrity-dashboard.html)
+## ✦ About Freedomlink1  
+Freedomlink1 is a sovereign digital institution built on:
+
+- hardware‑rooted identity  
+- trust‑based governance  
+- multi‑sig treasury operations  
+- lineage‑anchored continuity  
+- codex‑bound institutional law  
+- multi‑epoch evolution  
+- nonprofit public‑benefit purpose  
+
+The institution is owned by the **Freedomlink1 Sovereign Purpose Trust** and operated by the **Freedomlink1 Agency** under EIN **92‑1026132**.
+
+---
+
+## ✦ Contact  
+Freedomlink1 Agency  
+Midwest City, Oklahoma  
+United States
+
+---
