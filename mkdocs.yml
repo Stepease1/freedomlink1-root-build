@@ -22,7 +22,10 @@ nav:
       - Agency Charter: docs/institution/Agency_Charter.md
       - Treasury Governance: docs/institution/Treasury_Governance.md
 
-  - Governance Proposals:
+    - Identity:
+            - Sovereign Identity Charter: docs/identity/sovereign_identity_charter.md
+
+    - Governance Proposals:
       - Proposal Index: docs/proposals/index.md
       - Submission Portal: docs/proposals/submission_portal.md
       - A‑001 Agency Charter: docs/proposals/Freedomlink1_Agency_Charter.md
