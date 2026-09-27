@@ -1,0 +1,73 @@
+{
+  "asset": {
+    "name": "Freedomlink1 Credit",
+    "symbol": "FL1C",
+    "type": "sovereign-token",
+    "decimals": 18
+  },
+
+  "root_build": {
+    "contract": "FL1C.sol",
+    "interface": "IFL1C.sol",
+    "abi": "contracts/abi/FL1C.json",
+    "types": "contracts/types/FL1C.ts",
+    "tests": [
+      "test/FL1C.spec.ts"
+    ]
+  },
+
+  "governance": {
+    "router": "GovernanceRouter",
+    "epoch_manager": "EpochManager",
+    "lineage_registry": "LineageRegistry",
+    "access_control": "AccessControl",
+    "governance_rules": {
+      "mint_authority": "governance.isAuthorized(msg.sender)",
+      "epoch_awareness": true,
+      "lineage_event": "FL1C Token Genesis"
+    }
+  },
+
+  "identity": {
+    "creator_registry": "CreatorIdentityRegistry",
+    "creator_binding": "identity.bindCreator(msg.sender)",
+    "provenance": "sovereign-creator-attested"
+  },
+
+  "hardware": {
+    "rootstone_binding": "RootstoneBinding",
+    "hardware_identity": "rootstone.bind(msg.sender)",
+    "trust_anchor": "Rootstone-I"
+  },
+
+  "lineage": {
+    "epoch": 6,
+    "event": "FL1C Token Genesis",
+    "anchor_file": "lineage/FL1C_anchor.json",
+    "timestamp": "auto",
+    "chain_binding": true
+  },
+
+  "economic": {
+    "treasury_system": "PPTF",
+    "governance_alignment": true,
+    "minting_policy": "governance-controlled",
+    "supply_model": "non-inflationary unless authorized"
+  },
+
+  "unified_layer": {
+    "binding_version": "1.0.0",
+    "integration_state": "bound",
+    "cross_layer_consistency": {
+      "identity": true,
+      "lineage": true,
+      "governance": true,
+      "hardware": true,
+      "economic": true
+    },
+    "drift_detection": {
+      "enabled": true,
+      "last_check": "pending"
+    }
+  }
+}
