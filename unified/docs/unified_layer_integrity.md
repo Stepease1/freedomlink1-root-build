@@ -11,9 +11,9 @@ This report summarizes the FL1-C Unified Layer binding configuration. It is a st
 **Configured Epoch:** 6 - Continuity Epoch  
 **Declared Unified Layer State:** Bound  
 **Runtime Integrity Level:** Not assessed  
-**Drift:** Not assessed; the binding's last check is pending
+**Drift:** None detected within the latest local metadata and artifact checks
 
-The binding records cross-layer consistency flags as true. Those declarations have not been independently validated by this report.
+The binding records cross-layer consistency flags as true. A local drift check matched those declarations against available metadata and the resolved lineage anchor; deployed systems were not independently validated.
 
 ## Sovereign Asset Integrity
 
@@ -86,13 +86,13 @@ The binding declares consistency flags for governance, lineage, identity, hardwa
 
 ## Drift Detection Report
 
-The binding enables drift detection, but its recorded `last_check` value is `pending`.
+The binding enables drift detection. Its latest check is recorded in `unified_layer.drift_detection.last_check` and in `unified/reports/fl1c_drift_report.json`.
 
-**Drift Status:** Not assessed  
-**Last Check:** Pending in binding metadata  
-**Drift Detector:** Declared enabled; operation not verified
+**Drift Status:** None detected within checked local metadata and artifacts
+**Last Check:** Recorded in binding metadata and drift report
+**Drift Detector:** Ran successfully; deployed operation not verified
 
-A pending check cannot support a conclusion that no inconsistencies were detected. A runtime or repository validation must be completed before making that claim.
+The check matched the configured event, epoch, governance event, identity marker, hardware marker, and consistency flags against available local artifacts. It does not verify deployed contracts, live registries, hardware attestations, treasury operations, or legal status.
 
 ## Integrity Summary
 
@@ -100,7 +100,7 @@ This static review confirms that the FL1-C binding declares an integration acros
 
 - FL1-C integration is declared as bound.
 - Cross-layer consistency flags are set to true in the binding.
-- Drift detection is declared enabled, but the last check is pending.
+- The latest local drift check detected no inconsistencies within its limited scope.
 - No independent integrity or runtime checks were performed for this report.
 
 Freedomlink1 Unified Layer  

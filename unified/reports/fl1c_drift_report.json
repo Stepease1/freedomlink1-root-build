@@ -1,0 +1,20 @@
+{
+  "timestamp": 1790622882,
+  "verification_scope": "local metadata and on-disk artifacts only",
+  "resolved_lineage_file": "freedomlink1-root/lineage/FL1C_anchor.json",
+  "checks": {
+    "binding_present": true,
+    "lineage_present": true,
+    "lineage_event_match": true,
+    "epoch_alignment": true,
+    "governance_bindings_declared": true,
+    "governance_lineage_event_match": true,
+    "identity_binding_match": true,
+    "hardware_binding_match": true,
+    "consistency_flags_enabled": true
+  },
+  "failed_checks": [],
+  "unknown_checks": [],
+  "drift_status": "none_detected",
+  "drift_detected": false
+}
