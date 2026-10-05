@@ -66,6 +66,7 @@ nav:
   - Unified Layer:
       - Explorer: docs/unified/explorer.md
       - Drift Dashboard: unified/docs/unified_layer_drift_dashboard.md
+      - Module Registry: unified/docs/module_registry.md
 
   - PPTF Governance:
       - Governance: docs/pptf/governance.md
