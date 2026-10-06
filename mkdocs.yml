@@ -69,6 +69,7 @@ nav:
       - Module Registry: unified/docs/module_registry.md
       - Epoch Advancement: unified/docs/unified_layer_epoch_advancement.md
       - Operational Handbook: unified/docs/unified_layer_operational_handbook.md
+      - Sovereign Automation: unified/docs/unified_layer_automation_spec.md
 
   - PPTF Governance:
       - Governance: docs/pptf/governance.md
