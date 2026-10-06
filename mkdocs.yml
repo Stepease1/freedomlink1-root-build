@@ -73,6 +73,7 @@ nav:
 
   - PPTF Governance:
       - Governance: docs/pptf/governance.md
+      - Root Build Economic Continuity: docs/root_build_economic_continuity_charter.md
 
   - Hardware Root:
       - Rootstone‑I Identity: docs/rootstone/identity.md
