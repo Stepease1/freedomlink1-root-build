@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run FL1 Diagnostics",
+            "type": "shell",
+            "command": "powershell -ExecutionPolicy Bypass -File ./system/diagnostics/test-introspection.ps1",
+            "options": {
+                "cwd": "${workspaceFolder}/unified"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
