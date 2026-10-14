@@ -1,0 +1,45 @@
+{
+  "subsystem": "Agency",
+  "epoch": 6,
+  "seal_type": "Agency Subsystem Seal",
+  "version": "1.0.0",
+  "description": "Anchors sovereign operational governance, enforcement authority, subsystem execution rules, and institutional behavior constraints within the Freedomlink1 Unified Layer.",
+  "governance_scope": {
+    "operational_governance": true,
+    "enforcement_authority": true,
+    "governance_execution": true,
+    "sentinel_behavior_rules": true,
+    "institutional_actions": true,
+    "sovereign_controls": true
+  },
+  "institutional_functions": [
+    "Define operational governance boundaries",
+    "Authorize subsystem execution actions",
+    "Enforce sovereign governance rules",
+    "Bind operational artifacts to sovereign lineage",
+    "Ensure institutional behavior consistency",
+    "Provide enforcement continuity across epochs"
+  ],
+  "lineage": {
+    "epoch_anchor": 6,
+    "requires_editorial_subsystem": true,
+    "requires_treasury_subsystem": true,
+    "continuity_required": true
+  },
+  "signing_requirements": {
+    "sovereign_key_required": true,
+    "signature_type": "GPG Commit Signature",
+    "key_fingerprint": "PENDING",
+    "signature_status": "unsigned"
+  },
+  "metadata": {
+    "created_by": "Joshua W. Blaz",
+    "created_at": "PENDING",
+    "seal_status": "pending",
+    "notes": [
+      "This JSON defines the Agency Subsystem governance boundaries.",
+      "The JSON itself is not individually signed; the commit signature carries sovereign authority.",
+      "Signature metadata will be updated automatically upon commit."
+    ]
+  }
+}
