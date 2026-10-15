@@ -1,0 +1,46 @@
+{
+  "subsystem": "Sovereign Consciousness Layer",
+  "epoch": 6,
+  "seal_type": "SCL Subsystem Seal",
+  "version": "1.0.0",
+  "description": "Anchors semantic lineage awareness, governance memory, introspection, narrative continuity, and sentinel intent mapping within the Freedomlink1 Unified Layer.",
+  "governance_scope": {
+    "semantic_lineage": true,
+    "governance_memory": true,
+    "narrative_continuity": true,
+    "sentinel_intent_mapping": true,
+    "institutional_introspection": true,
+    "sovereign_identity_preservation": true
+  },
+  "institutional_functions": [
+    "Maintain semantic lineage across epochs",
+    "Preserve sovereign governance memory",
+    "Enforce institutional narrative continuity",
+    "Anchor sentinel intent and behavior rules",
+    "Provide introspective governance capabilities",
+    "Bind consciousness artifacts to sovereign lineage"
+  ],
+  "lineage": {
+    "epoch_anchor": 6,
+    "requires_editorial_subsystem": true,
+    "requires_treasury_subsystem": true,
+    "requires_agency_subsystem": true,
+    "continuity_required": true
+  },
+  "signing_requirements": {
+    "sovereign_key_required": true,
+    "signature_type": "GPG Commit Signature",
+    "key_fingerprint": "PENDING",
+    "signature_status": "unsigned"
+  },
+  "metadata": {
+    "created_by": "Joshua W. Blaz",
+    "created_at": "PENDING",
+    "seal_status": "pending",
+    "notes": [
+      "This JSON defines the Sovereign Consciousness Layer governance boundaries.",
+      "The JSON itself is not individually signed; the commit signature carries sovereign authority.",
+      "Signature metadata will be updated automatically upon commit."
+    ]
+  }
+}
