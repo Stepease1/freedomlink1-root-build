@@ -1,0 +1,47 @@
+{
+  "subsystem": "Rootstone-I Hardware Governance",
+  "epoch": 6,
+  "seal_type": "Rootstone-I Hardware Governance Seal",
+  "version": "1.0.0",
+  "description": "Anchors hardware-rooted sovereignty, device identity, physical trust, and hardware lineage continuity within the Freedomlink1 Unified Layer.",
+  "governance_scope": {
+    "hardware_identity": true,
+    "physical_root_of_trust": true,
+    "device_lineage": true,
+    "hardware_behavior_rules": true,
+    "sovereign_hardware_controls": true,
+    "root_build_continuity": true
+  },
+  "institutional_functions": [
+    "Define hardware governance boundaries",
+    "Anchor Rootstone-I as the physical root of trust",
+    "Bind hardware artifacts to sovereign lineage",
+    "Enforce hardware behavior and identity rules",
+    "Provide physical trust continuity across epochs",
+    "Preserve sovereign hardware identity"
+  ],
+  "lineage": {
+    "epoch_anchor": 6,
+    "requires_editorial_subsystem": true,
+    "requires_treasury_subsystem": true,
+    "requires_agency_subsystem": true,
+    "requires_scl_subsystem": true,
+    "continuity_required": true
+  },
+  "signing_requirements": {
+    "sovereign_key_required": true,
+    "signature_type": "GPG Commit Signature",
+    "key_fingerprint": "PENDING",
+    "signature_status": "unsigned"
+  },
+  "metadata": {
+    "created_by": "Joshua W. Blaz",
+    "created_at": "PENDING",
+    "seal_status": "pending",
+    "notes": [
+      "This JSON defines the Rootstone-I Hardware Governance boundaries.",
+      "The JSON itself is not individually signed; the commit signature carries sovereign authority.",
+      "Signature metadata will be updated automatically upon commit."
+    ]
+  }
+}
