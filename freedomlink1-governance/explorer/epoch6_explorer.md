@@ -2,7 +2,7 @@
 **Freedomlink1 Unified Layer — Epoch Governance Registry**  
 **Epoch:** 6
 **Seal Type:** Epoch Seal
-**Seal Commit:** `f505203`  
+**Seal Commit:** `8310eb4`  
 **Signature:** GPG commit signature verified (RSA-4096)
 **Signer:** Joshua W. Blaz
 **Fingerprint:** `9C607FCB9EB4901C3F8A074B2C5599A6E7720198`
@@ -36,12 +36,12 @@ The seal commit passes local GPG verification with the following key:
 - **Capabilities:** `[SC]`
 
 ```sh
-git show --show-signature f505203
+git show --show-signature 8310eb4
 ```
 
 Verification is limited to the cryptographic validity of the commit signature. Local GPG does not certify that the key belongs to the named signer; confirm the fingerprint through a trusted channel when signer identity must be established.
 
-The commit signature does not alter the JSON fields: `signature_status` remains `unsigned` and `seal_status` remains `pending`. The JSON itself states that it is not individually signed and that the commit signature carries authority.
+The commit signature does not alter the JSON field `signature_status`, which remains `unsigned`; `seal_status` is `finalized`. The JSON itself states that it is not individually signed and that the commit signature carries the recorded signature.
 
 ## **5. Scope and Authority Boundaries**
 
