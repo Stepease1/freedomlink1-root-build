@@ -1,8 +1,8 @@
 # Epoch 6 — Continuity Index Entry
 **Freedomlink1 Unified Layer — Epoch Continuity Registry**  
 **Epoch:** 6
-**Seal Commit:** `f505203`  
-**Explorer Commit:** `ce7f02c`  
+**Seal Commit:** `8310eb4`  
+**Explorer Commit:** `665fca3`  
 **Signature:** GPG commit signatures verified (RSA-4096 key)
 **Signer:** Joshua W. Blaz
 **Fingerprint:** `9C607FCB9EB4901C3F8A074B2C5599A6E7720198`
@@ -14,8 +14,8 @@ This Continuity Index binds the Epoch 6 Seal and Explorer Entry into one recorde
 
 | Artifact | Commit | Commit Signature | Status |
 | --- | --- | --- | --- |
-| Epoch 6 Seal | `f505203` | Good signature from the listed key | Committed |
-| Epoch 6 Explorer Entry | `ce7f02c` | Good signature from the listed key | Committed |
+| Epoch 6 Seal | `8310eb4` | Good signature from the listed key | Finalized |
+| Epoch 6 Explorer Entry | `665fca3` | Good signature from the listed key | Applied |
 
 ## **3. Continuity Rules**
 The Epoch 6 Seal records Epoch 5 as the previous epoch, Epoch 6 as the new epoch, and `continuity_required: true`. Governance artifacts that bind to Epoch 6 must reference its seal and maintain traceable lineage.
@@ -30,16 +30,16 @@ Both commits pass local GPG signature verification with:
 - **Capabilities:** `[SC]`
 
 ```sh
-git show --show-signature f505203
-git show --show-signature ce7f02c
+git show --show-signature 8310eb4
+git show --show-signature 665fca3
 ```
 
 Verification is limited to the cryptographic validity of the commit signatures. Local GPG does not certify that the key belongs to the named signer; confirm the fingerprint through a trusted channel when signer identity must be established.
 
-The JSON's `signature_status` remains `unsigned` and `seal_status` remains `pending`; the commit signatures do not alter those payload fields.
+The Epoch 6 Seal JSON's `signature_status` remains `unsigned`; its `seal_status` is `finalized`. Commit signatures do not alter payload fields.
 
 ## **5. Epoch Anchoring**
-For this entry, **Epoch 6** means the governance period declared by the Epoch 6 Seal following Epoch 5. This index provides a reference for Epoch 6 lineage and continuity; it does not by itself certify subsystem readiness or authorize further epoch advancement.
+For this entry, **Epoch 6** means the governance period declared by the Epoch 6 Seal following Epoch 5. The signed Epoch 6 integrity snapshot records the separate Merkle finalization; this index does not itself certify subsystem readiness or authorize further epoch advancement.
 
 ## **6. Scope and Authority Boundaries**
 
