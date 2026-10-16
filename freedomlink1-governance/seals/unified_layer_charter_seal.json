@@ -32,17 +32,17 @@
   "signing_requirements": {
     "sovereign_key_required": true,
     "signature_type": "GPG Commit Signature",
-    "key_fingerprint": "PENDING",
+    "key_fingerprint": "9C607FCB9EB4901C3F8A074B2C5599A6E7720198",
     "signature_status": "unsigned"
   },
   "metadata": {
     "created_by": "Joshua W. Blaz",
-    "created_at": "PENDING",
-    "seal_status": "pending",
+    "created_at": "2026-10-15",
+    "seal_status": "applied",
     "notes": [
       "This JSON defines the Unified Layer Charter governance boundaries.",
       "The JSON itself is not individually signed; the commit signature carries sovereign authority.",
-      "Signature metadata will be updated automatically upon commit."
+      "The JSON itself is not individually signed; the GPG commit signature carries the recorded signature."
     ]
   }
 }
