@@ -3,7 +3,7 @@
   "algorithm": "SHA-256",
   "tree_definition": "Sort file paths lexicographically; use SHA-256 file-content hashes as leaves; concatenate adjacent lowercase hexadecimal hashes as UTF-8 and SHA-256 the result; duplicate the final node when a level has an odd number of nodes.",
   "source_commit": "7cc1fb5",
-  "leaf_count": 29,
+  "leaf_count": 28,
   "files": {
     "freedomlink1-governance/seals/epoch6_seal.json": "d0037cb7b7870a6dfe3df732bf532ce7946e5f393be6de4ab3ad0a4ce3335a0b",
     "freedomlink1-governance/explorer/epoch6_explorer.md": "c92ee86bfc6a4bd22b9751b153f991664becca31dde53a59f38bbbc1ec5d340f",
@@ -17,7 +17,6 @@
     "freedomlink1-governance/explorer/editorial_subsystem_seal_explorer.md": "d1a7001ff5cc33e17aeec50bf3da94378cac9ccef25c2b05a5e6e8f18321dc61",
     "freedomlink1-governance/explorer/editorial_subsystem_continuity_index.md": "e9115a05921884066d88d93e33bfbb32a6c4def28ffdf1fb039a82ceeba0bf05",
     "freedomlink1-governance/explorer/editorial_subsystem_lineage_node.md": "54e18b656d502549992db9a29c0cf2daad0e570281cc404ef6f4fe20fbf40f5e",
-    "freedomlink1-governance/lineage/anchors/editorial_subsystem_epoch6_anchor.json": "ddc5cbeaa702e7f1960845482b8694e5609c870ea56dfcd632fd939709d74cd2",
     "freedomlink1-governance/seals/treasury_subsystem_seal.json": "b2831bd56dc46c65417f39bc23b715fe139336d2101adc5082af7994aafd7445",
     "freedomlink1-governance/explorer/treasury_subsystem_seal_explorer.md": "1a567a493f2d55c370e228feaa358d7a0e67d81ce827ab02c74745fe3ed3a9a1",
     "freedomlink1-governance/explorer/treasury_subsystem_continuity_index.md": "4e513e8cfbd87ab55ed1bb814173957ad34ff579ac743acfd7255c1e9201f9f1",
