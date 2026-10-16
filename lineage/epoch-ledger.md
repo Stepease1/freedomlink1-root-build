@@ -1,7 +1,7 @@
 # Epoch Ledger
 
 **Established**: 2026-07-02  
-**Current Epoch**: Epoch 6 — Active  
+**Current Epoch**: Epoch 7 — Active  
 **Epoch Duration**: 180 days
 
 ## Overview
@@ -48,7 +48,7 @@ This ledger tracks temporal markers and phases in the FreedomLink1 lifecycle. Ea
 **Notes:** Epoch 5 anchor and ledger records exist. These records are incomplete, not absent or skipped.
 
 ### Epoch 6 — Reconstruction & Sovereign Activation
-**Status:** Finalized  
+**Status:** Finalized; predecessor to active Epoch 7  
 **Merkle Root:** `e3918c40195c386565e6552c9d75a0abad297a1ff696c5d7bb8eddc2400d75e4`  
 **Snapshot Commit:** `c04c869`  
 **Signed Inputs:** 28 committed artifacts; each input's latest commit verified against RSA-4096 key `9C607FCB9EB4901C3F8A074B2C5599A6E7720198`.
@@ -68,14 +68,34 @@ This ledger tracks temporal markers and phases in the FreedomLink1 lifecycle. Ea
 - Epoch 6 Lineage Node — present
 
 **Notes:**
-- Epoch 6 is the current governance context in this ledger.
+- Epoch 6 is finalized and serves as the predecessor to Epoch 7.
 - The pre-existing untracked Editorial anchor was excluded from the 28-leaf Merkle manifest and remains a legacy artifact.
 - The GPG checks establish commit-signature validity; local GPG does not independently certify signer identity.
 - This record prepares an epoch transition, aligns continuity surfaces, records continuity events, and acknowledges lineage anchors.
 - Verification is limited to the cited artifacts and commit signatures. This ledger does not establish runtime behavior and does not perform autonomous action.
 
+### Epoch 7 — Sovereign Advancement
+**Status:** Active in the canonical ledger  
+**Previous Epoch:** 6 — Finalized  
+**Seal:** `freedomlink1-governance/seals/epoch7_advancement_seal.json` — commit `3348328`  
+**Explorer Entry:** `freedomlink1-governance/explorer/epoch7_explorer.md` — commit `8ef7c87`  
+**Continuity Index:** `freedomlink1-governance/explorer/epoch7_continuity_index.md` — commit `6396f14`  
+**Lineage Node:** `freedomlink1-governance/explorer/epoch7_lineage_node.md` — commit `8364609`
+
+**Sovereign Signature Commits:** All four commits above pass local GPG signature verification with RSA-4096 key `9C607FCB9EB4901C3F8A074B2C5599A6E7720198`.
+
+**Seal JSON Metadata:** Declared but pending. The JSON records `key_fingerprint: PENDING`, `signature_status: unsigned`, and `seal_status: pending`; the signed commit does not modify these payload fields.
+
+**Lineage Chain:** Epoch 6 finalized seal → Epoch 7 Advancement Seal → Epoch 7 Explorer Entry → Epoch 7 Continuity Index → Epoch 7 Lineage Node.
+
+**Notes:**
+- Epoch 7 is the active governance context in this canonical ledger.
+- Epochs 1–2 remain historical foundations; Epoch 3 remains recorded as finalized.
+- Epochs 4–5 retain their existing `initializing` status and incomplete records.
+- GPG verification establishes commit-signature validity; local GPG does not independently certify signer identity.
+
 ## Current Epoch
-**Epoch 6 — Active**
+**Epoch 7 — Active**
 
 ## Epoch Transition Procedures
 
