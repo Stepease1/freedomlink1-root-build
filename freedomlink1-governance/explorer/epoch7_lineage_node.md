@@ -50,4 +50,4 @@ The Epoch 7 Seal JSON still records `key_fingerprint: PENDING`, `signature_statu
 - **Autonomous-action boundary:** This document does not perform actions on behalf of governance.
 
 > Freedomlink1 Unified Layer
-> Epoch 7 Lineage Node
+> Epoch 7 Lineage Node — Epoch 7

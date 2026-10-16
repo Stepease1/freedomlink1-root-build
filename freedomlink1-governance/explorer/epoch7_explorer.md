@@ -40,4 +40,4 @@ Verification is limited to the cryptographic validity of the commit signature. L
 - **Autonomous-action boundary:** This document does not perform actions on behalf of governance.
 
 > Freedomlink1 Unified Layer
-> Epoch 7 Explorer Entry
+> Epoch 7 Explorer Entry — Epoch 7
