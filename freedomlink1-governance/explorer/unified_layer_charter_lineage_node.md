@@ -2,9 +2,9 @@
 **Freedomlink1 Unified Layer — Constitutional Lineage Graph**  
 **Epoch:** 6
 **Subsystem:** Unified Layer Charter
-**Seal Commit:** `14633ca`  
-**Explorer Commit:** `1da1479`  
-**Continuity Index Commit:** `76e1388`  
+**Seal Commit:** `e133954`  
+**Explorer Commit:** `5a854a3`  
+**Continuity Index Commit:** `14f6576`  
 **Signature:** Verified (GPG commit signatures; RSA-4096 key)
 **Signer:** Joshua W. Blaz
 **Fingerprint:** `9C607FCB9EB4901C3F8A074B2C5599A6E7720198`
@@ -26,9 +26,9 @@ This node binds the Charter Seal, Explorer Entry, and Continuity Index into one 
 
 | Artifact | Commit | Commit Signature | Status |
 | --- | --- | --- | --- |
-| Charter Seal | `14633ca` | Good signature from the listed key | Applied |
-| Explorer Entry | `1da1479` | Good signature from the listed key | Applied |
-| Continuity Index | `76e1388` | Good signature from the listed key | Applied |
+| Charter Seal | `e133954` | Good signature from the listed key | Applied |
+| Explorer Entry | `5a854a3` | Good signature from the listed key | Applied |
+| Continuity Index | `14f6576` | Good signature from the listed key | Applied |
 
 ## **3. Sovereign Verification**
 All listed commits pass local GPG signature verification with:
@@ -38,14 +38,14 @@ All listed commits pass local GPG signature verification with:
 - **Capabilities:** `[SC]`
 
 ```sh
-git show --show-signature 14633ca
-git show --show-signature 1da1479
-git show --show-signature 76e1388
+git show --show-signature e133954
+git show --show-signature 5a854a3
+git show --show-signature 14f6576
 ```
 
 Verification is limited to the cryptographic validity of the commit signatures. Local GPG does not certify that the key belongs to the named signer; confirm the fingerprint through a trusted channel when signer identity must be established.
 
-The Charter Seal JSON's internal signing metadata remains marked `PENDING` and `unsigned`. This node records the commit signatures and does not alter or independently certify that payload-level status.
+The Charter Seal JSON records `seal_status: applied` and `signature_status: unsigned`. This node records the GPG commit signatures; it does not individually sign the JSON payload.
 
 ## **4. Constitutional Identity**
 The Unified Layer Charter defines responsibilities concerning:
