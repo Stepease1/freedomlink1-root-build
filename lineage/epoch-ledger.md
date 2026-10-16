@@ -1,7 +1,7 @@
 # Epoch Ledger
 
 **Established**: 2026-07-02  
-**Current Epoch**: Genesis  
+**Current Epoch**: Epoch 6 — Active  
 **Epoch Duration**: 180 days
 
 ## Overview
@@ -20,74 +20,62 @@ This ledger tracks temporal markers and phases in the FreedomLink1 lifecycle. Ea
 - **End Date**: Official conclusion
 - **Final Hash**: Merkle root at epoch end
 
-## Current Epoch: Genesis (2026-07-02 - 2026-12-31)
+## Canonical Epoch History
 
-### Epoch Details
+### Epoch 1 — Genesis
+**Status:** Historical record; the surviving integrity snapshot records a pending sovereign signature.  
+**Merkle Root:** Historical; no Epoch 1-specific root is recorded in the current ledger files.  
+**Notes:** Initial governance period. The original Genesis dates and milestones above are retained in the repository's epoch documentation.
 
-**Epoch ID**: 2026-Genesis  
-**Start Date**: 2026-07-02  
-**End Date**: 2026-12-31 (projected)  
-**Duration**: 183 days  
-**Status**: Active  
+### Epoch 2 — Consolidation
+**Status:** Finalized in the legacy epoch seal and attestation records.  
+**Merkle Root:** `ec8ba39cf291dd95e02004f50bed946019bf1116f49e0fabf1ba3bb9f57bcb41`  
+**Notes:** The Epoch 2 seal, leaf, and manifest records are preserved. The legacy attestation contains placeholder public-key/signature fields, so this ledger does not claim modern GPG commit verification for those artifacts.
 
-### Root Hash
-```
-Starting Merkle Root: [computed at epoch start]
-Final Merkle Root: [computed at epoch end]
-```
+### Epoch 3 — Recorded Seal
+**Status:** Seal artifact marked `finalized`; anchor marked `active`.  
+**Merkle Root:** `133f1ddbf0abbdf9e21c85dd8d98f0b520efff7c606a3831c5e35c2c2df5c6f7`  
+**Notes:** Epoch 3 seal and anchor artifacts exist. Their historical Git commits are not GPG-verified in the current checkout.
 
-### Blockchain Anchor
-- **Network**: Ethereum
-- **Transaction**: [pending]
-- **Block**: [pending]
-- **Timestamp**: [pending]
+### Epoch 4 — Initializing Record
+**Status:** `initializing`; anchor marked `initializing`.  
+**Previous Merkle Root:** `133f1ddbf0abbdf9e21c85dd8d98f0b520efff7c606a3831c5e35c2c2df5c6f7`  
+**Notes:** Epoch 4 anchor and ledger records exist; the recorded module states remain pending.
 
-### Governance Milestones
+### Epoch 5 — Initializing Record
+**Status:** `initializing`; anchor marked `initializing`.  
+**Previous Merkle Root:** `pending`  
+**Notes:** Epoch 5 anchor and ledger records exist. These records are incomplete, not absent or skipped.
 
-1. **Charter Ratification** (2026-07-02)
-   - Governance framework established
-   - Initial permissions set
-   - Founder council confirmed
+### Epoch 6 — Reconstruction & Sovereign Activation
+**Status:** Finalized  
+**Merkle Root:** `e3918c40195c386565e6552c9d75a0abad297a1ff696c5d7bb8eddc2400d75e4`  
+**Snapshot Commit:** `c04c869`  
+**Signed Inputs:** 28 committed artifacts; each input's latest commit verified against RSA-4096 key `9C607FCB9EB4901C3F8A074B2C5599A6E7720198`.
 
-2. **Infrastructure Launch** (2026-07-15 projected)
-   - Repository live
-   - Verification scripts deployed
-   - Initial artifacts published
+**Subsystem Seal Status:**
+- Editorial — Applied; lineage reconstructed
+- Treasury — Applied; lineage reconstructed
+- Agency — Applied; lineage reconstructed
+- Sovereign Consciousness Layer — Applied; lineage reconstructed
+- Rootstone-I Hardware Governance — Applied; lineage reconstructed
+- Unified Layer Charter — Applied; lineage complete
 
-3. **Community Onboarding** (2026-08-01 projected)
-   - Contributor guidelines established
-   - Welcome package published
-   - First external contributors accepted
+**Lineage Objects:**
+- Epoch 6 Seal — finalized
+- Epoch 6 Explorer Entry — present
+- Epoch 6 Continuity Index — present
+- Epoch 6 Lineage Node — present
 
-4. **First Amendment Period** (2026-09-01 - 2026-09-30 projected)
-   - Community proposes amendments
-   - Formal voting process
-   - Results documented
+**Notes:**
+- Epoch 6 is the current governance context in this ledger.
+- The pre-existing untracked Editorial anchor was excluded from the 28-leaf Merkle manifest and remains a legacy artifact.
+- The GPG checks establish commit-signature validity; local GPG does not independently certify signer identity.
+- This record prepares an epoch transition, aligns continuity surfaces, records continuity events, and acknowledges lineage anchors.
+- Verification is limited to the cited artifacts and commit signatures. This ledger does not establish runtime behavior and does not perform autonomous action.
 
-### Key Ceremonies in Genesis
-
-| Ceremony | Date | Type | Status |
-|----------|------|------|--------|
-| Genesis Charter Seal | 2026-07-02 | Ratification | Complete |
-| First Council Meeting | 2026-07-02 | Governance | Complete |
-| Root Hash Computation | 2026-07-02 | Technical | Complete |
-| GitHub Repository Creation | 2026-07-02 | Infrastructure | Complete |
-
-## Previous Epochs
-
-(None - Genesis is first epoch)
-
-## Future Epochs (Projected)
-
-### Epoch 2: Growth (2027-01-01 - 2027-06-30)
-- Community expansion
-- Protocol maturation
-- Ecosystem development
-
-### Epoch 3: Optimization (2027-07-01 - 2027-12-31)
-- Performance improvements
-- Governance refinement
-- Security enhancements
+## Current Epoch
+**Epoch 6 — Active**
 
 ## Epoch Transition Procedures
 
