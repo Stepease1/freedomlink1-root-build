@@ -1,0 +1,37 @@
+{
+  "epoch": 6,
+  "seal_type": "Epoch Seal",
+  "version": "1.0.0",
+  "description": "Declares and anchors Epoch 6 as an operational and sovereign epoch within the Freedomlink1 Unified Layer.",
+  "governance_scope": {
+    "epoch_identity": true,
+    "lineage_anchor": true,
+    "continuity_enforcement": true,
+    "subsystem_binding": true
+  },
+  "institutional_functions": [
+    "Declare Epoch 6",
+    "Anchor subsystem lineage",
+    "Provide temporal continuity",
+    "Bind governance artifacts to Epoch 6"
+  ],
+  "lineage": {
+    "previous_epoch": 5,
+    "new_epoch": 6,
+    "continuity_required": true
+  },
+  "signing_requirements": {
+    "sovereign_key_required": true,
+    "signature_type": "GPG Commit Signature",
+    "signature_status": "unsigned"
+  },
+  "metadata": {
+    "created_by": "Joshua W. Blaz",
+    "created_at": "PENDING",
+    "seal_status": "pending",
+    "notes": [
+      "Epoch 6 must be fully reconstructed before Epoch 7 can be advanced.",
+      "The JSON itself is not individually signed; the commit signature carries sovereign authority."
+    ]
+  }
+}
