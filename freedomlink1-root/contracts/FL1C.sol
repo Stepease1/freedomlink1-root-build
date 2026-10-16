@@ -3,72 +3,154 @@ pragma solidity ^0.8.20;
 
 import "../interfaces/IFL1C.sol";
 
-interface IFL1CGovernanceRouter {
-    function isAuthorized(address account) external view returns (bool);
+interface IRootstone {
+    function isVerified(address subject) external view returns (bool);
 }
-
-interface IFL1CEpochManager {}
 
 interface IFL1CLineageRegistry {
     function registerEvent(string calldata eventName, uint256 timestamp) external;
 }
 
-interface IFL1CCreatorIdentityRegistry {
-    function bindCreator(address creatorAddress) external;
-}
-
-interface IFL1CRootstoneBinding {
-    function bind(address identity) external;
-}
-
 contract FL1C is IFL1C {
-    string public constant name = "Freedomlink1 Credit";
-    string public constant symbol = "FL1C";
-    uint8 public constant decimals = 18;
+    mapping(address => Role) private _roles;
+    mapping(address => uint256) private _balances;
 
-    uint256 public totalSupply;
-    mapping(address => uint256) public balanceOf;
+    address public override governanceRouter;
+    address public override epochAuthority;
+    address public override rootstoneRegistry;
+    address public override lineageRegistry;
 
-    IFL1CGovernanceRouter public governance;
-    IFL1CEpochManager public epochs;
-    IFL1CLineageRegistry public lineage;
-    IFL1CCreatorIdentityRegistry public identity;
-    IFL1CRootstoneBinding public rootstone;
+    uint256 public override currentEpoch;
+    bytes32 public override lineageNode;
 
-    address public immutable creator;
+    modifier onlyGovernance() {
+        require(
+            msg.sender == governanceRouter || msg.sender == epochAuthority,
+            "FL1C: governance only"
+        );
+        _;
+    }
+
+    modifier onlyRootstoneVerified(address subject) {
+        require(
+            IRootstone(rootstoneRegistry).isVerified(subject),
+            "FL1C: rootstone verification failed"
+        );
+        _;
+    }
 
     constructor(
-        address _governance,
-        address _epochs,
-        address _lineage,
-        address _identity,
-        address _rootstone
+        address _governanceRouter,
+        address _epochAuthority,
+        address _rootstoneRegistry,
+        address _lineageRegistry,
+        uint256 _epochId,
+        bytes32 _lineageNode
     ) {
-        governance = IFL1CGovernanceRouter(_governance);
-        epochs = IFL1CEpochManager(_epochs);
-        lineage = IFL1CLineageRegistry(_lineage);
-        identity = IFL1CCreatorIdentityRegistry(_identity);
-        rootstone = IFL1CRootstoneBinding(_rootstone);
+        require(_governanceRouter != address(0), "FL1C: zero governance router");
+        require(_epochAuthority != address(0), "FL1C: zero epoch authority");
+        require(_rootstoneRegistry != address(0), "FL1C: zero rootstone registry");
+        require(_lineageRegistry != address(0), "FL1C: zero lineage registry");
+        require(_epochId > 0, "FL1C: invalid epoch");
+        require(_lineageNode != bytes32(0), "FL1C: empty lineage node");
 
-        creator = msg.sender;
+        governanceRouter = _governanceRouter;
+        epochAuthority = _epochAuthority;
+        rootstoneRegistry = _rootstoneRegistry;
+        lineageRegistry = _lineageRegistry;
+        currentEpoch = _epochId;
+        lineageNode = _lineageNode;
 
-        lineage.registerEvent("FL1C Token Genesis", block.timestamp);
-        identity.bindCreator(msg.sender);
-        rootstone.bind(msg.sender);
+        emit EpochBound(_epochId, _lineageNode);
+        _recordLineageEvent("FL1C Credential Genesis");
     }
 
-    function mint(address to, uint256 amount) external override {
-        require(governance.isAuthorized(msg.sender), "Not authorized");
-        totalSupply += amount;
-        balanceOf[to] += amount;
-        emit Transfer(address(0), to, amount);
+    function balanceOf(address account) external view override returns (uint256) {
+        return _balances[account];
     }
 
-    function transfer(address to, uint256 amount) external override returns (bool) {
-        require(balanceOf[msg.sender] >= amount, "Insufficient balance");
-        balanceOf[msg.sender] -= amount;
-        balanceOf[to] += amount;
-        emit Transfer(msg.sender, to, amount);
-        return true;
+    function roleOf(address account) external view override returns (Role) {
+        return _roles[account];
+    }
+
+    function mintCredential(address to, Role role, uint256 amount)
+        external
+        override
+        onlyGovernance
+        onlyRootstoneVerified(to)
+    {
+        require(to != address(0), "FL1C: zero recipient");
+        require(role != Role.NONE, "FL1C: invalid role");
+        require(amount > 0, "FL1C: zero amount");
+        require(
+            _roles[to] == Role.NONE || _roles[to] == role,
+            "FL1C: role mismatch"
+        );
+
+        _balances[to] += amount;
+        _roles[to] = role;
+        emit CredentialMinted(to, role, amount, currentEpoch);
+        _recordLineageEvent("FL1C Credential Minted");
+    }
+
+    function burnCredential(address from, uint256 amount) external override onlyGovernance {
+        require(from != address(0), "FL1C: zero account");
+        require(amount > 0, "FL1C: zero amount");
+        require(_balances[from] >= amount, "FL1C: insufficient balance");
+
+        Role role = _roles[from];
+        _balances[from] -= amount;
+        if (_balances[from] == 0) _roles[from] = Role.NONE;
+
+        emit CredentialBurned(from, role, amount, currentEpoch);
+        _recordLineageEvent("FL1C Credential Burned");
+    }
+
+    function changeRole(address account, Role newRole)
+        external
+        override
+        onlyGovernance
+        onlyRootstoneVerified(account)
+    {
+        require(account != address(0), "FL1C: zero account");
+        require(_balances[account] > 0, "FL1C: no credential");
+        require(newRole != Role.NONE, "FL1C: burn credential to revoke role");
+
+        Role oldRole = _roles[account];
+        require(oldRole != newRole, "FL1C: role unchanged");
+        _roles[account] = newRole;
+
+        emit RoleChanged(account, oldRole, newRole, currentEpoch);
+        _recordLineageEvent("FL1C Credential Role Changed");
+    }
+
+    function bindEpoch(uint256 epochId, bytes32 newLineageNode) external override onlyGovernance {
+        require(epochId > currentEpoch, "FL1C: epoch must advance");
+        require(newLineageNode != bytes32(0), "FL1C: empty lineage node");
+
+        currentEpoch = epochId;
+        lineageNode = newLineageNode;
+        emit EpochBound(epochId, newLineageNode);
+        _recordLineageEvent("FL1C Epoch Bound");
+    }
+
+    function transfer(address, uint256) external pure override {
+        revert("FL1C: transfer disabled");
+    }
+
+    function transferFrom(address, address, uint256) external pure override {
+        revert("FL1C: transferFrom disabled");
+    }
+
+    function approve(address, uint256) external pure override {
+        revert("FL1C: approve disabled");
+    }
+
+    function allowance(address, address) external pure override returns (uint256) {
+        return 0;
+    }
+
+    function _recordLineageEvent(string memory eventName) private {
+        IFL1CLineageRegistry(lineageRegistry).registerEvent(eventName, block.timestamp);
     }
 }
