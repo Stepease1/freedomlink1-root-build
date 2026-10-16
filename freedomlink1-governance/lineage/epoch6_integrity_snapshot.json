@@ -1,0 +1,26 @@
+{
+  "epoch": 6,
+  "status": "finalized",
+  "generated_at": "2026-10-15",
+  "source_commit": "7cc1fb5",
+  "merkle": {
+    "algorithm": "SHA-256",
+    "root": "0c1ba2ade88711be11343403fe37b9018ae80fe1672279dcc262b969b54fe411",
+    "leaf_count": 29,
+    "manifest": "freedomlink1-governance/lineage/epoch6_merkle_manifest.json",
+    "manifest_sha256": "f5c4152e49eeaeea5c3fcf3186e2c604ccf1b2d348e9d48dfe78bcf761b238c9",
+    "tree_definition": "Sorted path order; SHA-256 file-content leaves; adjacent lowercase hexadecimal hashes concatenated as UTF-8 and hashed; duplicate an unpaired final node."
+  },
+  "verification": {
+    "leaf_hashes": "verified against committed Epoch 6 artifacts",
+    "root": "independently recomputed from the manifest",
+    "snapshot_signature": "provided by the GPG signature on the containing commit"
+  },
+  "scope": {
+    "included": "Epoch 6 seal, epoch Explorer/Continuity Index/Lineage Node, six subsystem seal and lineage chains, and the Editorial Epoch 6 anchor.",
+    "excluded": [
+      "This manifest and snapshot, to avoid self-reference.",
+      "The Epoch 7 advancement seal and all Epoch 7 artifacts."
+    ]
+  }
+}
