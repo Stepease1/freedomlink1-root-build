@@ -1,0 +1,57 @@
+{
+  "subsystem": "Editorial",
+  "epoch": 6,
+  "seal_type": "Editorial Subsystem Seal",
+  "version": "1.0.0",
+  "description": "Records the Editorial Subsystem's governance boundaries, semantic continuity rules, editorial requirements, and declared component artifacts within the Freedomlink1 Unified Layer.",
+  "governance_scope": {
+    "semantic_continuity": true,
+    "governance_language_consistency": true,
+    "institutional_documentation": true,
+    "lineage_alignment": true,
+    "verification_boundaries": true
+  },
+  "institutional_functions": [
+    "Define editorial governance boundaries",
+    "Maintain semantic continuity across epochs",
+    "Apply institutional style and linting rules to governance documents",
+    "Record declared Editorial Subsystem components",
+    "Align editorial artifacts with Epoch 6 lineage",
+    "Document verification and authority boundaries"
+  ],
+  "lineage": {
+    "epoch_anchor": 6,
+    "lineage_anchor": "editorial_subsystem_epoch6",
+    "continuity_required": true,
+    "components": [
+      "Sovereign Editorial Charter",
+      "Style Guide Enforcement Checklist",
+      "Style Guide Linting Ruleset",
+      "Style Guide Linter",
+      "Style Guide Quick-Reference Sheet",
+      "Document Creation Ceremony"
+    ]
+  },
+  "governance_boundaries": {
+    "authority": "Authority derives from applicable approval evidence; this seal does not grant authority.",
+    "verification": "Verification is limited to local artifacts and does not validate runtime behavior.",
+    "hardware_trust": "Rootstone-I identity is declared, not attested.",
+    "economic_continuity": "Treasury alignment records policy, not execution."
+  },
+  "signing_requirements": {
+    "sovereign_key_required": true,
+    "signature_type": "GPG Commit Signature",
+    "key_fingerprint": "9C607FCB9EB4901C3F8A074B2C5599A6E7720198",
+    "signature_status": "unsigned"
+  },
+  "metadata": {
+    "created_by": "Joshua W. Blaz",
+    "created_at": "2026-10-15",
+    "seal_status": "applied",
+    "notes": [
+      "This JSON records Editorial Subsystem boundaries and declared components.",
+      "The JSON itself is not individually signed; the GPG commit signature carries the recorded signature.",
+      "This seal does not establish approval evidence or runtime behavior."
+    ]
+  }
+}
