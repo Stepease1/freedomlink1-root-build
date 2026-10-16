@@ -2,9 +2,9 @@
 **Freedomlink1 Unified Layer — Constitutional Lineage Graph**  
 **Epoch:** 6
 **Graph Identity:** `freedomlink1/epoch/6`
-**Seal Commit:** `f505203`  
-**Explorer Commit:** `ce7f02c`  
-**Continuity Index Commit:** `351c8ce`  
+**Seal Commit:** `8310eb4`  
+**Explorer Commit:** `665fca3`  
+**Continuity Index Commit:** `9f5b584`  
 **Signature:** GPG commit signatures verified (RSA-4096 key)
 **Fingerprint:** `9C607FCB9EB4901C3F8A074B2C5599A6E7720198`
 
@@ -17,9 +17,9 @@ For this entry, **Epoch 6** means the period declared by the Epoch 6 Seal follow
 
 | Artifact | Commit | Signature Status |
 | --- | --- | --- |
-| Epoch 6 Seal | `f505203` | GPG signature verified |
-| Epoch 6 Explorer Entry | `ce7f02c` | GPG signature verified |
-| Epoch 6 Continuity Index | `351c8ce` | GPG signature verified |
+| Epoch 6 Seal | `8310eb4` | GPG signature verified |
+| Epoch 6 Explorer Entry | `665fca3` | GPG signature verified |
+| Epoch 6 Continuity Index | `9f5b584` | GPG signature verified |
 
 ## **3. Sovereign Verification**
 All three commits pass local GPG verification with the same key:
@@ -29,9 +29,9 @@ All three commits pass local GPG verification with the same key:
 - **Capabilities:** `[SC]`
 
 ```sh
-git show --show-signature f505203
-git show --show-signature ce7f02c
-git show --show-signature 351c8ce
+git show --show-signature 8310eb4
+git show --show-signature 665fca3
+git show --show-signature 9f5b584
 ```
 
 Verification is limited to the cryptographic validity of the commit signatures. Local GPG does not certify that the key belongs to the named signer; confirm the fingerprint through a trusted channel when signer identity must be established.
@@ -39,7 +39,7 @@ Verification is limited to the cryptographic validity of the commit signatures. 
 ## **4. Epoch Binding**
 The Epoch 6 Seal declares Epoch 5 as the previous epoch, Epoch 6 as the new epoch, and continuity as required. Subsystem binding requires traceable Epoch 6 artifacts for Editorial, Treasury, Agency, SCL, Rootstone-I, and the Unified Layer Charter.
 
-This node records the epoch-level chain only. It does not assert that all subsystem lineage chains or the Epoch 6 Merkle root are complete. The seal JSON's `seal_status` remains `pending`; its signed commit does not change that field.
+This node records the epoch-level chain only and does not assert that every subsystem lineage chain is complete. The Epoch 6 Merkle root and integrity snapshot are recorded separately. The seal JSON's `seal_status` is `finalized`; its `signature_status` remains `unsigned` because the JSON payload is not individually signed.
 
 ## **5. Scope and Authority Boundaries**
 
