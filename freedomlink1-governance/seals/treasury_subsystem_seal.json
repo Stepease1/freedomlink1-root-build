@@ -1,0 +1,61 @@
+{
+  "subsystem": "Treasury",
+  "epoch": 6,
+  "seal_type": "Treasury Subsystem Seal",
+  "version": "1.0.0",
+  "description": "Records the Treasury Subsystem's declared custody, multisignature, funding, transparency, and epoch-continuity governance boundaries within the Freedomlink1 Unified Layer.",
+  "governance_scope": {
+    "wallet_custody_policy": true,
+    "multisignature_governance": true,
+    "treasury_inflows_and_outflows": true,
+    "token_governance_policy": true,
+    "epoch_advancement_funding": true,
+    "transparency_and_audit_policy": true
+  },
+  "institutional_functions": [
+    "Record wallet and custody policy",
+    "Define 3-of-5 multisignature transaction policy",
+    "Document permitted and prohibited treasury outflows",
+    "Record Creator Token governance actions",
+    "Specify funding and verification requirements for epoch advancement",
+    "Document reporting, audit, and security policies"
+  ],
+  "lineage": {
+    "epoch_anchor": 6,
+    "continuity_required": true,
+    "requires_unified_layer_charter": true,
+    "epoch_advancement_requires_multisignature_approval": true
+  },
+  "treasury_policy": {
+    "multisignature_threshold": "3-of-5",
+    "custody_model": [
+      "hardware wallets",
+      "multisignature custody",
+      "cold storage"
+    ],
+    "prohibited_outflows": [
+      "personal compensation",
+      "private gain"
+    ]
+  },
+  "governance_boundaries": {
+    "authority": "This seal records policy and does not itself authorize transactions.",
+    "execution": "This seal does not prove treasury transaction execution or balances."
+  },
+  "signing_requirements": {
+    "sovereign_key_required": true,
+    "signature_type": "GPG Commit Signature",
+    "key_fingerprint": "9C607FCB9EB4901C3F8A074B2C5599A6E7720198",
+    "signature_status": "unsigned"
+  },
+  "metadata": {
+    "created_by": "Joshua W. Blaz",
+    "created_at": "2026-10-15",
+    "seal_status": "applied",
+    "notes": [
+      "This JSON records declared Treasury governance policy.",
+      "The JSON itself is not individually signed; the GPG commit signature carries the recorded signature.",
+      "This seal does not attest transaction execution, wallet balances, or approval evidence."
+    ]
+  }
+}
