@@ -2,8 +2,8 @@
 **Freedomlink1 Unified Layer — Constitutional Governance Registry**  
 **Epoch:** 6
 **Seal Type:** Unified Layer Charter Seal
-**Commit Anchor:** `14633ca`  
-**Signature:** Verified (RSA‑4096)
+**Commit Anchor:** `e133954`  
+**Signature:** GPG commit signature verified (RSA-4096)
 **Signer:** Joshua W. Blaz
 **Fingerprint:** `9C607FCB9EB4901C3F8A074B2C5599A6E7720198`  
 **Subsystem:** Unified Layer Charter
@@ -27,11 +27,11 @@ This is the foundational document of the institution.
 
 ## **3. Signature Metadata**
 
-- **Commit:** `14633ca`
+- **Commit:** `e133954`
 - **Branch:** `main`
-- **Repository:** `Freedomlink1/freedomlink1-unified`
+- **Repository:** `Stepease1/freedomlink1-root-build`
 - **Signature Type:** GPG Commit Signature
-- **Verification:** GitHub → “Verified”
+- **Verification:** Local `git verify-commit` reports a good signature
 
 ## **4. Sovereign Key Details**
 **Primary Key:**
@@ -57,18 +57,13 @@ This Explorer Entry anchors the Unified Layer Charter into **Epoch 6**, establ
 ## **7. Verification Command**
 
 ```sh
-git show --show-signature 14633ca
+git show --show-signature e133954
 ```
+The seal JSON records `seal_status: applied` and `signature_status: unsigned`; its GPG commit signature does not individually sign the JSON payload.
 ## **8. Lineage Continuity Statement**
 The Unified Layer Charter Seal for Epoch 6 is hereby recognized as the authoritative constitutional anchor for all governance actions within the Freedomlink1 Unified Layer.
-## **9. Next Step**
-Commit and sign the Explorer Entry:
-
-```sh
-git add freedomlink1-governance/explorer/unified_layer_charter_explorer.md
-git commit -S -m "Add Explorer Entry: Unified Layer Charter — Epoch 6"
-git push
-```
+## **9. Lineage Follow-Up**
+The Continuity Index and Lineage Node record the Charter Seal and Explorer commit chain.
 
 This entry records the stated signature verification but does not independently verify the signature or itself grant authority. Governance approval remains subject to the applicable institutional process. Verification is limited to the stated GitHub status and referenced commit; this entry does not validate runtime behavior and does not perform autonomous action.
 
