@@ -1,11 +1,40 @@
 # Epochs: Temporal Framework
 
-**Current**: Genesis Epoch  
-**Last Updated**: 2026-07-02
+**Current**: Ascension Epoch (Epoch 7)  
+**Last Updated**: 2026-10-16
 
 ## Epoch System Overview
 
 FreedomLink1 divides time into discrete governance periods (epochs) with defined milestones, deliverables, and transitions.
+
+## Current Epoch — Ascension Epoch (Epoch 7)
+
+Epoch 7, designated the **Ascension Epoch**, is the active sovereign epoch recorded in the canonical ledger. It follows finalized Epoch 6 and carries forward its reconstructed, Merkle-anchored governance graph.
+
+### Why “Ascension”
+
+The name reflects the transition from uneven historical epoch records, through the reconstructed and Merkle-anchored Epoch 6, into an active epoch with a signed epoch-level lineage chain.
+
+### Activation Record
+
+- Epoch 7 Seal: commit `3348328`
+- Epoch 7 Explorer Entry: commit `8ef7c87`
+- Epoch 7 Continuity Index: commit `6396f14`
+- Epoch 7 Lineage Node: commit `8364609`
+- Canonical ledger activation: commit `1d4a858`
+
+The four epoch-level artifact commits pass local GPG verification with RSA-4096 key `9C607FCB9EB4901C3F8A074B2C5599A6E7720198`. Local GPG verifies commit signatures but does not independently certify signer identity.
+This record prepares an epoch transition, aligns continuity surfaces, records continuity events, and acknowledges lineage anchors. Verification is limited to the cited artifacts and commit signatures; this document does not establish runtime behavior and does not perform autonomous action.
+
+### Status
+
+- **Active Epoch:** 7
+- **Predecessor:** Epoch 6 (finalized)
+- **Successor:** Pending
+- **Subsystem Context:** Epoch 7 carries forward the six subsystem lineages reconstructed under Epoch 6. Epoch 7-specific subsystem seal chains are not recorded here.
+- **Seal JSON:** Declared; payload metadata remains pending (`key_fingerprint: PENDING`, `signature_status: unsigned`, `seal_status: pending`).
+
+Genesis is no longer the active epoch; its historical role remains recorded in the canonical ledger.
 
 ## Epoch Properties
 
@@ -50,7 +79,7 @@ Each epoch includes:
 
 ## Genesis Epoch (2026-07-02 - 2026-12-31)
 
-**Status**: Active
+**Status**: Historical; not the active epoch
 
 ### Key Dates
 - **Start**: 2026-07-02
@@ -90,9 +119,10 @@ Each epoch includes:
 - Contributors: 1+
 - Devices: 2
 
-## Epoch 2: Growth (2027-01-01 - 2027-06-30)
+## Epoch 2: Growth
 
-**Status**: Projected
+**Status**: Finalized in the canonical ledger; historical foundation
+**Merkle Root**: `ec8ba39cf291dd95e02004f50bed946019bf1116f49e0fabf1ba3bb9f57bcb41`
 
 ### Focus Areas
 - Community expansion
@@ -101,14 +131,17 @@ Each epoch includes:
 - External partnerships
 - Security hardening
 
-### Projected Milestones
+### Recorded Planning Priorities
 - Expand to 5-10 active contributors
 - Establish external auditor program
 - Deploy blockchain contracts
 - Launch community governance
 - Create API layer
 
-## Epoch 3: Optimization (2027-07-01 - 2027-12-31)
+## Epoch 3: Optimization
+
+**Status**: Seal finalized; anchor active
+**Merkle Root**: `133f1ddbf0abbdf9e21c85dd8d98f0b520efff7c606a3831c5e35c2c2df5c6f7`
 
 **Status**: Planned
 
@@ -226,18 +259,11 @@ At conclusion, each epoch:
 ## Timeline View
 
 ```
-2026-07-02  ─────────────────────────  2026-12-31
- Genesis Epoch (183 days)
-  │
-  ├─ Jul 2: Ratification
-  ├─ Jul 15: Infrastructure
-  ├─ Aug 1: Onboarding
-  ├─ Sep 1-30: Amendment cycle
-  └─ Dec 31: Conclusion
-
-2027-01-01  ─────────────────────────  2027-06-30
- Growth Epoch (182 days)
-
-2027-07-01  ─────────────────────────  2027-12-31
- Optimization Epoch (184 days)
+Epoch 1  Genesis          Historical foundation
+Epoch 2  Consolidation    Finalized
+Epoch 3  Optimization    Finalized seal; active anchor
+Epoch 4  Initializing    Incomplete record
+Epoch 5  Initializing    Incomplete record
+Epoch 6  Reconstruction   Finalized; predecessor
+Epoch 7  Ascension        Active
 ```
