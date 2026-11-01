@@ -11,10 +11,10 @@ Lineage is the institution’s memory — the unbroken chain of identity, govern
 
 Freedomlink1’s lineage is composed of four sovereign roots:
 
-- **Identity Root** — Creator Seal  
-- **Hardware Root** — Rootstone‑I Identity Embed  
-- **Economic Root** — PPTF Identity Anchor  
-- **Lineage Root** — Codex Genesis Node  
+- *Identity Root* — Creator Seal
+- *Hardware Root* — Rootstone‑I Identity Embed
+- *Economic Root* — PPTF Identity Anchor
+- *Lineage Root* — Codex Genesis Node
 
 These roots form the foundation of the institution’s temporal continuity.
 
@@ -29,10 +29,47 @@ Anchors are immutable lineage inscriptions that bind institutional artifacts to 
 **Hash:** `286b7c3447e74ea2f114c766219c166f47c680136ad679ac969f450b42264255`  
 **Status:** Active  
 
+### **Epoch 6 — Editorial Subsystem Anchor**
+
+Path: [`freedomlink1-governance/lineage/anchors/editorial_subsystem_epoch6_anchor.json`](../../freedomlink1-governance/lineage/anchors/editorial_subsystem_epoch6_anchor.json)<br>
+Anchor ID: `editorial_subsystem_epoch6`<br>
+Type: Constitutional Layer<br>
+Status: Declared; subject to applicable governance approval and authoritative lineage recording<br>
+Epoch: 6
+
+The Editorial Subsystem Lineage Anchor records the subsystem's declared relationship to the Freedomlink1 temporal record. It documents editorial continuity, authority boundaries, verification limits, declared hardware identity, economic continuity alignment, and institutional identity provenance. The declaration does not grant authority or establish a permanent lineage position independently. Verification is limited to local artifacts. It does not validate runtime behavior. This declaration does not perform autonomous action.
+
+Artifacts bound to this anchor:
+
+- Sovereign Editorial Charter
+- Style Guide Enforcement Checklist
+- Style Guide Linting Ruleset
+- Style Guide Linter (CI Implementation)
+- Style Guide Quick-Reference Sheet
+- Document Creation Ceremony
+
+Continuity declarations:
+
+- Lineage continuity: declared
+- Hardware trust: Rootstone-I declared identity
+- Economic continuity alignment: declared economic configuration and treasury governance policy aligned with PPTF Treasury Governance
+- Verification boundary: local artifacts only
+
+Recording surfaces:
+
+- governance
+- continuity
+- verification
+- identity
+- hardware trust
+- economic continuity
+
+Recording does not imply authority or verification. Future epoch transitions and authoritative lineage changes remain subject to governance approval evidence.
+
 ---
 
 ## 🜂 Seals  
-Seals are cryptographic signatures that validate lineage entries.
+Seals are cryptographic signatures associated with lineage entries.
 
 ### **Epoch 5 — Institutional Seal**  
 **Path:** `freedomlink1-governance/lineage/seals/epoch_5_institutional_seal.json`  
@@ -60,7 +97,7 @@ This hash is the fingerprint of the Freedomlink1 Institutional Suite and is refe
 ## 🜄 Epoch Inscriptions  
 Each epoch contains a formal inscription that records its sovereign purpose.
 
-### **Epoch 5 Inscription**  
+### *Epoch 5 Inscription*
 **Purpose:** Institutional Suite Epoch  
 **Artifacts:**  
 - Institutional Anchor  
@@ -83,19 +120,19 @@ This file records the current lineage version and ensures continuity across epoc
 
 Freedomlink1 lineage must satisfy:
 
-- **Cryptographic Integrity**  
+- *Cryptographic Integrity*
   SHA‑256 digests must match their declared artifacts.
 
-- **Signature Validity**  
-  Seals must be signed by authorized sovereign keys.
+- *Signature Validity*
+  Seals must be signed by keys recognized through the applicable governance process.
 
-- **Epoch Continuity**  
+- *Epoch Continuity*
   Each epoch must reference its predecessor.
 
-- **Codex Compliance**  
+- *Codex Compliance*
   All lineage entries must be bound to the Sovereign Codex.
 
-- **Unified Consistency**  
+- *Unified Consistency*
   Unified Layer bindings must match lineage anchors.
 
 These rules ensure the institution remains sovereign, consistent, and tamper‑resistant.
@@ -116,8 +153,8 @@ Each anchor, seal, and hash contributes to the institution’s temporal integrit
 
 ## ✦ Closing
 
-The Lineage Explorer is the official public interface for Freedomlink1’s temporal record.  
-As new epochs are activated, this page will expand to include their anchors, seals, and inscriptions.
+The Lineage Explorer presents declared references to Freedomlink1’s temporal record. As epochs are activated under applicable governance, this page may be updated to include their anchors, seals, and inscriptions.
 
 Sovereign Codex
-Freedomlink1 Institution
+> Freedomlink1 Unified Layer
+> Lineage Explorer — Epoch 6

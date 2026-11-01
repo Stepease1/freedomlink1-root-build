@@ -1,0 +1,65 @@
+{
+  "codex_binding": {
+    "name": "Editorial Subsystem",
+    "epoch": 6,
+    "type": "constitutional_layer",
+    "lineage_anchor": "editorial_subsystem_epoch6",
+    "description": "Records the Freedomlink1 Editorial Subsystem for inclusion in the Institutional Codex as a constitutional layer, subject to applicable approval evidence.",
+    "components": [
+      {
+        "id": "sovereign_editorial_charter",
+        "title": "Sovereign Editorial Charter",
+        "path": "docs/freedomlink1_institutional_style_guide.md",
+        "role": "defines sovereign editorial voice, authority boundaries, verification limits, continuity phrasing, hardware trust language, and economic continuity alignment"
+      },
+      {
+        "id": "style_guide_enforcement_checklist",
+        "title": "Style Guide Enforcement Checklist",
+        "path": "docs/freedomlink1_style_guide_enforcement_checklist.md",
+        "role": "manual steward enforcement mechanism for editorial compliance"
+      },
+      {
+        "id": "style_guide_linting_ruleset",
+        "title": "Style Guide Linting Ruleset",
+        "path": "docs/style_guide_linting_ruleset.md",
+        "role": "automated editorial constraints for deterministic enforcement"
+      },
+      {
+        "id": "style_guide_linter",
+        "title": "Style Guide Linter",
+        "path": "tools/style_guide_linter.ts",
+        "role": "CI-ready implementation of editorial enforcement rules"
+      },
+      {
+        "id": "style_guide_quick_reference",
+        "title": "Style Guide Quick-Reference Sheet",
+        "path": "docs/style_guide_quick_reference.md",
+        "role": "rapid steward-facing summary of editorial doctrine"
+      },
+      {
+        "id": "document_creation_ceremony",
+        "title": "Document Creation Ceremony",
+        "path": "docs/document_creation_ceremony.md",
+        "role": "sovereign genesis ritual for new institutional artifacts"
+      }
+    ],
+    "governance": {
+      "authority_boundary": "Authority derives solely from approval evidence. The Editorial Subsystem does not grant authority.",
+      "verification_boundary": "Verification is limited to local artifacts and does not validate runtime behavior.",
+      "continuity_alignment": "Subsystem aligned with Epoch 6 lineage anchors.",
+      "hardware_trust": "Rootstone-I identity is declared, not attested.",
+      "economic_continuity": "Aligned with PPTF Treasury Governance; defines policy, not execution."
+    },
+    "recording": {
+      "surfaces": [
+        "governance",
+        "continuity",
+        "verification",
+        "identity",
+        "hardware_trust",
+        "economic_continuity"
+      ],
+      "note": "Recording does not imply authority or verification."
+    }
+  }
+}

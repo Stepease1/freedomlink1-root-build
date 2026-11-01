@@ -9,6 +9,26 @@
                 "cwd": "${workspaceFolder}/unified"
             },
             "problemMatcher": []
+        },
+        {
+            "label": "Lint Current Sovereign Document",
+            "type": "process",
+            "command": "npm.cmd",
+            "args": ["run", "lint:style", "--", "${file}"],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Lint Staged Sovereign Documents",
+            "type": "process",
+            "command": "npm.cmd",
+            "args": ["run", "lint:style", "--", "--staged"],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
         }
     ]
 }

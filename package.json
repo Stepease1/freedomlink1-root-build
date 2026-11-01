@@ -6,6 +6,9 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "lint:style": "tsc -p tsconfig.json && node dist/tools/style_guide_linter.js",
+    "test:style": "tsc -p tsconfig.json && node --test tests/style_guide_linter.test.js",
+    "hooks:install": "git config core.hooksPath .githooks",
     "clean": "rm -rf dist",
     "prepare": "npm run build"
   },

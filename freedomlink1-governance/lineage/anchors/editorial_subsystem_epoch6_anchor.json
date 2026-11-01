@@ -1,0 +1,34 @@
+{
+  "lineage_anchor": {
+    "id": "editorial_subsystem_epoch6",
+    "epoch": 6,
+    "type": "constitutional_layer",
+    "artifact_group": "editorial_subsystem",
+    "description": "Declares the Freedomlink1 Editorial Subsystem as an Epoch 6 lineage reference, subject to applicable governance approval and authoritative lineage recording.",
+    "artifacts": [
+      "docs/freedomlink1_institutional_style_guide.md",
+      "docs/freedomlink1_style_guide_enforcement_checklist.md",
+      "docs/style_guide_linting_ruleset.md",
+      "tools/style_guide_linter.ts",
+      "docs/style_guide_quick_reference.md",
+      "docs/document_creation_ceremony.md"
+    ],
+    "continuity": {
+      "lineage": "declared",
+      "hardware_trust": "Rootstone-I declared identity",
+      "economic_continuity": "Aligned with PPTF Treasury Governance",
+      "verification_boundary": "Verification limited to local artifacts"
+    },
+    "recording": {
+      "surfaces": [
+        "governance",
+        "continuity",
+        "verification",
+        "identity",
+        "hardware_trust",
+        "economic_continuity"
+      ],
+      "note": "Recording does not imply authority or verification."
+    }
+  }
+}
