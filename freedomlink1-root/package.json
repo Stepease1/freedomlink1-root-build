@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "tsc",
+    "build:forest": "ts-node scripts/generate-merkle-forest.ts",
     "compile": "hardhat compile",
     "test": "hardhat test",
     "node:local": "hardhat node",

@@ -1,0 +1,33 @@
+name: Update Merkle Forest
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  update-forest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm ci --prefix freedomlink1-root
+
+      - name: Generate Merkle Forest
+        run: npm --prefix freedomlink1-root run build:forest
+
+      - name: Commit updated forest
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update Ascension Epoch Merkle Forest"
+          file_pattern: docs/merkle-forest.svg docs/merkle-forest-hashes.json

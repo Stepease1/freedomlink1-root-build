@@ -1,0 +1,31 @@
+{
+  "epoch": 7,
+  "lineageNode": "L7-A0",
+  "trees": [
+    {
+      "id": "FL1C",
+      "name": "FL1C Credential Tree",
+      "artifacts": ["contracts/FL1C.sol"]
+    },
+    {
+      "id": "GOVRT",
+      "name": "GovernanceRouter Tree",
+      "artifacts": ["contracts/governance/GovernanceRouter.sol"]
+    },
+    {
+      "id": "EPAUTH",
+      "name": "EpochAuthority Tree",
+      "artifacts": ["contracts/governance/EpochAuthority.sol"]
+    },
+    {
+      "id": "LINREG",
+      "name": "LineageRegistry Tree",
+      "artifacts": ["contracts/governance/LineageRegistry.sol"]
+    },
+    {
+      "id": "RSTRG",
+      "name": "RootstoneRegistry Tree",
+      "artifacts": ["contracts/rootstone/RootstoneRegistry.sol"]
+    }
+  ]
+}

@@ -60,6 +60,25 @@ This portal provides public access to the institutional documents, governance pr
 
 ---
 
+## Ascension Epoch Merkle Forest (Epoch 7)
+
+This page renders the current Ascension Epoch Merkle Forest for Freedomlink1 Root.
+
+- **Epoch:** 7 (Ascension)
+- **Lineage:** L7-A0
+- **Root:** See the forest root hash below.
+
+### Forest Diagram
+
+![Ascension Epoch Merkle Forest](merkle-forest.svg)
+
+### Merkle Hashes
+
+- [Forest manifest](merkle-forest.json)
+- [Leaf and tree hashes](merkle-forest-hashes.json)
+
+---
+
 ## ✦ Institutional Suite  
 The foundational legal and governance documents of Freedomlink1.
 

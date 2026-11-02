@@ -1,0 +1,54 @@
+{
+  "epoch": 7,
+  "lineageNode": "L7-A0",
+  "forestRoot": "b96e02a32ba561ff07d3f8ea075a9f3d3927b3c9676abe9a2a18942196ca6bea",
+  "trees": [
+    {
+      "id": "FL1C",
+      "hash": "4dc26b2b873ba674776c8366c6294cf016c80512a6f018bd3dfb916050054d59"
+    },
+    {
+      "id": "GOVRT",
+      "hash": "0ce9672f2089e5d6ca1856dce33372bbf3d82f6d9a222f1a6bd5c75692a9a8e6"
+    },
+    {
+      "id": "EPAUTH",
+      "hash": "6b6bb609a4b613768a6d46fd79ca432cea42ea2f6887c935847192b8b482b6ea"
+    },
+    {
+      "id": "LINREG",
+      "hash": "0de25fdb33787f30f39f54e532b6317bdb5d61182eee17960dc0da7e3b9dfc6a"
+    },
+    {
+      "id": "RSTRG",
+      "hash": "39cafc77a11255972378943be3b58eee440b81578665d409c56f3cb1056f45e5"
+    }
+  ],
+  "leaves": [
+    {
+      "id": "FL1C",
+      "artifact": "contracts/FL1C.sol",
+      "hash": "e3d4066a42f6f432fcc51e330c467509d54966f7eb1b4d5fea0c86feb6357985"
+    },
+    {
+      "id": "GOVRT",
+      "artifact": "contracts/governance/GovernanceRouter.sol",
+      "hash": "ef10199e0b2679571d5089df8d90138b011ee1cdee09aaad745bf290599cd0a7"
+    },
+    {
+      "id": "EPAUTH",
+      "artifact": "contracts/governance/EpochAuthority.sol",
+      "hash": "eee4b72df832963f12dd05aa4df5555cb00cd0370bef415be7599b1403d57b78"
+    },
+    {
+      "id": "LINREG",
+      "artifact": "contracts/governance/LineageRegistry.sol",
+      "hash": "2744d7a54aa9a9e47111a7173c2da5236875b93d33fba2ca7aecfdbee31381f1"
+    },
+    {
+      "id": "RSTRG",
+      "artifact": "contracts/rootstone/RootstoneRegistry.sol",
+      "hash": "728acdac22f38d2e15a15fa34b35a4534dd4f0263156f0687a772d1426bcc052"
+    }
+  ]
+}
