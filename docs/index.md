@@ -1,36 +1,36 @@
-# 🏛️ Freedomlink1 Governance Portal  
+# 🏛️ Freedomlink1 Governance Portal
 
 <div style="display:flex; align-items:center; gap:2rem; margin-top:1.5rem;">
 
-	<!-- Rootstone‑I Monogram -->
-	<div style="text-align:center;">
-		<div style="font-size:3.2rem; font-weight:600; line-height:1;">
-			🜁
-		</div>
-		<div style="font-size:0.9rem; opacity:0.75;">
-			Rootstone‑I Monogram
-		</div>
-	</div>
+  <!-- Rootstone‑I Monogram -->
+  <div style="text-align:center;">
+    <div style="font-size:3.2rem; font-weight:600; line-height:1;">
+      🜁
+    </div>
+    <div style="font-size:0.9rem; opacity:0.75;">
+      Rootstone‑I Monogram
+    </div>
+  </div>
 
-	<!-- Institutional Seal -->
-	<div style="text-align:center;">
-		<div style="font-size:2.4rem; font-weight:600; line-height:1;">
-			✦
-		</div>
-		<div style="font-size:0.9rem; opacity:0.75;">
-			Institutional Seal
-		</div>
-	</div>
+  <!-- Institutional Seal -->
+  <div style="text-align:center;">
+    <div style="font-size:2.4rem; font-weight:600; line-height:1;">
+      ✦
+    </div>
+    <div style="font-size:0.9rem; opacity:0.75;">
+      Institutional Seal
+    </div>
+  </div>
 
-	<!-- Epoch Ribbon -->
-	<div style="text-align:center;">
-		<div style="font-size:1.4rem; font-weight:600; line-height:1;">
-			Epoch 5 — Institutional Suite Anchored
-		</div>
-		<div style="font-size:0.9rem; opacity:0.75;">
-			SHA‑256: 286b7c3447e74ea2f114c766219c166f47c680136ad679ac969f450b42264255
-		</div>
-	</div>
+  <!-- Epoch Ribbon -->
+  <div style="text-align:center;">
+    <div style="font-size:1.4rem; font-weight:600; line-height:1;">
+      Epoch 5 — Institutional Suite Anchored
+    </div>
+    <div style="font-size:0.9rem; opacity:0.75;">
+      SHA‑256: 286b7c3447e74ea2f114c766219c166f47c680136ad679ac969f450b42264255
+    </div>
+  </div>
 
 </div>
 
@@ -40,11 +40,11 @@
 
 The Freedomlink1 Sovereign Identity Crest represents the union of:
 
-- **Rootstone‑I** — hardware sovereignty  
-- **The Institutional Suite** — legal sovereignty  
-- **The Sovereign Codex** — manuscript sovereignty  
-- **The Lineage Anchors** — temporal sovereignty  
-- **The Unified Layer** — integration sovereignty  
+- **Rootstone‑I** — hardware sovereignty
+- **The Institutional Suite** — legal sovereignty
+- **The Sovereign Codex** — manuscript sovereignty
+- **The Lineage Anchors** — temporal sovereignty
+- **The Unified Layer** — integration sovereignty
 
 Together, these form the **Five Pillars of Sovereign Continuity**.
 
@@ -79,105 +79,95 @@ This page renders the current Ascension Epoch Merkle Forest for Freedomlink1 Roo
 
 ---
 
-## ✦ Institutional Suite  
+## ✦ Institutional Suite
+
 The foundational legal and governance documents of Freedomlink1.
 
-- **Sovereign Purpose Trust Charter**  
-	`docs/institution/Trust_Charter.md`
+- **Sovereign Purpose Trust Charter** — `docs/institution/Trust_Charter.md`
 
-- **Grantor Trust Declaration (EIN 92‑1026132)**  
-	`docs/institution/Grantor_Declaration.md`
+- **Grantor Trust Declaration (EIN 92‑1026132)** — `docs/institution/Grantor_Declaration.md`
 
-- **Freedomlink1 Agency Charter**  
-	`docs/institution/Agency_Charter.md`
+- **Freedomlink1 Agency Charter** — `docs/institution/Agency_Charter.md`
 
-- **Crypto‑Treasury Governance Specification**  
-	`docs/institution/Treasury_Governance.md`
+- **Crypto‑Treasury Governance Specification** — `docs/institution/Treasury_Governance.md`
 
-- **Compiled Institutional Suite**  
-	`docs/institution/Freedomlink1_Institutional_Suite.md`
+- **Compiled Institutional Suite** — `docs/institution/Freedomlink1_Institutional_Suite.md`
 
 ---
 
-## ✦ Governance Proposals  
+## ✦ Governance Proposals
+
 Formal governance artifacts submitted to the institution.
 
-- **Proposal Index**  
-	`docs/proposals/index.md`
+- **Proposal Index** — `docs/proposals/index.md`
 
-- **A‑001 — Agency Charter**  
-	`docs/proposals/A-001_Agency_Charter.md`
+- **A‑001 — Agency Charter** — `docs/proposals/A-001_Agency_Charter.md`
 
-- **B‑001 — Treasury Governance Specification**  
-	`docs/proposals/B-001_Treasury_Governance.md`
+- **B‑001 — Treasury Governance Specification** — `docs/proposals/B-001_Treasury_Governance.md`
 
 ---
 
-## ✦ Sovereign Codex  
+## ✦ Sovereign Codex
+
 The manuscript of Freedomlink1 — binding institutional artifacts across epochs.
 
-- **Codex Binding: Institutional Suite**  
-	`docs/codex/Codex_Binding_Institutional_Suite.md`
+- **Codex Binding: Institutional Suite** — `docs/codex/Codex_Binding_Institutional_Suite.md`
 
-- **Codex Bindings JSON**  
-	`docs/codex/codex.bindings.json`
+- **Codex Bindings JSON** — `docs/codex/codex.bindings.json`
 
 ---
 
-## ✦ Lineage & Epochs  
+## ✦ Lineage & Epochs
+
 Cryptographic continuity across generations.
 
-- **Epoch 5 Institutional Anchor**  
-	`freedomlink1-governance/lineage/anchors/epoch_5_institutional_anchor.json`
+- **Epoch 5 Institutional Anchor** — `freedomlink1-governance/lineage/anchors/epoch_5_institutional_anchor.json`
 
-- **Epoch 5 Institutional Seal**  
-	`freedomlink1-governance/lineage/seals/epoch_5_institutional_seal.json`
+- **Epoch 5 Institutional Seal** — `freedomlink1-governance/lineage/seals/epoch_5_institutional_seal.json`
 
-- **Lineage Version**  
-	`versioning/lineage.version`
+- **Lineage Version** — `versioning/lineage.version`
 
 ---
 
-## ✦ Unified Integration Layer  
+## ✦ Unified Integration Layer
+
 The declarative integration map of the institution.
 
-- **Unified Integration Layer Specification**  
-	`docs/Unified_Integration_Layer.md`
+- **Unified Integration Layer Specification** — `docs/Unified_Integration_Layer.md`
 
-- **PPTF Bindings**  
-	`unified/pptf.bindings.json`
+- **PPTF Bindings** — `unified/pptf.bindings.json`
 
-- **Unified Version**  
-	`versioning/unified.version`
+- **Unified Version** — `versioning/unified.version`
 
 ---
 
-## ✦ Hardware Root of Trust  
+## ✦ Hardware Root of Trust
+
 Rootstone‑I identity and hardware‑anchored governance.
 
-- **Rootstone Bindings**  
-	`unified/rootstone.bindings.json` *(if present)*
+- **Rootstone Bindings** — `unified/rootstone.bindings.json` *(if present)*
 
 ---
 
-## ✦ About Freedomlink1  
+## ✦ About Freedomlink1
+
 Freedomlink1 is a sovereign digital institution built on:
 
-- hardware‑rooted identity  
-- trust‑based governance  
-- multi‑sig treasury operations  
-- lineage‑anchored continuity  
-- codex‑bound institutional law  
-- multi‑epoch evolution  
-- nonprofit public‑benefit purpose  
+- hardware‑rooted identity
+- trust‑based governance
+- multi‑sig treasury operations
+- lineage‑anchored continuity
+- codex‑bound institutional law
+- multi‑epoch evolution
+- nonprofit public‑benefit purpose
 
 The institution is owned by the **Freedomlink1 Sovereign Purpose Trust** and operated by the **Freedomlink1 Agency** under EIN **92‑1026132**.
 
 ---
 
-## ✦ Contact  
-Freedomlink1 Agency  
-Midwest City, Oklahoma  
+## ✦ Contact
+Freedomlink1 Agency<br>
+Midwest City, Oklahoma<br>
 United States
 
 ---
