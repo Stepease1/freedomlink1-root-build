@@ -1,7 +1,7 @@
 # ✦ Unified Layer Module Registry
 Freedomlink1 Unified Layer • Institutional Module Index
 
-The Unified Layer Module Registry is the index of institutional modules represented in the Freedomlink1 Unified Layer. Modules cover governance, lineage, identity, hardware, economic, and Unified Layer concerns that contribute to Epoch 6 continuity.
+The Unified Layer Module Registry is the index of institutional modules represented in the Freedomlink1 Unified Layer. Modules cover governance, lineage, identity, hardware, economic, and Unified Layer concerns, including components documented during Epoch 6 continuity.
 
 This registry provides a reference surface for stewards, architects, auditors, and system maintainers. A module's inclusion documents its declared role; it does not establish deployment, operation, or legal status.
 
@@ -11,7 +11,7 @@ This registry provides a reference surface for stewards, architects, auditors, a
 
 **Registry Type:** Institutional Module Index  
 **Institution:** Freedomlink1  
-**Current Epoch:** 6 — Continuity Epoch  
+**Current Epoch:** 7 — Ascension Epoch (per the canonical epoch ledger)
 **Registry State:** Active  
 **Verification Surface:** [Unified Layer Integrity Report](unified_layer_integrity.md)  
 **Continuity Surface:** [Unified Layer Continuity Report](unified_layer_continuity.md)

@@ -10,7 +10,7 @@ This dashboard reflects **local-artifact verification only**, consistent with th
 ## ✦ Dashboard Overview
 
 **Institution:** Freedomlink1  
-**Current Epoch:** 6 — Continuity Epoch  
+**Current Epoch:** 7 — Ascension Epoch (per the canonical epoch ledger)
 **Dashboard State:** Active  
 **Verification Scope:** Local metadata and on-disk artifacts only  
 **Runtime Verification:** Not performed  
@@ -19,6 +19,8 @@ This dashboard reflects **local-artifact verification only**, consistent with th
 **Drift Status:** `none_detected`
 
 The latest report was produced by [`drift_detector.py`](../scripts/drift_detector.py). Its timestamp is also recorded in the FL1-C binding metadata.
+
+The displayed report timestamp predates the Epoch 7 ledger activation. This historical local result is not an Epoch 7 verification.
 
 ---
 

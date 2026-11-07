@@ -1,5 +1,5 @@
 # ✦ Unified Layer Continuity Report
-Freedomlink1 Unified Layer • Epoch 6 Continuity Surface
+Freedomlink1 Unified Layer • Epoch 6 Continuity Report
 
 The Unified Layer Continuity Report documents the institutional continuity of the Freedomlink1 system across governance, lineage, identity, hardware, economic, and unified layers.
 It establishes how sovereign assets, including FL1-C, participate in Epoch 6 and how continuity is preserved across all institutional roots.
@@ -11,14 +11,15 @@ This report serves as the continuity reference for stewards, architects, and sys
 ## ✦ Continuity Overview
 
 **Institution:** Freedomlink1  
-**Current Epoch:** 6 — Continuity Epoch  
+**Current Epoch:** 7 — Ascension Epoch (per the canonical epoch ledger)
+**Report Scope:** Epoch 6 continuity; historical subsystem context
 **Continuity State:** Active  
 **Unified Layer Status:** Synchronized  
 **Root Build Status:** Operational  
 **Treasury System:** PPTF  
 **Sovereign Asset:** FL1-C
 
-Epoch 6 represents the first fully integrated continuity phase of the Freedomlink1 Institution.
+Epoch 6 represents the first fully integrated continuity phase of the Freedomlink1 Institution. This report describes that historical phase; it does not supersede the current Epoch 7 status in the canonical ledger.
 
 ---
 

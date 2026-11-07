@@ -52,6 +52,7 @@ nav:
       - Treasury Governance: proposals/Freedomlink1_Treasury_Governance.md
   - Sovereign Codex:
       - Master Codex v1.1: codex/FREEDOMLINK1_MASTER_CODEX_v1.1.md
+      - v1.0.0 Lineage Record: codex/FREEDOMLINK1_MASTER_CODEX_v1.0_LINEAGE.md
       - Institutional Suite Binding: codex/Codex_Binding_Institutional_Suite.md
       - Editorial Integration: codex/Codex_Editorial_Integration.md
       - Explorer: codex/explorer.md

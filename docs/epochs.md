@@ -22,6 +22,7 @@ The name reflects the transition from uneven historical epoch records, through t
 - Epoch 7 Continuity Index: commit `6396f14`
 - Epoch 7 Lineage Node: commit `8364609`
 - Canonical ledger activation: commit `1d4a858`
+- Machine-readable ledger reconciliation: `lineage/epoch_ledger.json` records Epoch 7 as current and active
 
 The four epoch-level artifact commits pass local GPG verification with RSA-4096 key `9C607FCB9EB4901C3F8A074B2C5599A6E7720198`. Local GPG verifies commit signatures but does not independently certify signer identity.
 This record prepares an epoch transition, aligns continuity surfaces, records continuity events, and acknowledges lineage anchors. Verification is limited to the cited artifacts and commit signatures; this document does not establish runtime behavior and does not perform autonomous action.
@@ -33,6 +34,8 @@ This record prepares an epoch transition, aligns continuity surfaces, records co
 - **Successor:** Pending
 - **Subsystem Context:** Epoch 7 carries forward the six subsystem lineages reconstructed under Epoch 6. Epoch 7-specific subsystem seal chains are not recorded here.
 - **Seal JSON:** Declared; payload metadata remains pending (`key_fingerprint: PENDING`, `signature_status: unsigned`, `seal_status: pending`).
+
+The signed canonical-ledger update establishes the recorded active-epoch status. It does not update or validate the pending fields inside the separate seal JSON payload.
 
 Genesis is no longer the active epoch; its historical role remains recorded in the canonical ledger.
 

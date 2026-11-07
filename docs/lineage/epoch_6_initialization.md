@@ -11,7 +11,7 @@ It is the epoch where Freedomlink1 transitions from structural formation to long
 **Epoch Name:** Continuity Epoch  
 **Epoch Number:** 6  
 **Epoch Type:** Sovereign Continuity Epoch  
-**Status:** Active  
+**Status:** Finalized historical epoch; predecessor to active Epoch 7
 **Preceded By:** Epoch 5 — Institutional Epoch  
 **Succeeded By:** (To be determined by future lineage advancement)
 
@@ -34,7 +34,7 @@ The Epoch 6 Anchor contains:
 - lineage references  
 - unified layer bindings  
 
-This anchor is the canonical machine representation of Epoch 6.
+This anchor is the machine representation of Epoch 6, not the current-epoch record. Epoch 7 is the current epoch recorded in the canonical ledger.
 
 ---
 

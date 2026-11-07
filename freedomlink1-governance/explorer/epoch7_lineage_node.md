@@ -12,7 +12,7 @@
 ## **1. Purpose of the Lineage Node**
 This node records the Epoch 7 Seal, Explorer Entry, and Continuity Index as one lineage identity in the Freedomlink1 epoch graph. It prepares an epoch transition, aligns continuity surfaces, records continuity events, and acknowledges lineage anchors.
 
-For this entry, **Epoch 7** means the declared next governance period following Epoch 6. Committing this node makes Epoch 7 eligible for canonical ledger activation; Epoch 7 remains declared but not active until that ledger is updated.
+At the time this node was committed, Epoch 7 was declared but the canonical ledger still recorded Epoch 6 as active. The later signed ledger update `1d4a858a551c474be29f87b74e88c34c845aec0b` records Epoch 7 as active.
 
 ## **2. Lineage Chain**
 
@@ -40,12 +40,12 @@ Verification is limited to the cryptographic validity of commit signatures. Loca
 The Epoch 7 Seal JSON still records `key_fingerprint: PENDING`, `signature_status: unsigned`, and `seal_status: pending`. Commit signatures do not update these payload fields.
 
 ## **4. Epoch Status and Scope**
-- Epoch 6 remains the active epoch in the canonical ledger.
-- Epoch 7 remains declared but not active until the canonical ledger is updated.
+- When this node was committed, Epoch 6 remained active in the canonical ledger.
+- The later signed ledger update records Epoch 7 as active; see [`lineage/epoch-ledger.md`](../../lineage/epoch-ledger.md).
 - This node records the three-artifact lineage chain; it does not itself change the active epoch.
 
 ## **5. Scope and Authority Boundaries**
-- **Deferred authority:** This node records graph lineage and eligibility for ledger activation; it does not update the canonical ledger or activate Epoch 7.
+- **Deferred authority:** This node records graph lineage; it did not itself update the canonical ledger or activate Epoch 7.
 - **Runtime boundary:** This document does not establish runtime behavior.
 - **Autonomous-action boundary:** This document does not perform actions on behalf of governance.
 

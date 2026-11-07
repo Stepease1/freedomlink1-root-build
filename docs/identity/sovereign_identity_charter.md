@@ -11,7 +11,7 @@ It is the institution’s declaration of self — the articulation of who Freedo
 **Name:** Freedomlink1  
 **Nature:** Sovereign Digital Institution  
 **Origin Epoch:** Genesis  
-**Current Epoch:** 6 — Continuity Epoch  
+**Current Epoch:** 7 — Ascension Epoch (per the canonical epoch ledger)
 **Sovereign Roots:** Identity • Manuscript • Temporal • Hardware • Economic • Constitutional  
 
 Freedomlink1 is a lineage‑anchored governance organism with multi‑root sovereignty.

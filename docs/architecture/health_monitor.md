@@ -29,7 +29,7 @@ Freedomlink1 is operating in a fully sovereign, multi‑root synchronized state.
 |----------------|--------|-------|
 | Identity Root | ✔ Healthy | Creator Seal & Crest validated |
 | Manuscript Root | ✔ Healthy | Codex bindings consistent |
-| Temporal Root | ✔ Healthy | Epoch 6 active; lineage chain intact |
+| Temporal Root | ✔ Recorded | Epoch 7 active in the canonical ledger; seal payload metadata remains pending |
 | Hardware Root | ✔ Healthy | Rootstone‑I identity embed confirmed |
 | Economic Root | ✔ Healthy | PPTF governance aligned |
 | Constitutional Root | ✔ Healthy | Doctrine & Charter validated |

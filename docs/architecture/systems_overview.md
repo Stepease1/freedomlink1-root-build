@@ -12,7 +12,7 @@ This page serves as the master systems overview for stewards, architects, and in
 
 **Institution:** Freedomlink1  
 **System Type:** Sovereign Digital Institution  
-**Current Epoch:** 6 — Continuity Epoch  
+**Current Epoch:** 7 — Ascension Epoch (per the canonical epoch ledger)
 **System State:** Stable  
 **Continuity State:** Intact  
 **Unified Layer:** Synchronized  

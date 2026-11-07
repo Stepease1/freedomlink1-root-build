@@ -10,7 +10,7 @@
 ## **1. Purpose of the Continuity Index**
 The Epoch 7 Continuity Index binds the Epoch 7 Seal and Explorer Entry into one recorded continuity chain. It records temporal linkage, governance context, epoch-to-epoch continuity, and subsystem inheritance. It prepares an epoch transition, aligns continuity surfaces, records continuity events, and acknowledges lineage anchors.
 
-For this entry, **Epoch 7** means the declared next governance period following Epoch 6. Epoch 7 remains declared but not active until its Lineage Node and canonical ledger update are completed.
+At the time this index was created, Epoch 7 was declared but the canonical ledger still recorded Epoch 6 as active. The Lineage Node was subsequently committed, and signed ledger update `1d4a858a551c474be29f87b74e88c34c845aec0b` records Epoch 7 as active.
 
 ## **2. Lineage Chain**
 
@@ -36,8 +36,8 @@ Verification is limited to the cryptographic validity of commit signatures. Loca
 The seal JSON's `key_fingerprint` remains `PENDING`, `signature_status` remains `unsigned`, and `seal_status` remains `pending`; the GPG commit signatures do not change those payload fields.
 
 ## **4. Notes**
-- The canonical ledger currently lists Epoch 6 as active.
-- The Epoch 7 Lineage Node and canonical ledger update remain outstanding.
+- At the time of this index, the canonical ledger listed Epoch 6 as active and the Epoch 7 Lineage Node had not yet been committed.
+- The later signed ledger update records Epoch 7 as active; see [`lineage/epoch-ledger.md`](../../lineage/epoch-ledger.md).
 - This index records the Seal and Explorer commits; it does not activate Epoch 7.
 
 ## **5. Scope and Authority Boundaries**

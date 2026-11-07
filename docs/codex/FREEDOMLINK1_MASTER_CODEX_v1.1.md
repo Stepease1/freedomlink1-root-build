@@ -5,7 +5,7 @@
 - **Status:** Draft for institutional review; not yet approved or inscribed
 - **Scope:** Freedomlink1 Root Build
 
-> **Lineage note:** The repository contains no `FREEDOMLINK1_MASTER_CODEX_v1.0.md` or other identifiable v1.0 Master Codex source. This draft therefore cannot claim a verified line-by-line continuation of v1.0. Reviewers must compare the authoritative v1.0 text, if held elsewhere, before approving this document as its successor.
+> **Lineage note:** The repository's first substantive Version 1.0.0 Codex is [`docs/codex.md`](../codex.md), introduced in commit `831449f` after the Root Build v1.0.0 baseline commit `a62cf20`. No separately named `FREEDOMLINK1_MASTER_CODEX_v1.0.md` exists in repository history. This v1.1 draft is a documented successor synthesis, not a recovered or line-by-line copy of a missing Master Codex. See the [v1.0.0 Codex lineage record](FREEDOMLINK1_MASTER_CODEX_v1.0_LINEAGE.md).
 
 This Codex brings together the repository's governance, Merkle Forest, epoch, ledger, Rootstone-I, and sovereign-layer materials. It distinguishes source-backed behavior from proposed policy and descriptive documentation. It does not replace a trust instrument, governance protocol, canonical ledger, contract, or other authority-bearing artifact.
 
@@ -134,17 +134,17 @@ If adopted, a scoring formula, weights, data sources, update rules, appeals, and
 
 Epochs and advancement are described in the [Epoch Advancement Protocol](../governance/Epoch_Advancement_Protocol.md) and recorded in repository ledger and lineage materials. The protocol describes a sequence involving corpus preparation, hashing, signature and seal records, validation, and activation. Those procedural statements do not prove that every step has occurred.
 
-The repository's epoch records currently disagree about the active epoch: [`lineage/epoch-ledger.md`](https://github.com/Stepease1/freedomlink1-root-build/blob/main/lineage/epoch-ledger.md) says Epoch 7 is active, while the [Epoch 7 Continuity Index](https://github.com/Stepease1/freedomlink1-root-build/blob/main/freedomlink1-governance/explorer/epoch7_continuity_index.md) says Epoch 6 remains active until the canonical ledger is updated. The index also records pending seal-payload fields. This Codex does not resolve that conflict or declare an epoch active; an authorized governance reconciliation is required.
+The history resolves the active-epoch status: signed commit `1d4a858a551c474be29f87b74e88c34c845aec0b` explicitly updates [`lineage/epoch-ledger.md`](https://github.com/Stepease1/freedomlink1-root-build/blob/main/lineage/epoch-ledger.md) to record Epoch 7 as active, after the Epoch 7 seal, explorer entry, continuity index, and lineage node were committed. The earlier Epoch 7 explorer records accurately described the state before that ledger update; their current versions now record the subsequent activation. The machine-readable [`lineage/epoch_ledger.json`](https://github.com/Stepease1/freedomlink1-root-build/blob/main/lineage/epoch_ledger.json) is synchronized to that canonical status. Epoch 7's seal JSON still has `key_fingerprint: PENDING`, `signature_status: unsigned`, and `seal_status: pending`; the ledger's active status does not erase or resolve those payload fields.
 
 ## X. Continuity Index System
 
-Continuity indexes record relationships among epoch artifacts and describe continuity context. The repository includes an Epoch 7 continuity index, but that artifact explicitly states that it does not activate Epoch 7 or change the canonical ledger.
+Continuity indexes record relationships among epoch artifacts and describe continuity context. The Epoch 7 Continuity Index records its own limited authority: it does not activate an epoch or change the canonical ledger. The later signed ledger update, rather than the index or lineage node, records Epoch 7's active status.
 
 An index is evidence of its recorded contents and provenance only. It is not a substitute for the applicable ledger update, signature, or authorization.
 
 ## XI. Lineage Node System
 
-The repository includes an [Epoch 7 Lineage Node](https://github.com/Stepease1/freedomlink1-root-build/blob/main/freedomlink1-governance/explorer/epoch7_lineage_node.md). That record describes its relationship to the Epoch 7 seal, explorer entry, and continuity index, and states that the canonical ledger remains the activation authority.
+The repository includes an [Epoch 7 Lineage Node](https://github.com/Stepease1/freedomlink1-root-build/blob/main/freedomlink1-governance/explorer/epoch7_lineage_node.md). That record describes its relationship to the Epoch 7 seal, explorer entry, and continuity index. Its creation did not itself activate Epoch 7; the subsequent ledger update did.
 
 Lineage records support historical reference and review. Their existence alone does not establish that all referenced payload fields are signed, complete, or authoritative.
 
@@ -162,7 +162,7 @@ Governance records may include proposals, decisions, voting, sanctions, commenda
 
 ## XIV. Canonical Epoch Ledger
 
-The repository contains a human-readable [epoch ledger](https://github.com/Stepease1/freedomlink1-root-build/blob/main/lineage/epoch-ledger.md) and a machine-readable [epoch ledger JSON](https://github.com/Stepease1/freedomlink1-root-build/blob/main/lineage/epoch_ledger.json). This Codex does not resolve which representation controls where their contents or status descriptions differ.
+The [Epoch Advancement Protocol](https://github.com/Stepease1/freedomlink1-root-build/blob/main/governance/epoch_advancement_protocol.md) identifies `lineage/epoch_ledger.json` as the machine-readable advancement record. The human-readable [`lineage/epoch-ledger.md`](https://github.com/Stepease1/freedomlink1-root-build/blob/main/lineage/epoch-ledger.md) preserves the detailed history and activation rationale. Both records now identify Epoch 7 as active; unknown legacy dates and unrecorded activation lists remain explicitly unknown rather than being inferred. The Epoch 7 seal payload remains pending as described above.
 
 The responsible governance authority should identify the canonical record, reconcile conflicting status, and preserve the decision and its provenance. Until then, this Codex makes no independent canonical-epoch declaration.
 
@@ -265,14 +265,14 @@ This oath is declarative text. Its inclusion does not create an approval, signat
 | Intelligence, autonomy, and consciousness layers | Dashboard and governance documentation present | Descriptive capabilities; implementation is not established |
 | Civic score, eligibility thresholds, and monthly Codex | Proposed in design material | Not established as operative policy |
 | Multi-chain deployment | Networks proposed in design material | No deployment evidence asserted |
-| Master Codex v1.0 lineage | No identifiable v1.0 Master Codex source found in this repository | Successor relationship requires documentary review |
+| Master Codex v1.0 lineage | Substantive v1.0.0 source identified as `docs/codex.md`; see the [lineage record](FREEDOMLINK1_MASTER_CODEX_v1.0_LINEAGE.md) | v1.1 is a successor synthesis, not a recovered file |
 
 ### Adoption Requirements
 
 Before this draft is treated as a canonical successor:
 
-1. Locate and compare the authoritative v1.0 Master Codex, if one exists.
-2. Reconcile the Epoch 6/Epoch 7 status discrepancy through the authorized process.
+1. Review the [v1.0.0 Codex lineage record](FREEDOMLINK1_MASTER_CODEX_v1.0_LINEAGE.md) and its source text.
+2. Resolve the pending Epoch 7 seal-payload metadata through the authorized process; the active-epoch ledger status is already recorded.
 3. Review all statements about contracts, hardware, signatures, analytics, and deployment against primary evidence.
 4. Obtain the approvals required by applicable institutional instruments.
 5. Record the approved version, its hash and signatures as required, and its lineage reference in the designated authoritative systems.

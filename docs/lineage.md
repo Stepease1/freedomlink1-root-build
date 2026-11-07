@@ -1,7 +1,7 @@
 # Lineage Overview
 
-**Status**: Active Genesis Records  
-**Last Updated**: 2026-07-02
+**Status**: Epoch 7 is active in the canonical ledger; Genesis records are historical
+**Last Updated**: 2026-11-07
 
 ## Lineage Purpose
 
@@ -51,7 +51,7 @@ Temporal markers and governance periods:
 - Amendments enacted
 - Milestones achieved
 
-**Current Epoch**: Genesis (2026-07-02 - 2026-12-31)
+**Current Epoch**: Epoch 7 — Ascension (see `lineage/epoch-ledger.md` and `lineage/epoch_ledger.json`)
 
 ### 4. Ceremonies Log (`lineage/ceremonies.md`)
 Formal governance and cryptographic events:

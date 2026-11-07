@@ -9,7 +9,7 @@ It is the steward’s primary overview surface — a real‑time snapshot of Fre
 ## ✦ Governance Status Overview
 
 **Institution Status:** Active  
-**Current Epoch:** 6 — Continuity Epoch  
+**Current Epoch:** 7 — Ascension Epoch (per the canonical epoch ledger)
 **Continuity State:** Stable  
 **Unified Layer State:** Synchronized  
 **Codex Integrity:** Verified  
@@ -84,7 +84,7 @@ Unified Layer synchronization
 |-------|-------------|-------|
 | Legal Layer | ✔ | Institutional Suite aligned |
 | Manuscript Layer | ✔ | Codex bindings verified |
-| Temporal Layer | ✔ | Epoch 6 active |
+| Temporal Layer | ✔ | Epoch 7 active in the canonical ledger; seal payload metadata remains pending |
 | Hardware Layer | ✔ | Rootstone‑I identity confirmed |
 | Economic Layer | ✔ | PPTF governance mapped |
 | Integration Layer | ✔ | Unified Layer synchronized |

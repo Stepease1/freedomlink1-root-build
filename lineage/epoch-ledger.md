@@ -4,6 +4,8 @@
 **Current Epoch**: Epoch 7 — Active  
 **Epoch Duration**: 180 days
 
+The machine-readable current status is maintained in [`epoch_ledger.json`](epoch_ledger.json) under the [Epoch Advancement Protocol](../governance/epoch_advancement_protocol.md). This document provides the detailed human-readable history.
+
 ## Overview
 
 This ledger tracks temporal markers and phases in the FreedomLink1 lifecycle. Each epoch represents a governance period with defined start/end points and accomplishment milestones.
@@ -87,6 +89,8 @@ This ledger tracks temporal markers and phases in the FreedomLink1 lifecycle. Ea
 **Seal JSON Metadata:** Declared but pending. The JSON records `key_fingerprint: PENDING`, `signature_status: unsigned`, and `seal_status: pending`; the signed commit does not modify these payload fields.
 
 **Lineage Chain:** Epoch 6 finalized seal → Epoch 7 Advancement Seal → Epoch 7 Explorer Entry → Epoch 7 Continuity Index → Epoch 7 Lineage Node.
+
+**Canonical Activation Record:** Signed commit `1d4a858a551c474be29f87b74e88c34c845aec0b` updated this ledger to mark Epoch 7 active after the seal, explorer entry, continuity index, and lineage node were recorded. Its GPG commit signature verifies locally with key `9C607FCB9EB4901C3F8A074B2C5599A6E7720198`.
 
 **Notes:**
 - Epoch 7 is the active governance context in this canonical ledger.

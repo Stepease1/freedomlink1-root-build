@@ -1,21 +1,35 @@
 {
+  "project": "Freedomlink1 Root Build",
+  "version": "1.0.0",
+  "current_epoch": 7,
+  "canonical_history": "lineage/epoch-ledger.md",
+  "activation_commit": "1d4a858a551c474be29f87b74e88c34c845aec0b",
+  "record_note": "Legacy data is preserved. Null dates and empty lists mean the source record does not provide those values; they are not claims that the corresponding events or activations never occurred.",
   "epochs": [
     {
       "epoch": 1,
+      "started_at": null,
       "advanced_at": "2026-08-28",
       "modules_activated": [],
+      "pocs_graduated": [],
       "sentinels_active": ["GS-01", "GS-02", "GS-03"],
+      "sovereign_signature": "Not recorded in the legacy machine-readable entry",
       "build_tag": "freedomlink1-root-epoch1",
-      "status": "genesis"
+      "status": "genesis",
+      "record_note": "The original started_at and sovereign signature fields were not present in the legacy entry."
     },
     {
       "epoch": 2,
+      "started_at": null,
       "advanced_at": "2026-03-08T21:44:00Z",
       "modules_activated": ["GIM-01"],
+      "pocs_graduated": [],
       "sentinels_active": ["GS-01", "GS-02", "GS-03"],
+      "sovereign_signature": "Not recorded in the legacy machine-readable entry",
       "build_tag": "freedomlink1-root-2026.03.08",
       "commit_sha": "7c40e48e73878fc9f6b0bf3a48a03609bb5e438a",
       "status": "expansion",
+      "record_note": "The original started_at, pocs_graduated, and sovereign signature fields were not present in the legacy entry.",
       "release": {
         "version": "1.2",
         "prepared_by": "Joshua",
@@ -110,6 +124,65 @@
           "CI_SSH_KEY (optional)"
         ]
       }
+    },
+    {
+      "epoch": 3,
+      "started_at": null,
+      "advanced_at": null,
+      "modules_activated": [],
+      "pocs_graduated": [],
+      "sentinels_active": [],
+      "sovereign_signature": "Not recorded in the machine-readable history",
+      "status": "recorded_seal",
+      "record_note": "The human-readable epoch ledger records a finalized seal and active anchor; dates and module details are not reconstructed here."
+    },
+    {
+      "epoch": 4,
+      "started_at": null,
+      "advanced_at": null,
+      "modules_activated": [],
+      "pocs_graduated": [],
+      "sentinels_active": [],
+      "sovereign_signature": "Not recorded in the machine-readable history",
+      "status": "initializing",
+      "record_note": "The human-readable epoch ledger records an initializing anchor and pending module states."
+    },
+    {
+      "epoch": 5,
+      "started_at": null,
+      "advanced_at": null,
+      "modules_activated": [],
+      "pocs_graduated": [],
+      "sentinels_active": [],
+      "sovereign_signature": "Not recorded in the machine-readable history",
+      "status": "initializing",
+      "record_note": "The human-readable epoch ledger records incomplete initializing records; dates and module details are not reconstructed here."
+    },
+    {
+      "epoch": 6,
+      "started_at": null,
+      "advanced_at": null,
+      "modules_activated": [],
+      "pocs_graduated": [],
+      "sentinels_active": [],
+      "sovereign_signature": "Recorded as finalized in the human-readable ledger; seal payload signature_status remains unsigned",
+      "status": "finalized",
+      "previous_epoch": 5,
+      "merkle_root": "e3918c40195c386565e6552c9d75a0abad297a1ff696c5d7bb8eddc2400d75e4",
+      "record_note": "The human-readable epoch ledger records Epoch 6 as finalized and as Epoch 7's predecessor. Unknown dates and activation lists are not inferred."
+    },
+    {
+      "epoch": 7,
+      "started_at": "2026-10-16T00:58:22-05:00",
+      "advanced_at": null,
+      "modules_activated": [],
+      "pocs_graduated": [],
+      "sentinels_active": [],
+      "sovereign_signature": "GPG commit signature verified for canonical ledger activation commit 1d4a858a551c474be29f87b74e88c34c845aec0b",
+      "status": "active",
+      "previous_epoch": 6,
+      "seal_payload_status": "pending",
+      "record_note": "The canonical ledger records Epoch 7 as active. Empty activation lists mean no items are recorded in this entry; they do not assert that none exist. The Epoch 7 seal JSON still records key_fingerprint PENDING, signature_status unsigned, and seal_status pending."
     }
   ]
 }
