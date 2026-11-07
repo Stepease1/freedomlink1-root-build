@@ -17,7 +17,7 @@ The POC Governance Suite is treated as a governed initiative evolving through th
 
 ### 2. Activation
 - The POC is activated through the formal ceremony documented in [docs/poc-activation-ceremony.md](poc-activation-ceremony.md)
-- Review criteria are defined through [governance/poc-governance-rubric.md](../governance/poc-governance-rubric.md)
+- Review criteria are defined through [governance/poc-governance-rubric.md](https://github.com/Stepease1/freedomlink1-root-build/blob/main/governance/poc-governance-rubric.md)
 - The suite is linked into the documentation index and governance framework
 
 ### 3. Evaluation
@@ -37,5 +37,5 @@ Within the current Genesis epoch, the POC suite serves as a foundational demonst
 
 - [docs/poc-domain-mapping.md](poc-domain-mapping.md)
 - [docs/poc-activation-ceremony.md](poc-activation-ceremony.md)
-- [governance/poc-governance-rubric.md](../governance/poc-governance-rubric.md)
+- [governance/poc-governance-rubric.md](https://github.com/Stepease1/freedomlink1-root-build/blob/main/governance/poc-governance-rubric.md)
 - [docs/epochs.md](epochs.md)

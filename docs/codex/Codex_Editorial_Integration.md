@@ -57,7 +57,7 @@ This entry defines the editorial scope for future institutional artifacts. It do
 > - [Sovereign Editorial Charter](../freedomlink1_institutional_style_guide.md)
 > - [Style Guide Enforcement Checklist](../freedomlink1_style_guide_enforcement_checklist.md)
 > - [Style Guide Linting Ruleset](../style_guide_linting_ruleset.md)
-> - [Style Guide Linter](../../tools/style_guide_linter.ts)
+> - [Style Guide Linter](https://github.com/Stepease1/freedomlink1-root-build/blob/main/tools/style_guide_linter.ts)
 > - [Style Guide Quick-Reference Sheet](../style_guide_quick_reference.md)
 > - [Document Creation Ceremony](../document_creation_ceremony.md)
 > I affirm their documented scope, boundaries, and institutional alignment.

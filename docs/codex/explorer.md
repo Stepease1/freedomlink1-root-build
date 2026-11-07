@@ -122,7 +122,7 @@ This Explorer entry records the subsystem's relationship to the Codex. It does n
 
 #### Style Guide Linter (CI Implementation)
 
-**Path:** [`tools/style_guide_linter.ts`](../../tools/style_guide_linter.ts)<br>
+**Path:** [`tools/style_guide_linter.ts`](https://github.com/Stepease1/freedomlink1-root-build/blob/main/tools/style_guide_linter.ts)<br>
 **Role:** CI-ready implementation of the editorial ruleset, covering tone, authority boundaries, verification limits, continuity phrasing, hardware trust, economic continuity, formatting, and sovereign closure.
 
 #### Style Guide Quick-Reference Sheet

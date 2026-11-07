@@ -73,7 +73,7 @@ Bindings name GovernanceRouter and AccessControl, but those declarations do not 
 
 ### **Governance Ceremony**
 
-The [FL1-C Governance Ceremony](../unified/docs/fl1c_governance_ceremony.md) provides a structured review record. It does not itself grant authority, approve an action, or execute it.
+The [FL1-C Governance Ceremony](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/fl1c_governance_ceremony.md) provides a structured review record. It does not itself grant authority, approve an action, or execute it.
 
 ### **Governance Constraints**
 
@@ -90,7 +90,7 @@ Lineage artifacts support institutional continuity and temporal records.
 
 ### **Lineage References**
 
-The FL1-C binding declares `lineage/FL1C_anchor.json`; the resolved workspace artifact is [`freedomlink1-root/lineage/FL1C_anchor.json`](../freedomlink1-root/lineage/FL1C_anchor.json). Declared and resolved paths should not be conflated.
+The FL1-C binding declares `lineage/FL1C_anchor.json`; the resolved workspace artifact is [`freedomlink1-root/lineage/FL1C_anchor.json`](https://github.com/Stepease1/freedomlink1-root-build/blob/main/freedomlink1-root/lineage/FL1C_anchor.json). Declared and resolved paths should not be conflated.
 
 ### **Lineage Duties**
 
@@ -122,7 +122,7 @@ Rootstone-I is the institution's declared hardware identity reference.
 
 ### **Hardware Metadata**
 
-The workspace contains [`artifacts/rootstone-identity.json`](../artifacts/rootstone-identity.json), FL1-C binding fields, and a Rootstone marker in the local lineage artifact. Their presence does not establish a physical device's identity or condition.
+The workspace contains [`artifacts/rootstone-identity.json`](https://github.com/Stepease1/freedomlink1-root-build/blob/main/artifacts/rootstone-identity.json), FL1-C binding fields, and a Rootstone marker in the local lineage artifact. Their presence does not establish a physical device's identity or condition.
 
 ### **Hardware Review**
 
@@ -134,7 +134,7 @@ Stewards record the specific metadata or separately collected attestation eviden
 - metadata does not enforce contract execution
 - a hardware reference does not prove an action was device-backed
 
-See the [Rootstone-I Hardware Trust Charter](../unified/docs/rootstone_hardware_trust_charter.md).
+See the [Rootstone-I Hardware Trust Charter](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/rootstone_hardware_trust_charter.md).
 
 ---
 
@@ -176,7 +176,7 @@ Verification is scoped to the tool and evidence used.
 
 ### **Drift Detector**
 
-The [local FL1-C drift detector](../unified/scripts/drift_detector.py) compares selected binding metadata with an available lineage artifact, checks declared governance and identity/hardware fields, and checks whether consistency flags are enabled. It does not test every domain's operation or validate runtime, deployment, chain, treasury, identity-attestation, or hardware-attestation state.
+The [local FL1-C drift detector](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/scripts/drift_detector.py) compares selected binding metadata with an available lineage artifact, checks declared governance and identity/hardware fields, and checks whether consistency flags are enabled. It does not test every domain's operation or validate runtime, deployment, chain, treasury, identity-attestation, or hardware-attestation state.
 
 ### **Binding Mutation**
 
@@ -184,7 +184,7 @@ When run, the detector updates `last_check` in the FL1-C binding and writes a ma
 
 ### **Integrity Report**
 
-The [Unified Layer Integrity Report](../unified/docs/unified_layer_integrity.md) is a scoped static review of declared and locally checked configuration.
+The [Unified Layer Integrity Report](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/unified_layer_integrity.md) is a scoped static review of declared and locally checked configuration.
 
 ---
 
@@ -194,10 +194,10 @@ Continuity documents provide supporting descriptions of institutional evolution.
 
 ### **Continuity Surfaces**
 
-- [Continuity Report](../unified/docs/unified_layer_continuity.md)
-- [Epoch Advancement Document](../unified/docs/unified_layer_epoch_advancement.md)
-- [Drift Dashboard](../unified/docs/unified_layer_drift_dashboard.md)
-- [Integrity Report](../unified/docs/unified_layer_integrity.md)
+- [Continuity Report](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/unified_layer_continuity.md)
+- [Epoch Advancement Document](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/unified_layer_epoch_advancement.md)
+- [Drift Dashboard](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/unified_layer_drift_dashboard.md)
+- [Integrity Report](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/unified_layer_integrity.md)
 
 Update supporting surfaces when relevant evidence or records change. They are not substitutes for authoritative governance, treasury, or lineage records and are not automatically synchronized by the detector.
 
@@ -214,7 +214,7 @@ Automation may prepare documents, registry drafts, continuity metadata, and scop
 - registry and continuity edits require review
 - automation must not be treated as approval to advance an epoch
 
-**Known implementation gap:** `scripts/autonomous_epoch_advancement.py` can call `scripts/advance_epoch.py` based on a recommendation. The target script mutates the epoch ledger without performing the governing protocol's authorization and verification sequence. The [Sovereign Automation Specification](../unified/docs/unified_layer_automation_spec.md) documents this gap; do not treat the wrapper as compliant or as evidence of approved advancement.
+**Known implementation gap:** `scripts/autonomous_epoch_advancement.py` can call `scripts/advance_epoch.py` based on a recommendation. The target script mutates the epoch ledger without performing the governing protocol's authorization and verification sequence. The [Sovereign Automation Specification](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/unified_layer_automation_spec.md) documents this gap; do not treat the wrapper as compliant or as evidence of approved advancement.
 
 ---
 
@@ -231,7 +231,7 @@ Stewards maintain institutional records within responsibilities established by a
 - maintain registries when approved and evidence is available
 - keep hardware, identity, and economic claims within their evidence scope
 
-The [Stewardship Charter](../unified/docs/unified_layer_stewardship_charter.md) describes these responsibilities. This codex does not appoint stewards or confer authority.
+The [Stewardship Charter](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/unified_layer_stewardship_charter.md) describes these responsibilities. This codex does not appoint stewards or confer authority.
 
 ---
 
@@ -241,11 +241,11 @@ Registries index declared institutional assets and modules.
 
 ### **Asset Registry**
 
-The [Unified Layer Asset Registry](../unified/docs/asset_registry.md) records assets represented in local metadata and documentation. Inclusion is not proof of legal recognition or deployed operation.
+The [Unified Layer Asset Registry](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/asset_registry.md) records assets represented in local metadata and documentation. Inclusion is not proof of legal recognition or deployed operation.
 
 ### **Module Registry**
 
-The [Unified Layer Module Registry](../unified/docs/module_registry.md) records modules and their declared roles, with local verification limits.
+The [Unified Layer Module Registry](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/module_registry.md) records modules and their declared roles, with local verification limits.
 
 Registry edits should identify supporting evidence and distinguish metadata declarations from operational status.
 
@@ -257,7 +257,7 @@ Epochs define the institution's declared temporal structure.
 
 ### **Epoch Advancement**
 
-Advancement is governed by the [Epoch Advancement Protocol](../governance/epoch_advancement_protocol.md), including its required checks, authoritative records, signatures, and Merkle-root requirements. The Unified Layer [Epoch Advancement Document](../unified/docs/unified_layer_epoch_advancement.md) summarizes cross-layer review expectations and does not replace that protocol.
+Advancement is governed by the [Epoch Advancement Protocol](https://github.com/Stepease1/freedomlink1-root-build/blob/main/governance/epoch_advancement_protocol.md), including its required checks, authoritative records, signatures, and Merkle-root requirements. The Unified Layer [Epoch Advancement Document](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/unified_layer_epoch_advancement.md) summarizes cross-layer review expectations and does not replace that protocol.
 
 ### **Epoch Constraints**
 

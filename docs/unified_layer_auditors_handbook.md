@@ -70,13 +70,13 @@ Steward identity records, lineage references, hardware metadata, and continuity 
 - automation output or recommendation
 - a declared GovernanceRouter or AccessControl field
 
-The [FL1-C Governance Ceremony](../unified/docs/fl1c_governance_ceremony.md) is a review record; it does not grant authority.
+The [FL1-C Governance Ceremony](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/fl1c_governance_ceremony.md) is a review record; it does not grant authority.
 
 ---
 
 # ✦ 4. Interpreting Continuity Surfaces
 
-Auditors may review the [Continuity Report](../unified/docs/unified_layer_continuity.md), [Epoch Advancement Document](../unified/docs/unified_layer_epoch_advancement.md), [Drift Dashboard](../unified/docs/unified_layer_drift_dashboard.md), and [Integrity Report](../unified/docs/unified_layer_integrity.md).
+Auditors may review the [Continuity Report](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/unified_layer_continuity.md), [Epoch Advancement Document](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/unified_layer_epoch_advancement.md), [Drift Dashboard](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/unified_layer_drift_dashboard.md), and [Integrity Report](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/unified_layer_integrity.md).
 
 Interpret these as steward-maintained descriptions of declared state, references, and scoped checks. They are not, by themselves:
 
@@ -91,7 +91,7 @@ Check dates, source artifacts, status fields, and verification limitations befor
 
 # ✦ 5. Interpreting Verification Surfaces
 
-Relevant surfaces include the [drift detector source](../unified/scripts/drift_detector.py), its [machine-readable report](../unified/reports/fl1c_drift_report.json), binding metadata, and the Integrity Report.
+Relevant surfaces include the [drift detector source](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/scripts/drift_detector.py), its [machine-readable report](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/reports/fl1c_drift_report.json), binding metadata, and the Integrity Report.
 
 The detector checks selected FL1-C binding fields against a resolved local lineage artifact and evaluates declared consistency flags. It does not independently validate every layer's operational state.
 
@@ -101,9 +101,9 @@ When run, the detector writes `last_check` into the FL1-C binding and writes the
 
 # ✦ 6. Interpreting Lineage Anchors
 
-Auditors may compare declared lineage events, epochs, and metadata with the local artifact resolved by the detector. The binding declares `lineage/FL1C_anchor.json`; the workspace's resolved artifact is [`freedomlink1-root/lineage/FL1C_anchor.json`](../freedomlink1-root/lineage/FL1C_anchor.json).
+Auditors may compare declared lineage events, epochs, and metadata with the local artifact resolved by the detector. The binding declares `lineage/FL1C_anchor.json`; the workspace's resolved artifact is [`freedomlink1-root/lineage/FL1C_anchor.json`](https://github.com/Stepease1/freedomlink1-root-build/blob/main/freedomlink1-root/lineage/FL1C_anchor.json).
 
-A local anchor can document a declared genesis event or marker. It does not, without separate evidence, prove runtime lineage, chain-state history, external-system continuity, or that later actions were recorded. For epoch transitions, review the authoritative ledger, signatures, and Merkle-root evidence required by the [Epoch Advancement Protocol](../governance/epoch_advancement_protocol.md).
+A local anchor can document a declared genesis event or marker. It does not, without separate evidence, prove runtime lineage, chain-state history, external-system continuity, or that later actions were recorded. For epoch transitions, review the authoritative ledger, signatures, and Merkle-root evidence required by the [Epoch Advancement Protocol](https://github.com/Stepease1/freedomlink1-root-build/blob/main/governance/epoch_advancement_protocol.md).
 
 ---
 
@@ -117,7 +117,7 @@ Separate declared identity fields from independently obtained identity evidence,
 
 # ✦ 8. Interpreting Hardware Trust Metadata
 
-Auditors may review the Rootstone-I identity artifact, FL1-C hardware binding fields, and lineage marker. The [Rootstone-I Hardware Trust Charter](../unified/docs/rootstone_hardware_trust_charter.md) describes their intended role and limits.
+Auditors may review the Rootstone-I identity artifact, FL1-C hardware binding fields, and lineage marker. The [Rootstone-I Hardware Trust Charter](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/rootstone_hardware_trust_charter.md) describes their intended role and limits.
 
 The local drift detector checks for required hardware binding fields and a `bound` marker in the lineage artifact. It does not inspect the Rootstone identity artifact, validate its signature, identify a physical device, or perform runtime attestation. Hardware metadata is not physical attestation.
 
@@ -146,7 +146,7 @@ Compare ceremony statements with approval records and authoritative action recor
 
 # ✦ 11. Interpreting Automation Constraints
 
-The [Sovereign Automation Specification](../unified/docs/unified_layer_automation_spec.md) states intended policy boundaries and identifies current implementation gaps. It is not itself an enforcement mechanism.
+The [Sovereign Automation Specification](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/unified_layer_automation_spec.md) states intended policy boundaries and identifies current implementation gaps. It is not itself an enforcement mechanism.
 
 In particular, `scripts/autonomous_epoch_advancement.py` can invoke the epoch-ledger update script based on an intelligence-ledger recommendation; the target script does not perform the governing protocol's required authorization and verification sequence. The drift detector also writes `last_check` into the binding. Auditors should compare policy statements with tool behavior and resulting file changes rather than assume the tools enforce the policy.
 
@@ -154,7 +154,7 @@ In particular, `scripts/autonomous_epoch_advancement.py` can invoke the epoch-le
 
 # ✦ 12. Interpreting Registries
 
-Auditors may review the [Asset Registry](../unified/docs/asset_registry.md) and [Module Registry](../unified/docs/module_registry.md) as indexes of declared assets and modules represented in local metadata and documentation.
+Auditors may review the [Asset Registry](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/asset_registry.md) and [Module Registry](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/module_registry.md) as indexes of declared assets and modules represented in local metadata and documentation.
 
 Registry inclusion does not establish deployment, runtime state, legal recognition, chain-state correctness, or operational verification. Follow each entry's references and evidence limitations.
 

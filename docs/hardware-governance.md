@@ -14,7 +14,7 @@ It binds physical identity, cryptographic signatures, and institutional lineage 
 
 ## Artifact
 **Rootstone-I Identity Embed:**  
-[artifacts/rootstone-identity.json](../artifacts/rootstone-identity.json)
+[artifacts/rootstone-identity.json](https://github.com/Stepease1/freedomlink1-root-build/blob/main/artifacts/rootstone-identity.json)
 
 This embed contains:
 
@@ -48,7 +48,7 @@ Rootstone-I is validated using:
 - Epoch lineage alignment  
 
 Verification code:  
-[verifyCreatorSeal.ts](../artifacts/verifyCreatorSeal.ts)
+[verifyCreatorSeal.ts](https://github.com/Stepease1/freedomlink1-root-build/blob/main/artifacts/verifyCreatorSeal.ts)
 
 ---
 

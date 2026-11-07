@@ -33,9 +33,9 @@ This ceremony marks the point at which the Proof-of-Concept work transitions fro
 ## Related Artifacts
 
 - [docs/poc-domain-mapping.md](poc-domain-mapping.md)
-- [governance/poc-governance-rubric.md](../governance/poc-governance-rubric.md)
+- [governance/poc-governance-rubric.md](https://github.com/Stepease1/freedomlink1-root-build/blob/main/governance/poc-governance-rubric.md)
 - [docs/poc-epoch-progression.md](poc-epoch-progression.md)
-- [lineage/ceremonies.md](../lineage/ceremonies.md)
+- [lineage/ceremonies.md](https://github.com/Stepease1/freedomlink1-root-build/blob/main/lineage/ceremonies.md)
 
 ## Ceremony Significance
 

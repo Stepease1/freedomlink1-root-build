@@ -11,8 +11,8 @@ Verification can support institutional truth by stating what was checked and wha
 
 **Institution:** Freedomlink1  
 **Configured Epoch:** 6 — Continuity Epoch  
-**Verification Surfaces:** [Drift Detector](../unified/scripts/drift_detector.py), [Integrity Report](../unified/docs/unified_layer_integrity.md), FL1-C binding metadata  
-**Continuity Surfaces:** [Continuity Report](../unified/docs/unified_layer_continuity.md), [Epoch Advancement Document](../unified/docs/unified_layer_epoch_advancement.md)  
+**Verification Surfaces:** [Drift Detector](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/scripts/drift_detector.py), [Integrity Report](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/unified_layer_integrity.md), FL1-C binding metadata<br>
+**Continuity Surfaces:** [Continuity Report](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/unified_layer_continuity.md), [Epoch Advancement Document](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/unified_layer_epoch_advancement.md)<br>
 **Authority Evidence:** Applicable governance instrument and action-specific approval records  
 **Local Detector Scope:** Selected metadata and on-disk lineage artifact checks
 
@@ -68,7 +68,7 @@ When run, it updates `last_check` in `unified/bindings/fl1c_binding.json` and wr
 
 ### **Integrity Report**
 
-The [Integrity Report](../unified/docs/unified_layer_integrity.md) documents declared configuration, local checks, and their limitations. It is steward-maintained documentation, not an enforcement mechanism.
+The [Integrity Report](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/unified_layer_integrity.md) documents declared configuration, local checks, and their limitations. It is steward-maintained documentation, not an enforcement mechanism.
 
 ### **Binding Metadata**
 
@@ -235,7 +235,7 @@ Registries index declared institutional structure; inclusion is not operational 
 
 # ✦ 12. Verification Interaction with Epoch Transitions
 
-Local results may inform preparation and review of an epoch transition, alongside the evidence required by the [Epoch Advancement Protocol](../governance/epoch_advancement_protocol.md).
+Local results may inform preparation and review of an epoch transition, alongside the evidence required by the [Epoch Advancement Protocol](https://github.com/Stepease1/freedomlink1-root-build/blob/main/governance/epoch_advancement_protocol.md).
 
 Verification does not:
 

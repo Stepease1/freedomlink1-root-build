@@ -6,7 +6,7 @@
 
 ## Complete Verification Guide
 
-See [VERIFY.md](../VERIFY.md) for the comprehensive verification guide.
+See [VERIFY.md](https://github.com/Stepease1/freedomlink1-root-build/blob/main/VERIFY.md) for the comprehensive verification guide.
 
 ## Verification Levels
 
@@ -29,4 +29,4 @@ See [VERIFY.md](../VERIFY.md) for the comprehensive verification guide.
 - FIPS 186-4 (DSS)
 - EIP-191/712 (Ethereum)
 
-See [VERIFY.md](../VERIFY.md) for complete details.
+See [VERIFY.md](https://github.com/Stepease1/freedomlink1-root-build/blob/main/VERIFY.md) for complete details.

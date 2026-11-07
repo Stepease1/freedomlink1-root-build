@@ -11,8 +11,8 @@ This document defines how the POC outputs connect to the existing FreedomLink1 f
 ## Mapping Domains
 
 ### 1. Governance Domain
-- Anchors the POC in the constitutional framework defined by [governance/charter.md](../governance/charter.md)
-- Establishes review criteria through [governance/poc-governance-rubric.md](../governance/poc-governance-rubric.md)
+- Anchors the POC in the constitutional framework defined by [governance/charter.md](https://github.com/Stepease1/freedomlink1-root-build/blob/main/governance/charter.md)
+- Establishes review criteria through [governance/poc-governance-rubric.md](https://github.com/Stepease1/freedomlink1-root-build/blob/main/governance/poc-governance-rubric.md)
 - Confirms that POC decisions remain traceable to the governance process
 
 ### 2. Documentation Domain
@@ -21,7 +21,7 @@ This document defines how the POC outputs connect to the existing FreedomLink1 f
 - Supports discoverability for governance reviews and verification workflows
 
 ### 3. Ceremony Domain
-- Connects activation milestones to the formal ceremony log in [lineage/ceremonies.md](../lineage/ceremonies.md)
+- Connects activation milestones to the formal ceremony log in [lineage/ceremonies.md](https://github.com/Stepease1/freedomlink1-root-build/blob/main/lineage/ceremonies.md)
 - Defines the activation event as a governance milestone rather than an informal note
 - Ensures the POC transition is witnessed and archived
 
@@ -34,7 +34,7 @@ This document defines how the POC outputs connect to the existing FreedomLink1 f
 
 This mapping document is the reference point for:
 - [docs/poc-activation-ceremony.md](poc-activation-ceremony.md) for the formal activation event
-- [governance/poc-governance-rubric.md](../governance/poc-governance-rubric.md) for evaluation criteria
+- [governance/poc-governance-rubric.md](https://github.com/Stepease1/freedomlink1-root-build/blob/main/governance/poc-governance-rubric.md) for evaluation criteria
 - [docs/poc-epoch-progression.md](poc-epoch-progression.md) for lifecycle tracking
 
 ## Constitutional Anchoring Matrix

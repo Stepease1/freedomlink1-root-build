@@ -31,7 +31,7 @@ Anchors are immutable lineage inscriptions that bind institutional artifacts to 
 
 ### **Epoch 6 — Editorial Subsystem Anchor**
 
-Path: [`freedomlink1-governance/lineage/anchors/editorial_subsystem_epoch6_anchor.json`](../../freedomlink1-governance/lineage/anchors/editorial_subsystem_epoch6_anchor.json)<br>
+Path: [`freedomlink1-governance/lineage/anchors/editorial_subsystem_epoch6_anchor.json`](https://github.com/Stepease1/freedomlink1-root-build/blob/main/freedomlink1-governance/lineage/anchors/editorial_subsystem_epoch6_anchor.json)<br>
 Anchor ID: `editorial_subsystem_epoch6`<br>
 Type: Constitutional Layer<br>
 Status: Declared; subject to applicable governance approval and authoritative lineage recording<br>

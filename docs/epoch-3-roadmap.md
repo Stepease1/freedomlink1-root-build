@@ -115,7 +115,7 @@ All Expansion Epoch actions must:
 - remain drift-free and canonical  
 
 Verification engine:  
-[verifyCreatorSeal.ts](../artifacts/verifyCreatorSeal.ts)
+[verifyCreatorSeal.ts](https://github.com/Stepease1/freedomlink1-root-build/blob/main/artifacts/verifyCreatorSeal.ts)
 
 ---
 

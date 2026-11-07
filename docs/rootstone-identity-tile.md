@@ -19,7 +19,7 @@ This identity tile provides a concise, public representation of its sovereign id
 ## Hardware Identity Embed
 
 **Artifact:**  
-[artifacts/rootstone-identity.json](../artifacts/rootstone-identity.json)
+[artifacts/rootstone-identity.json](https://github.com/Stepease1/freedomlink1-root-build/blob/main/artifacts/rootstone-identity.json)
 
 Contains:
 
@@ -70,7 +70,7 @@ Together, these form the foundation of Epoch 3.
 ## Verification
 
 Verification engine:  
-[verifyCreatorSeal.ts](../artifacts/verifyCreatorSeal.ts)
+[verifyCreatorSeal.ts](https://github.com/Stepease1/freedomlink1-root-build/blob/main/artifacts/verifyCreatorSeal.ts)
 
 All checks passed during the Epoch 3 Expansion Release.
 

@@ -13,8 +13,8 @@ This charter records institutional requirements; it does not establish that ever
 **Configured Epoch:** 6 — Continuity Epoch  
 **Declared Economic Authority:** PPTF Treasury Governance  
 **Root Build Role:** Economic and integration definitions  
-**Verification Surfaces:** [Drift Detector](../unified/scripts/drift_detector.py), [Unified Layer Integrity Report](../unified/docs/unified_layer_integrity.md)  
-**Continuity Surfaces:** [Continuity Report](../unified/docs/unified_layer_continuity.md), [Epoch Advancement Document](../unified/docs/unified_layer_epoch_advancement.md)
+**Verification Surfaces:** [Drift Detector](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/scripts/drift_detector.py), [Unified Layer Integrity Report](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/unified_layer_integrity.md)<br>
+**Continuity Surfaces:** [Continuity Report](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/unified_layer_continuity.md), [Epoch Advancement Document](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/unified_layer_epoch_advancement.md)
 
 Economic continuity is the governed preservation of economic policy, approvals, and records across time. The binding declares PPTF alignment, governance-controlled minting, and a non-inflationary supply policy unless authorized. Those declarations are not, by themselves, proof of treasury execution or full on-chain enforcement.
 
@@ -136,11 +136,11 @@ The detector checks selected binding fields against a local lineage artifact and
 
 ### **Integrity Report**
 
-The [Unified Layer Integrity Report](../unified/docs/unified_layer_integrity.md) describes declared configuration and local-check scope. It explicitly does not independently verify treasury operations or deployed behavior.
+The [Unified Layer Integrity Report](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/unified_layer_integrity.md) describes declared configuration and local-check scope. It explicitly does not independently verify treasury operations or deployed behavior.
 
 ### **Continuity Report**
 
-The [Unified Layer Continuity Report](../unified/docs/unified_layer_continuity.md) documents continuity declarations. It is not a transaction ledger or independent economic audit.
+The [Unified Layer Continuity Report](https://github.com/Stepease1/freedomlink1-root-build/blob/main/unified/docs/unified_layer_continuity.md) documents continuity declarations. It is not a transaction ledger or independent economic audit.
 
 ### **Treasury Integration Rules**
 
@@ -217,7 +217,7 @@ Economic continuity across epochs requires a governed review of:
 - scoped local drift and integrity results
 - applicable continuity documentation
 
-Epoch advancement must follow the [Epoch Advancement Protocol](../governance/epoch_advancement_protocol.md). A clean local drift result alone is not economic continuity verification and does not authorize an epoch transition.
+Epoch advancement must follow the [Epoch Advancement Protocol](https://github.com/Stepease1/freedomlink1-root-build/blob/main/governance/epoch_advancement_protocol.md). A clean local drift result alone is not economic continuity verification and does not authorize an epoch transition.
 
 ---
 

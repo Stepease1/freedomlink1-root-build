@@ -3,7 +3,7 @@ Freedomlink1 Unified Layer • Epoch Transition Review
 
 This template records steward review while preparing an epoch transition. It does not grant authority, verify runtime behavior, validate chain state, or perform the epoch transition. Complete it with evidence actually reviewed; ceremonial language is not a substitute for approval, signatures, or authoritative records.
 
-The [Epoch Advancement Protocol](../governance/epoch_advancement_protocol.md) remains authoritative for transition preconditions, lineage records, signatures, and Merkle-root requirements.
+The [Epoch Advancement Protocol](https://github.com/Stepease1/freedomlink1-root-build/blob/main/governance/epoch_advancement_protocol.md) remains authoritative for transition preconditions, lineage records, signatures, and Merkle-root requirements.
 
 ---
 
