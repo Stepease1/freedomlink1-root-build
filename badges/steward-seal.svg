@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300">
+  <circle cx="150" cy="150" r="135" fill="#111" stroke="#4af2c5" stroke-width="12"/>
+  <text x="150" y="130" font-size="24" fill="#4af2c5" text-anchor="middle">
+    SOVEREIGN STEWARD
+  </text>
+  <text x="150" y="170" font-size="20" fill="#4af2c5" text-anchor="middle">
+    JOSHUA W. BLAZ
+  </text>
+  <text x="150" y="210" font-size="22" fill="#4af2c5" text-anchor="middle">
+    ROOT BUILD ✓
+  </text>
+</svg>

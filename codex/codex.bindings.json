@@ -1,0 +1,17 @@
+{
+  "codex": {
+    "institutional_suite": {
+      "path": "docs/institution/Freedomlink1_Institutional_Suite.md",
+      "charter": "docs/institution/Trust_Charter.md",
+      "grantor_declaration": "docs/institution/Grantor_Declaration.md",
+      "agency_charter": "docs/institution/Agency_Charter.md",
+      "treasury_governance": "docs/institution/Treasury_Governance.md",
+      "compiled": "docs/institution/Freedomlink1_Institutional_Suite.md",
+      "epoch": 5,
+      "anchor": "freedomlink1-governance/lineage/anchors/epoch_5_institutional_anchor.json",
+      "seal": "freedomlink1-governance/lineage/seals/epoch_5_institutional_seal.json",
+      "sha256": "286b7c3447e74ea2f114c766219c166f47c680136ad679ac969f450b42264255",
+      "status": "codex_bound"
+    }
+  }
+}

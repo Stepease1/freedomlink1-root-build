@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="768" viewBox="0 0 1024 768" role="img" aria-labelledby="title description">
+  <title id="title">Freedomlink1 Root — Ascension Epoch Merkle Forest</title>
+  <desc id="description">Five artifact trees and their SHA-256 hashes, combined into a forest root.</desc>
+  <style>
+    text { font-family: Consolas, "Liberation Mono", monospace; }
+    .heading { fill: #e5e7eb; font-size: 15px; }
+    .tree-title { font-size: 11px; }
+    .detail { fill: #e5e7eb; font-size: 10px; }
+    .hash { fill: #34d399; font-size: 10px; }
+    .muted { fill: #9ca3af; font-size: 9px; }
+  </style>
+  <rect width="1024" height="768" fill="#05070c"/>
+  <text class="heading" x="512" y="34" text-anchor="middle">FREEDOMLINK1 ROOT — ASCENSION EPOCH MERKLE FOREST (Epoch 7)</text>
+
+  <g>
+    <rect x="50" y="68" width="428" height="171" fill="#111827" stroke="#10b981"/>
+    <text class="tree-title" x="264" y="87" text-anchor="middle" fill="#a5b4fc">FL1C Credential Tree</text>
+    <text class="detail" x="68" y="112">Leaf: FL1C.sol</text>
+    <text class="hash" id="leaf-FL1C-hash" x="68" y="132">Hash: da9c181b7d227f0ce4d0896e78f6f3e5f75cc3afe48cd158317a78a26b7980d7</text>
+    <text class="muted" x="68" y="151">Sovereign Credential • Rootstone-Verified • Epoch-Aware • Role-Bound</text>
+    <text class="hash" id="tree-FL1C-hash" x="68" y="171">Tree Hash: 66902ce195a65a155923ea69e9de92b46edc630cd6f9bcee9e4fb0a960fb3033</text>
+  </g>
+  <g>
+    <rect x="546" y="68" width="428" height="171" fill="#111827" stroke="#3b82f6"/>
+    <text class="tree-title" x="760" y="87" text-anchor="middle" fill="#a5b4fc">GovernanceRouter Tree</text>
+    <text class="detail" x="564" y="112">Leaf: GovernanceRouter.sol</text>
+    <text class="hash" id="leaf-GOVRT-hash" x="564" y="132">Hash: e370ee48956133e2cf49ebb89f9b4e807e271aefb21b31a9f9486b528e2c0bd8</text>
+    <text class="muted" x="564" y="151">Mint/Burn Authority • Role Transitions • Epoch Binding Control</text>
+    <text class="hash" id="tree-GOVRT-hash" x="564" y="171">Tree Hash: dee17fe91693bc12b7ff2407b009b273dcf6c6c4c0f845ceed38ad8fe93e6b90</text>
+  </g>
+  <g>
+    <rect x="50" y="273" width="428" height="171" fill="#111827" stroke="#f97316"/>
+    <text class="tree-title" x="264" y="292" text-anchor="middle" fill="#fdba74">EpochAuthority Tree</text>
+    <text class="detail" x="68" y="317">Leaf: EpochAuthority.sol</text>
+    <text class="hash" id="leaf-EPAUTH-hash" x="68" y="337">Hash: bbfacac162312d34c63b3607311c1b8038be3aabab5939eedf3b20e92d3cdb31</text>
+    <text class="muted" x="68" y="356">Active Epoch • Advancement • Sealing • Explorer Entry</text>
+    <text class="hash" id="tree-EPAUTH-hash" x="68" y="376">Tree Hash: eae07792e2fd3105aa20314078a51c55de428d577fb656ca739140091a0ee260</text>
+  </g>
+  <g>
+    <rect x="546" y="273" width="428" height="171" fill="#111827" stroke="#eab308"/>
+    <text class="tree-title" x="760" y="292" text-anchor="middle" fill="#fde68a">LineageRegistry Tree</text>
+    <text class="detail" x="564" y="317">Leaf: LineageRegistry.sol</text>
+    <text class="hash" id="leaf-LINREG-hash" x="564" y="337">Hash: 954dcfb85705212cf0133b1ec1c0972debdd7f7908fd3c76dd1df627a3c2acdf</text>
+    <text class="muted" x="564" y="356">Epoch ↔ Lineage Map • Merkle Root Anchoring • Continuity Index</text>
+    <text class="hash" id="tree-LINREG-hash" x="564" y="376">Tree Hash: 26bbf1e65d73070e6a5d95d75ecc16a2d0558f3f3d139ff64918d74899f1752b</text>
+  </g>
+  <g>
+    <rect x="50" y="478" width="428" height="171" fill="#111827" stroke="#ec4899"/>
+    <text class="tree-title" x="264" y="497" text-anchor="middle" fill="#f9a8d4">RootstoneRegistry Tree</text>
+    <text class="detail" x="68" y="522">Leaf: RootstoneRegistry.sol</text>
+    <text class="hash" id="leaf-RSTRG-hash" x="68" y="542">Hash: a894c4ecc7ac3f2ec462db8287e1614f5876667e2bed18b4448e5d9e59a7e56b</text>
+    <text class="muted" x="68" y="561">Hardware Attestation • Sovereign Identity Binding</text>
+    <text class="hash" id="tree-RSTRG-hash" x="68" y="581">Tree Hash: c87cbe68f8ff2842d3e34c81569bb7482d8d0864aaf60f8ce8f02193a45cce33</text>
+  </g>
+  <g>
+    <rect x="546" y="478" width="428" height="171" fill="#020617" stroke="#10b981"/>
+    <text class="tree-title" x="760" y="497" text-anchor="middle" fill="#a7f3d0">Ascension Epoch Merkle Root</text>
+    <text class="hash" id="forest-root-hash" x="564" y="527">Forest Root Hash: 7eccb084ce21d4b0b44ca3124b8e51290beb4cd6c22fccfef54a42dc222f03d2</text>
+    <text class="detail" id="forest-epoch" x="564" y="552">Epoch: 7</text>
+    <text class="detail" id="forest-lineage" x="564" y="577">Lineage Node: L7-A0</text>
+  </g>
+</svg>

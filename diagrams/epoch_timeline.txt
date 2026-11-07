@@ -1,0 +1,7 @@
+Epoch 1 ────────────────┐
+                         │
+                         ├── Modules Activated
+                         ├── POCs Graduated
+                         ├── Sentinels Active
+                         │
+Epoch 2 (future) ────────┘

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300">
+  <circle cx="150" cy="150" r="135" fill="#111" stroke="#4af2c5" stroke-width="12"/>
+  <text x="150" y="130" font-size="24" fill="#4af2c5" text-anchor="middle">
+    FREEDOMLINK1
+  </text>
+  <text x="150" y="165" font-size="20" fill="#4af2c5" text-anchor="middle">
+    GOVERNANCE CONSTITUTION
+  </text>
+  <text x="150" y="205" font-size="22" fill="#4af2c5" text-anchor="middle">
+    GENESIS SEAL ✓
+  </text>
+</svg>
