@@ -1,6 +1,9 @@
-site_name: Freedomlink1 Governance Portal
+site_name: Freedomlink1 Root Build
+site_description: Sovereign governance, protocol, and lineage documentation
 site_url: https://stepease1.github.io/freedomlink1-root-build/
-docs_dir: .
+docs_dir: docs
+exclude_docs: README.md
+
 theme:
   name: material
   features:
@@ -11,76 +14,56 @@ theme:
     - content.code.copy
     - search.highlight
     - search.suggest
+
+extra_css:
+  - stylesheets/extra.css
+
 nav:
-    - Home: docs/index.md
-
-    - Institutional Suite:
-            - Overview: docs/institution/overview.md
-            - Compiled Suite: docs/institution/Freedomlink1_Institutional_Suite.md
-      - Trust Charter: docs/institution/Trust_Charter.md
-      - Grantor Declaration: docs/institution/Grantor_Declaration.md
-      - Agency Charter: docs/institution/Agency_Charter.md
-      - Treasury Governance: docs/institution/Treasury_Governance.md
-
-    - Identity:
-            - Sovereign Identity Charter: docs/identity/sovereign_identity_charter.md
-
-    - Architecture:
-            - Institutional Architecture Summary: docs/architecture/summary.md
-            - Institutional Diagram: docs/architecture/diagram.md
-            - Institutional Health Monitor: docs/architecture/health_monitor.md
-                - Sovereign Systems Overview: docs/architecture/systems_overview.md
-
-    - Governance Proposals:
-      - Proposal Index: docs/proposals/index.md
-      - Submission Portal: docs/proposals/submission_portal.md
-      - A‑001 Agency Charter: docs/proposals/Freedomlink1_Agency_Charter.md
-      - B‑001 Treasury Governance: docs/proposals/Freedomlink1_Treasury_Governance.md
-
+  - Home: index.md
   - Governance:
-      - Public Governance Index: docs/governance/index.md
-      - Governance Dashboard: docs/governance/dashboard.md
-      - Sovereign Continuity Doctrine: docs/governance/continuity_doctrine.md
-      - Governance Review Cycle: docs/governance/review_cycle.md
-
+      - Overview: governance/index.md
+      - Dashboard: governance/dashboard.md
+      - Continuity Doctrine: governance/continuity_doctrine.md
+      - Review Cycle: governance/review_cycle.md
+  - Merkle Forest:
+      - Overview: merkle/index.md
+  - Specifications:
+      - Overview: specifications/index.md
+      - Unified Integration Layer: Unified_Integration_Layer.md
+      - Institutional Architecture: architecture/summary.md
+  - Institutional Suite:
+      - Overview: institution/overview.md
+      - Compiled Suite: institution/Freedomlink1_Institutional_Suite.md
+      - Trust Charter: institution/Trust_Charter.md
+      - Grantor Declaration: institution/Grantor_Declaration.md
+      - Agency Charter: institution/Agency_Charter.md
+      - Treasury Governance: institution/Treasury_Governance.md
+  - Identity:
+      - Sovereign Identity Charter: identity/sovereign_identity_charter.md
+  - Architecture:
+      - Summary: architecture/summary.md
+      - Diagram: architecture/diagram.md
+      - Health Monitor: architecture/health_monitor.md
+      - Systems Overview: architecture/systems_overview.md
+  - Governance Proposals:
+      - Proposal Index: proposals/index.md
+      - Submission Portal: proposals/submission_portal.md
+      - Agency Charter: proposals/Freedomlink1_Agency_Charter.md
+      - Treasury Governance: proposals/Freedomlink1_Treasury_Governance.md
   - Sovereign Codex:
-      - Codex Binding: docs/codex/Codex_Binding_Institutional_Suite.md
-      - Codex Bindings JSON: docs/codex/codex.bindings.json
-      - Explorer: docs/codex/explorer.md
-
-  - Lineage:
-      - Epoch 5 Anchor: freedomlink1-governance/lineage/anchors/epoch_5_institutional_anchor.json
-      - Epoch 5 Seal: freedomlink1-governance/lineage/seals/epoch_5_institutional_seal.json
-      - Epoch 6 Initialization: docs/lineage/epoch_6_initialization.md
-    - Epoch 6 Continuity Report: docs/lineage/epoch_6_continuity_report.md
-      - Lineage Version: versioning/lineage.version
-      - Explorer: docs/lineage/explorer.md
-
-  - Epochs:
-      - Timeline: docs/epochs/timeline.md
-
-  - Unified Integration Layer:
-      - PPTF Bindings: unified/pptf.bindings.json
-      - Unified Version: versioning/unified.version
-
+      - Institutional Suite Binding: codex/Codex_Binding_Institutional_Suite.md
+      - Editorial Integration: codex/Codex_Editorial_Integration.md
+      - Explorer: codex/explorer.md
+  - Lineage and Epochs:
+      - Epoch 6 Initialization: lineage/epoch_6_initialization.md
+      - Epoch 6 Continuity Report: lineage/epoch_6_continuity_report.md
+      - Timeline: epochs/timeline.md
+  - Rootstone-I:
+      - Identity: rootstone/identity.md
   - Unified Layer:
-      - Explorer: docs/unified/explorer.md
-      - Drift Dashboard: unified/docs/unified_layer_drift_dashboard.md
-      - Module Registry: unified/docs/module_registry.md
-      - Epoch Advancement: unified/docs/unified_layer_epoch_advancement.md
-      - Operational Handbook: unified/docs/unified_layer_operational_handbook.md
-      - Sovereign Automation: unified/docs/unified_layer_automation_spec.md
-      - FL1-C Governance Ceremony: unified/docs/fl1c_governance_ceremony.md
-      - Stewardship Charter: unified/docs/unified_layer_stewardship_charter.md
-      - Rootstone-I Hardware Trust: unified/docs/rootstone_hardware_trust_charter.md
-      - Institutional Codex: docs/unified_layer_institutional_codex.md
-      - Continuity Ceremony: docs/unified_layer_continuity_ceremony.md
-      - Auditor Handbook: docs/unified_layer_auditors_handbook.md
-      - Verification Codex: docs/unified_layer_verification_codex.md
-
-  - PPTF Governance:
-      - Governance: docs/pptf/governance.md
-      - Root Build Economic Continuity: docs/root_build_economic_continuity_charter.md
-
-  - Hardware Root:
-      - Rootstone‑I Identity: docs/rootstone/identity.md
+      - Explorer: unified/explorer.md
+      - Continuity Ceremony: unified_layer_continuity_ceremony.md
+      - Institutional Codex: unified_layer_institutional_codex.md
+      - Verification Codex: unified_layer_verification_codex.md
+  - Whitepapers:
+      - Freedomlink1 Whitepaper: freedomlink1/whitepaper.md
