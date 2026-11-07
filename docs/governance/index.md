@@ -87,6 +87,7 @@ It is the master index of Freedomlink1.
 
 - Proposal Submission Portal  
 - Governance Review Cycle  
+- [Constitutional Review Checklist](constitutional_review_checklist.md) (proposed framework; not an active review record)
 - Proposal Validation Workflow  
 - Codex Compliance Review  
 - Lineage Continuity Review  
