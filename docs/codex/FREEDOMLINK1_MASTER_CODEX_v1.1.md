@@ -1,11 +1,14 @@
 # Freedomlink1 Master Codex v1.1
 
-- **Classification:** Proposed constitutional and technical synthesis
+- **Classification:** Constitutional Assembly Candidate
 - **Version:** 1.1
-- **Status:** Draft for institutional review; not yet approved or inscribed
+- **Lineage Status:** Reconciled
+- **Ledger Status:** Verified (Epoch 7 is active; its seal payload remains pending)
+- **Publication Status:** Ready For Constitutional Review
+- **Approval Status:** Not yet approved or inscribed
 - **Scope:** Freedomlink1 Root Build
 
-> **Lineage note:** The repository's first substantive Version 1.0.0 Codex is [`docs/codex.md`](../codex.md), introduced in commit `831449f` after the Root Build v1.0.0 baseline commit `a62cf20`. No separately named `FREEDOMLINK1_MASTER_CODEX_v1.0.md` exists in repository history. This v1.1 draft is a documented successor synthesis, not a recovered or line-by-line copy of a missing Master Codex. See the [v1.0.0 Codex lineage record](FREEDOMLINK1_MASTER_CODEX_v1.0_LINEAGE.md).
+> **Lineage note:** The repository's first substantive Version 1.0.0 Codex is [`docs/codex.md`](../codex.md), introduced in commit `831449f` after the Root Build v1.0.0 baseline commit `a62cf20`. No separately named `FREEDOMLINK1_MASTER_CODEX_v1.0.md` exists in repository history. This v1.1 candidate is a documented successor synthesis, not a recovered or line-by-line copy of a missing Master Codex. See the [v1.0.0 Codex lineage record](FREEDOMLINK1_MASTER_CODEX_v1.0_LINEAGE.md).
 
 This Codex brings together the repository's governance, Merkle Forest, epoch, ledger, Rootstone-I, and sovereign-layer materials. It distinguishes source-backed behavior from proposed policy and descriptive documentation. It does not replace a trust instrument, governance protocol, canonical ledger, contract, or other authority-bearing artifact.
 
@@ -13,7 +16,7 @@ This Codex brings together the repository's governance, Merkle Forest, epoch, le
 
 The Master Codex is an index and synthesis of Freedomlink1's constitutional principles, technical components, and continuity records. It is intended to make their scope and relationships easier to review.
 
-This draft does not itself:
+This candidate does not itself:
 
 - enact or amend institutional policy;
 - activate an epoch or confer governance eligibility;
@@ -260,7 +263,7 @@ This oath is declarative text. Its inclusion does not create an approval, signat
 | Governance and institutional documents | Present in repository | Governed by their own authority and approval process |
 | Bonus code, rewards, and cadence contract source | Present in `contracts/` | Source exists; deployment and audit are not established here |
 | Merkle Forest artifacts | Manifest, hashes, diagram, and generator present | Coverage is limited to configured manifest inputs |
-| Epoch, continuity, and lineage records | Multiple records present | Active-epoch records conflict and require reconciliation |
+| Epoch, continuity, and lineage records | Human- and machine-readable ledgers record Epoch 7 as active; signed activation commit is identified | Lineage reconciled; ledger structure and active status verified; Epoch 7 seal payload remains pending |
 | Rootstone-I | Documentation and specifications present | Physical hardware operation is not established |
 | Intelligence, autonomy, and consciousness layers | Dashboard and governance documentation present | Descriptive capabilities; implementation is not established |
 | Civic score, eligibility thresholds, and monthly Codex | Proposed in design material | Not established as operative policy |
@@ -269,7 +272,7 @@ This oath is declarative text. Its inclusion does not create an approval, signat
 
 ### Adoption Requirements
 
-Before this draft is treated as a canonical successor:
+Before this candidate is treated as a canonical successor:
 
 1. Review the [v1.0.0 Codex lineage record](FREEDOMLINK1_MASTER_CODEX_v1.0_LINEAGE.md) and its source text.
 2. Resolve the pending Epoch 7 seal-payload metadata through the authorized process; the active-epoch ledger status is already recorded.
@@ -277,7 +280,7 @@ Before this draft is treated as a canonical successor:
 4. Obtain the approvals required by applicable institutional instruments.
 5. Record the approved version, its hash and signatures as required, and its lineage reference in the designated authoritative systems.
 
-- **Artifact:** Freedomlink1 Root Build — Master Codex v1.1 draft
+- **Artifact:** Freedomlink1 Root Build — Master Codex v1.1 Constitutional Assembly Candidate
 - **Classification:** Sovereign digital institution
 - **Proposed motto:** *VERITAS • SECURITAS • AEQUITAS* — Truth • Security • Equity
-- **Lineage and epoch status:** Refer to reconciled, authorized records; not declared by this draft.
+- **Lineage and epoch status:** Reconciled and verified as stated above; this candidate does not itself authorize or activate an epoch.
