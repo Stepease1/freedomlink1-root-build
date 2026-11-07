@@ -26,6 +26,7 @@ nav:
       - Continuity Doctrine: governance/continuity_doctrine.md
       - Review Cycle: governance/review_cycle.md
       - Constitutional Review Checklist: governance/constitutional_review_checklist.md
+      - Constitutional Review Record: governance/constitutional_review_record.md
   - Merkle Forest:
       - Overview: merkle/index.md
   - Specifications:
