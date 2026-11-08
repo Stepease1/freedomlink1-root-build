@@ -87,14 +87,27 @@ It is the master index of Freedomlink1.
 
 - Proposal Submission Portal  
 - Governance Review Cycle  
-- [Constitutional Review Checklist](constitutional_review_checklist.md) (proposed framework; not an active review record)
-- [Constitutional Review Record](constitutional_review_record.md) (blank template; no decision or attestation recorded)
+- [Constitutional Review Checklist](constitutional_review_checklist.md) (proposed framework)
+- [Constitutional Review Record Template](constitutional_review_record.md) (blank template)
 - Proposal Validation Workflow  
 - Codex Compliance Review  
 - Lineage Continuity Review  
 - Treasury & PPTF Review  
 - Unified Layer Integration Review  
 - Sovereign Approval & Inscription  
+
+---
+
+## ✦ Constitutional Reviews
+
+### Completed Review Records
+
+- [CR-2026-001 — Master Codex v1.1 Review Record](reviews/CR-2026-001_MASTER_CODEX_v1.1_REVIEW_RECORD.md) (reported outcome; attestation details not supplied)
+
+### Review Framework
+
+- [Constitutional Review Checklist](constitutional_review_checklist.md)
+- [Constitutional Review Record Template](constitutional_review_record.md)
 
 ---
 

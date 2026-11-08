@@ -27,6 +27,8 @@ nav:
       - Review Cycle: governance/review_cycle.md
       - Constitutional Review Checklist: governance/constitutional_review_checklist.md
       - Constitutional Review Record: governance/constitutional_review_record.md
+      - Constitutional Reviews:
+          - CR-2026-001 Master Codex v1.1 Review Record: governance/reviews/CR-2026-001_MASTER_CODEX_v1.1_REVIEW_RECORD.md
   - Merkle Forest:
       - Overview: merkle/index.md
   - Specifications:
