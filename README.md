@@ -2,6 +2,8 @@
 
 A decentralized, cryptographically-verified governance and record-keeping system with immutable blockchain anchors, timestamp proofs, and transparent verification capabilities.
 
+[FreedomLink1 GitHub Pages](https://stepease1.github.io/freedomlink1-root-build/)
+
 ![Epoch: Genesis](https://img.shields.io/badge/Epoch-Genesis-4af2c5)
 ![Verification: Open](https://img.shields.io/badge/Verification-Open-5f8cff)
 ![Governance: Active](https://img.shields.io/badge/Governance-Active-c28bff)

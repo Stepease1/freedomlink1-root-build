@@ -1,13 +1,93 @@
-a {
-  text-decoration: none;
-  color: #464feb;
+:root,
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #000;
+  --md-default-fg-color: #f5f5f5;
+  --md-default-fg-color--light: #d0d0d0;
+  --md-default-fg-color--lighter: #a0a0a0;
+  --md-default-fg-color--lightest: #707070;
+  --md-primary-fg-color: #000;
+  --md-primary-fg-color--dark: #000;
+  --md-primary-fg-color--light: #171717;
+  --md-accent-fg-color: #fff;
+  --md-typeset-a-color: #fff;
+  --md-code-bg-color: #111;
+  --md-code-fg-color: #f5f5f5;
 }
 
-tr th,
-tr td {
-  border: 1px solid #e6e6e6;
+body {
+  font-family: Georgia, "Times New Roman", serif;
 }
 
-tr th {
-  background-color: #f5f5f5;
+.md-header,
+.md-tabs,
+.md-sidebar,
+.md-footer {
+  background-color: #000;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  color: #fff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 700;
+}
+
+.md-typeset hr {
+  border-bottom-color: #777;
+}
+
+.md-typeset a {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: #171717;
+}
+
+.md-typeset table:not([class]) td,
+.md-typeset table:not([class]) th {
+  border-color: #555;
+}
+
+body:has(.landing-page) .md-header,
+body:has(.landing-page) .md-tabs,
+body:has(.landing-page) .md-sidebar,
+body:has(.landing-page) .md-footer {
+  display: none;
+}
+
+body:has(.landing-page) .md-main__inner {
+  margin-top: 0;
+}
+
+body:has(.landing-page) .md-content {
+  max-width: 52rem;
+  margin: 0 auto;
+  padding-top: 2rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+body:has(.landing-page) .md-typeset h1 {
+  margin-bottom: 0.25rem;
+  font-size: clamp(1.5rem, 6vw, 3.5rem);
+  white-space: nowrap;
+}
+
+body:has(.landing-page) .md-typeset h2:first-of-type {
+  margin-top: 0;
+  font-size: clamp(1.1rem, 4vw, 1.7rem);
+}
+
+body:has(.landing-page) .md-typeset h2 {
+  margin-top: 2rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #777;
+}
+
+body:has(.landing-page) .md-typeset h3 {
+  margin-top: 1.25rem;
 }

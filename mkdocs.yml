@@ -1,11 +1,15 @@
-site_name: Freedomlink1 Root Build
-site_description: Sovereign governance, protocol, and lineage documentation
+site_name: FreedomLink1
+site_description: A Sovereign Digital Institution for Verifiable Governance, Lineage, and Participation
 site_url: https://stepease1.github.io/freedomlink1-root-build/
 docs_dir: docs
 exclude_docs: README.md
 
 theme:
   name: material
+  palette:
+    - scheme: slate
+      primary: black
+      accent: white
   features:
     - navigation.tabs
     - navigation.sections
@@ -23,6 +27,7 @@ nav:
   - Governance:
       - Overview: governance/index.md
       - Dashboard: governance/dashboard.md
+      - SOC 2 Readiness Checklist: soc2-readiness-checklist.md
       - Continuity Doctrine: governance/continuity_doctrine.md
       - Review Cycle: governance/review_cycle.md
       - Constitutional Review Checklist: governance/constitutional_review_checklist.md

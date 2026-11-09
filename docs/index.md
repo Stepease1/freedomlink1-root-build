@@ -1,173 +1,181 @@
-# 🏛️ Freedomlink1 Governance Portal
+<div class="landing-page"></div>
 
-<div style="display:flex; align-items:center; gap:2rem; margin-top:1.5rem;">
+# FreedomLink1
 
-  <!-- Rootstone‑I Monogram -->
-  <div style="text-align:center;">
-    <div style="font-size:3.2rem; font-weight:600; line-height:1;">
-      🜁
-    </div>
-    <div style="font-size:0.9rem; opacity:0.75;">
-      Rootstone‑I Monogram
-    </div>
-  </div>
+## A Sovereign Digital Institution for Verifiable Governance, Lineage, and Participation
 
-  <!-- Institutional Seal -->
-  <div style="text-align:center;">
-    <div style="font-size:2.4rem; font-weight:600; line-height:1;">
-      ✦
-    </div>
-    <div style="font-size:0.9rem; opacity:0.75;">
-      Institutional Seal
-    </div>
-  </div>
+FreedomLink1 is a sovereign digital institution exploring how digital systems can verify identity, preserve continuity, and support accountable participation across generations.
 
-  <!-- Epoch Ribbon -->
-  <div style="text-align:center;">
-    <div style="font-size:1.4rem; font-weight:600; line-height:1;">
-      Epoch 5 — Institutional Suite Anchored
-    </div>
-    <div style="font-size:0.9rem; opacity:0.75;">
-      SHA‑256: 286b7c3447e74ea2f114c766219c166f47c680136ad679ac969f450b42264255
-    </div>
-  </div>
+The project brings together governance frameworks, cryptographic verification, documented lineage, and participation mechanisms in a unified architecture for resilient digital institutions.
 
-</div>
+This site describes the institution's mission, principles, architecture, research areas, and current state.
 
 ---
 
-## **Sovereign Identity Crest**
+## Mission
 
-The Freedomlink1 Sovereign Identity Crest represents the union of:
+FreedomLink1 exists to explore and demonstrate principles for trustworthy digital institutions:
 
-- **Rootstone‑I** — hardware sovereignty
-- **The Institutional Suite** — legal sovereignty
-- **The Sovereign Codex** — manuscript sovereignty
-- **The Lineage Anchors** — temporal sovereignty
-- **The Unified Layer** — integration sovereignty
+- Trust should be verifiable.
+- Governance should be transparent.
+- Contributions should be recognized.
+- History should be preserved.
+- Participation should remain open.
 
-Together, these form the **Five Pillars of Sovereign Continuity**.
-
-Rootstone‑I  ✦  Trust Charter  ✦  Codex  ✦  Lineage  ✦  Unified Layer
-
-This crest is the symbolic identity of the Freedomlink1 institution.
-
-Sovereign Digital Institution • Established Epoch 0 • Anchored Epoch 5
-
-Welcome to the official governance portal of **Freedomlink1**, a sovereign, lineage‑anchored digital institution built on hardware‑rooted identity, trust‑based governance, and multi‑epoch continuity.
-
-This portal provides public access to the institutional documents, governance proposals, lineage anchors, codex entries, and integration artifacts that define and preserve the Freedomlink1 institution.
+The project seeks to show how verifiable systems can support accountable, transparent, and resilient institutions over time.
 
 ---
 
-## Ascension Epoch Merkle Forest (Epoch 7)
+## Core Principles
 
-This page renders the current Ascension Epoch Merkle Forest for Freedomlink1 Root.
+### Trust
 
-- **Epoch:** 7 (Ascension)
-- **Lineage:** L7-A0
-- **Root:** See the forest root hash below.
+Institutional claims should be verifiable rather than accepted on assumption.
 
-### Forest Diagram
+### Transparency
 
-![Ascension Epoch Merkle Forest](merkle-forest.svg)
+Decisions and processes should be visible, documented, and open to independent review.
 
-### Merkle Hashes
+### Governance
 
-- [Forest manifest](merkle-forest.json)
-- [Leaf and tree hashes](merkle-forest-hashes.json)
+Governance should be structured, accountable, and responsive to the community it serves.
 
----
+### Integrity
 
-## ✦ Institutional Suite
+Records, identity claims, and institutional actions should be verifiable.
 
-The foundational legal and governance documents of Freedomlink1.
+### Participation
 
-- **Sovereign Purpose Trust Charter** — `docs/institution/Trust_Charter.md`
+Participation should remain open, accessible, and meaningful.
 
-- **Grantor Trust Declaration (EIN 92‑1026132)** — `docs/institution/Grantor_Declaration.md`
+### Verification
 
-- **Freedomlink1 Agency Charter** — `docs/institution/Agency_Charter.md`
-
-- **Crypto‑Treasury Governance Specification** — `docs/institution/Treasury_Governance.md`
-
-- **Compiled Institutional Suite** — `docs/institution/Freedomlink1_Institutional_Suite.md`
+Evidence should be independently verifiable using public methods and cryptographic proofs.
 
 ---
 
-## ✦ Governance Proposals
+## Architecture Overview
 
-Formal governance artifacts submitted to the institution.
+FreedomLink1 uses a layered institutional architecture. Each layer has a distinct role while contributing to the integrity of the whole.
 
-- **Proposal Index** — `docs/proposals/index.md`
+### Governance Layer
 
-- **A‑001 — Agency Charter** — `docs/proposals/A-001_Agency_Charter.md`
+Provides the constitutional and operational standards for institutional decision-making.
 
-- **B‑001 — Treasury Governance Specification** — `docs/proposals/B-001_Treasury_Governance.md`
+Components include:
 
----
+- Constitutional charter
+- Governance council
+- Elections and delegation
+- Review process
+- Epoch governance
 
-## ✦ Sovereign Codex
+### Verification Layer
 
-The manuscript of Freedomlink1 — binding institutional artifacts across epochs.
+Provides mechanisms for validating records and maintaining integrity.
 
-- **Codex Binding: Institutional Suite** — `docs/codex/Codex_Binding_Institutional_Suite.md`
+Components include:
 
-- **Codex Bindings JSON** — `docs/codex/codex.bindings.json`
+- Multi-level verification
+- Signed artifacts
+- Cryptographic anchors
+- Attestation records
+- Audit trails
 
----
+### Documentation Layer
 
-## ✦ Lineage & Epochs
+Preserves public records and institutional decisions.
 
-Cryptographic continuity across generations.
+Components include:
 
-- **Epoch 5 Institutional Anchor** — `freedomlink1-governance/lineage/anchors/epoch_5_institutional_anchor.json`
+- Decision records
+- Technical specifications
+- Governance records
+- Identity codes
+- Historical artifacts
 
-- **Epoch 5 Institutional Seal** — `freedomlink1-governance/lineage/seals/epoch_5_institutional_seal.json`
+### Participation Layer
 
-- **Lineage Version** — `versioning/lineage.version`
+Supports public involvement and community input.
 
----
+Components include:
 
-## ✦ Unified Integration Layer
-
-The declarative integration map of the institution.
-
-- **Unified Integration Layer Specification** — `docs/Unified_Integration_Layer.md`
-
-- **PPTF Bindings** — `unified/pptf.bindings.json`
-
-- **Unified Version** — `versioning/unified.version`
-
----
-
-## ✦ Hardware Root of Trust
-
-Rootstone‑I identity and hardware‑anchored governance.
-
-- **Rootstone Bindings** — `unified/rootstone.bindings.json` *(if present)*
-
----
-
-## ✦ About Freedomlink1
-
-Freedomlink1 is a sovereign digital institution built on:
-
-- hardware‑rooted identity
-- trust‑based governance
-- multi‑sig treasury operations
-- lineage‑anchored continuity
-- codex‑bound institutional law
-- multi‑epoch evolution
-- nonprofit public‑benefit purpose
-
-The institution is owned by the **Freedomlink1 Sovereign Purpose Trust** and operated by the **Freedomlink1 Agency** under EIN **92‑1026132**.
+- Civic forums
+- Policy input
+- Public proposals
+- Community feedback
+- Governance participation
 
 ---
 
-## ✦ Contact
-Freedomlink1 Agency<br>
-Midwest City, Oklahoma<br>
-United States
+## Merkle Forest for Growth
+
+FreedomLink1 uses a Merkle Forest model to strengthen transparency and historical verification. Records can be organized into verifiable trees and grouped across epochs, allowing changes and relationships to be checked without relying on a single central record.
+
+The [current Merkle Forest overview](merkle/index.md) includes the forest diagram, manifest, and hash data.
 
 ---
+
+## Epoch Governance
+
+Governance activity is organized into epochs. Each epoch represents a defined period in which decisions, records, and contributions are documented and cryptographically anchored.
+
+This structure supports historical continuity while keeping institutional activity transparent and verifiable. See the [epoch timeline](epochs/timeline.md) for the published record.
+
+---
+
+## Documentation First
+
+FreedomLink1 treats documentation as a primary foundation of institutional continuity. Public artifacts record how the institution is structured, how decisions are made, and how its history develops.
+
+The documentation includes:
+
+- Governance frameworks and charters
+- Technical specifications
+- Decision records and proposals
+- Lineage and epoch records
+- Verification methods and artifacts
+
+Browse the [governance overview](governance/index.md), [architecture summary](architecture/summary.md), and [FreedomLink1 whitepaper](freedomlink1/whitepaper.md).
+
+---
+
+## Research Areas
+
+Current areas of exploration include:
+
+- Verifiable governance
+- Decentralized identity systems
+- Cryptographic recordkeeping
+- Institutional continuity
+- Community participation
+- Civic technologies
+- Decentralized coordination
+
+---
+
+## Development Philosophy
+
+FreedomLink1 is developed as an open, auditable, and iterative project. Its guiding practices are:
+
+- Document decisions and changes.
+- Keep evidence available for independent review.
+- Preserve continuity without preventing revision.
+- Prefer transparent processes and verifiable records.
+- Treat institutional design as an ongoing research effort.
+
+---
+
+## Current State
+
+FreedomLink1 is an ongoing research and development project exploring institutional, governance, and documentation architectures for digital communities.
+
+Public artifacts, specifications, records, and cryptographic proofs are published as they are developed. The [governance dashboard](governance/dashboard.md) and [lineage and epochs](lineage/epoch_6_initialization.md) provide additional project context.
+
+---
+
+## Motto
+
+**VERITAS · SOCIETAS · AEQUITAS**
+
+Truth · Society · Equity
