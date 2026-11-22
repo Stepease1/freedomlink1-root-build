@@ -40,6 +40,7 @@ nav:
       - Incident Response Plan: compliance/incident_response_plan.md
       - Risk Management Framework: compliance/risk_management_framework.md
       - Risk Register: compliance/risk_register.md
+      - Business Continuity Plan: compliance/business_continuity_plan.md
   - Merkle Forest:
       - Overview: merkle/index.md
   - Specifications:
