@@ -15,11 +15,6 @@ async function main() {
   const ledgerDigest = ethers.keccak256(readFileSync(ledgerPath));
   const lineageNode = ethers.keccak256(ethers.toUtf8Bytes(addresses.lineageIdentity));
 
-  const GovernanceRouter = await ethers.getContractFactory("GovernanceRouter");
-  const governanceRouter = await GovernanceRouter.deploy(deployer.address);
-  await governanceRouter.waitForDeployment();
-  await governanceRouter.setPermissions(deployer.address, true, true, true);
-
   const EpochAuthority = await ethers.getContractFactory("EpochAuthority");
   const epochAuthority = await EpochAuthority.deploy(deployer.address, addresses.currentEpoch, ledgerDigest);
   await epochAuthority.waitForDeployment();
@@ -38,6 +33,22 @@ async function main() {
     ethers.toUtf8Bytes(`local-development-attestation:${deployer.address.toLowerCase()}`)
   );
   await rootstoneRegistry.setAttestation(deployer.address, localAttestation);
+
+  const routerNonce = await deployer.getNonce();
+  const predictedFl1cAddress = ethers.getCreateAddress({
+    from: deployer.address,
+    nonce: routerNonce + 1
+  });
+
+  const GovernanceRouter = await ethers.getContractFactory("GovernanceRouter");
+  const governanceRouter = await GovernanceRouter.deploy(
+    deployer.address,
+    predictedFl1cAddress,
+    await epochAuthority.getAddress(),
+    await lineageRegistry.getAddress()
+  );
+  await governanceRouter.waitForDeployment();
+  await governanceRouter.setPermissions(deployer.address, true, true, true);
 
   const FL1C = await ethers.getContractFactory("FL1C");
   const fl1c = await FL1C.deploy(

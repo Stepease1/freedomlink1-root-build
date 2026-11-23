@@ -45,6 +45,7 @@ nav:
       - Overview: merkle/index.md
   - Specifications:
       - Overview: specifications/index.md
+      - Governance Router Specification: specifications/governance_router_specification.md
       - Unified Integration Layer: Unified_Integration_Layer.md
       - Institutional Architecture: architecture/summary.md
   - Institutional Suite:

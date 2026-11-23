@@ -14,7 +14,6 @@ const Role = {
 describe("FL1C Governance Credential", function () {
   async function deploy() {
     const [owner, userA, userB, stranger] = await ethers.getSigners();
-    const governance: any = await (await ethers.getContractFactory("GovernanceRouter")).deploy(owner.address);
     const epochAuthority: any = await (await ethers.getContractFactory("EpochAuthority")).deploy(
       owner.address,
       7,
@@ -26,6 +25,18 @@ describe("FL1C Governance Credential", function () {
     await lineage.setEpochAuthority(await epochAuthority.getAddress());
     const lineageNode = ethers.keccak256(ethers.toUtf8Bytes("freedomlink1/epoch/7"));
     await epochAuthority.bindInitialLineage(lineageNode);
+
+    const routerNonce = await owner.getNonce();
+    const predictedFl1cAddress = ethers.getCreateAddress({
+      from: owner.address,
+      nonce: routerNonce + 1
+    });
+    const governance: any = await (await ethers.getContractFactory("GovernanceRouter")).deploy(
+      owner.address,
+      predictedFl1cAddress,
+      await epochAuthority.getAddress(),
+      await lineage.getAddress()
+    );
     await governance.setPermissions(owner.address, true, true, true);
 
     const fl1c: any = await (await ethers.getContractFactory("FL1C")).deploy(
