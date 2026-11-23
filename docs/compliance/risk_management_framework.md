@@ -435,8 +435,8 @@ This framework becomes effective only after documented approval and institutiona
 - [Incident Response Plan](incident_response_plan.md)
 - [SOC 2 Readiness Checklist](../soc2-readiness-checklist.md)
 - [Constitutional Review Checklist](../governance/constitutional_review_checklist.md)
-- [Permissions Matrix](../../governance/permissions-matrix.md)
-- [Canonical Epoch Ledger](../../lineage/epoch-ledger.md)
+- [Permissions Matrix](https://github.com/Stepease1/freedomlink1-root-build/blob/main/governance/permissions-matrix.md)
+- [Canonical Epoch Ledger](https://github.com/Stepease1/freedomlink1-root-build/blob/main/lineage/epoch-ledger.md)
 
 **Motto:** VERITAS • SECURITAS • AEQUITAS
 
