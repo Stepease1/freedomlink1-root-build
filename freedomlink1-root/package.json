@@ -11,8 +11,8 @@
     "deploy:local": "hardhat run scripts/deploy/deploy_FL1C.ts --network localhost"
   },
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
-    "hardhat": "^2.22.0",
+    "@nomicfoundation/hardhat-toolbox": "^7.0.0",
+    "hardhat": "^3.21.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
