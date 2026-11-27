@@ -83,7 +83,23 @@ Production readiness requires:
 - Reviewed and verified contract source.
 - Independent review of production dependencies.
 
-The repository includes a lightweight `MockSafe` test harness. It verifies contract-mediated calls for router permission changes, FL1C credential issuance and revocation, and Epoch Authority advancement with automatic lineage synchronization. It is not the Safe multisig implementation and does not verify signature thresholds, Safe modules, or Safe transaction validation. Production approval must include an independently reviewed Safe deployment and explicit ownership migration and operation tests for each subsystem intended to be Safe-controlled. Rootstone Registry ownership remains separate in the current architecture.
+The repository includes both a lightweight `MockSafe` harness and integration tests using the deployed Safe 1.4.1 contracts from the pinned `@safe-global/safe-contracts` test dependency. The mock tests do not verify Safe transaction validation; the deployed-Safe tests exercise actual proxy-based Safe transactions.
+
+### Safe Wallet Validation
+
+The local Hardhat suite deploys Safe 1.4.1 singleton and proxy-factory contracts and configures 2-of-3 owner wallets.
+
+Validated:
+
+- Safe governance ownership of GovernanceRouter.
+- Threshold enforcement: one owner signature fails and two valid owner signatures succeed.
+- FL1C credential issuance and revocation through Safe transactions, including emitted events.
+- Router authority transfer between two independently deployed Safe wallets.
+- Epoch sealing and advancement through Safe execution.
+- Lineage registry and registered FL1C epoch synchronization following advancement.
+- Rejection of direct unauthorized EOA calls to protected router, FL1C, and epoch functions.
+
+Safe modules, guards, production network deployment, and production ownership migration are out of scope. The Safe tests establish local contract integration, not the security or readiness of a deployed institutional Safe. Rootstone Registry ownership remains separate in the current architecture.
 
 ## Architectural Outcome
 
