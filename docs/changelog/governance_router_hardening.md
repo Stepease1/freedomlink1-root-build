@@ -62,10 +62,12 @@ Signer assignment and any threshold or signer change require the applicable gove
 2. Record the approved Safe address as `GOVERNANCE_SAFE_ADDRESS`.
 3. Confirm the approved FL1C, epoch manager, and lineage registry addresses.
 4. Deploy the Governance Router using the validated dependency addresses.
-5. Assign permissions only to approved operators or contracts.
-6. Verify `governanceAuthority()` returns `GOVERNANCE_SAFE_ADDRESS`.
-7. Verify `pendingGovernanceAuthority()` is initially zero.
-8. Preserve deployment transaction, verified source, constructor arguments, and multisig approval evidence.
+5. Deploy FL1C with the Governance Router address.
+6. Verify the router's configured FL1C address matches the deployed FL1C.
+7. Assign permissions only to approved operators or contracts.
+8. Verify `governanceAuthority()` returns `GOVERNANCE_SAFE_ADDRESS`.
+9. Verify `pendingGovernanceAuthority()` is initially zero.
+10. Preserve deployment transactions, verified source, constructor arguments, and multisig approval evidence.
 
 ## Verification
 
@@ -76,13 +78,16 @@ Production readiness requires:
 - Two-step transfer test evidence.
 - Batch-limit test evidence.
 - Constructor dependency validation.
+- FL1C and Governance Router address consistency.
 - Multisig deployment approval.
 - Reviewed and verified contract source.
 - Independent review of production dependencies.
 
+The repository's Hardhat tests use signer accounts and do not deploy a Safe contract. They verify the router's two-step authority behavior, not Safe transaction execution or Safe control of Epoch Authority, Rootstone Registry, or other subsystem ownership. Production approval must include an independently reviewed multisig deployment and explicit ownership migration and operation tests for each subsystem that is intended to be Safe-controlled.
+
 ## Architectural Outcome
 
-Single-key governance authority is replaced by a documented, accept-required multisig authority model.
+The router supports a documented, accept-required multisig authority model for FL1C permission management. Epoch Authority and other subsystem ownership is separate and is not transferred by deploying or configuring this router.
 
 This change does not itself transfer existing on-chain authority. The current contract owner must execute the two-step proposal process and the approved pending multisig must accept it.
 

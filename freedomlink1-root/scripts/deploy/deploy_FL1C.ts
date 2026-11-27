@@ -48,7 +48,6 @@ async function main() {
     await lineageRegistry.getAddress()
   );
   await governanceRouter.waitForDeployment();
-  await governanceRouter.setPermissions(deployer.address, true, true, true);
 
   const FL1C = await ethers.getContractFactory("FL1C");
   const fl1c = await FL1C.deploy(
@@ -58,6 +57,17 @@ async function main() {
     await lineageRegistry.getAddress()
   );
   await fl1c.waitForDeployment();
+  const deployedFl1cAddress = await fl1c.getAddress();
+  if (deployedFl1cAddress.toLowerCase() !== predictedFl1cAddress.toLowerCase()) {
+    throw new Error(
+      `FL1C address mismatch: expected ${predictedFl1cAddress}, deployed ${deployedFl1cAddress}`
+    );
+  }
+  if ((await governanceRouter.fl1c()).toLowerCase() !== deployedFl1cAddress.toLowerCase()) {
+    throw new Error("GovernanceRouter is not configured for the deployed FL1C address");
+  }
+
+  await governanceRouter.setPermissions(deployer.address, true, true, true);
   await epochAuthority.registerEpochClient(await fl1c.getAddress());
 
   console.log("Local governance router:", await governanceRouter.getAddress());

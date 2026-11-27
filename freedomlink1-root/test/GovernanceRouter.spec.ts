@@ -38,11 +38,20 @@ describe("GovernanceRouter hardening", function () {
 
   it("validates constructor dependencies", async function () {
     const factory = await ethers.getContractFactory("GovernanceRouter");
-    const [authority, epochManager, lineageRegistry] = await ethers.getSigners();
+    const [authority, fl1c, epochManager, lineageRegistry] = await ethers.getSigners();
+    const validArgs = [authority.address, fl1c.address, epochManager.address, lineageRegistry.address];
+    const expectedErrors = [
+      "GovernanceRouter: zero authority",
+      "GovernanceRouter: zero FL1C",
+      "GovernanceRouter: zero epoch manager",
+      "GovernanceRouter: zero lineage registry"
+    ];
 
-    await expect(
-      factory.deploy(ethers.ZeroAddress, epochManager.address, epochManager.address, lineageRegistry.address)
-    ).to.be.revertedWith("GovernanceRouter: zero authority");
+    for (let i = 0; i < validArgs.length; i++) {
+      const invalidArgs = [...validArgs];
+      invalidArgs[i] = ethers.ZeroAddress;
+      await expect(factory.deploy(...invalidArgs)).to.be.revertedWith(expectedErrors[i]);
+    }
   });
 
   it("requires a two-step authority transfer", async function () {
@@ -77,6 +86,18 @@ describe("GovernanceRouter hardening", function () {
       .withArgs(pendingAuthority.address);
 
     expect(await router.pendingGovernanceAuthority()).to.equal(ethers.ZeroAddress);
+  });
+
+  it("keeps the legacy ownership entry point two-step", async function () {
+    const { authority, pendingAuthority, router } = await deploy();
+
+    await expect(router.connect(authority).transferOwnership(pendingAuthority.address))
+      .to.emit(router, "GovernanceAuthorityTransferProposed")
+      .withArgs(authority.address, pendingAuthority.address);
+    expect(await router.governanceAuthority()).to.equal(authority.address);
+
+    await router.connect(pendingAuthority).acceptGovernanceAuthority();
+    expect(await router.governanceAuthority()).to.equal(pendingAuthority.address);
   });
 
   it("limits batch permission updates", async function () {

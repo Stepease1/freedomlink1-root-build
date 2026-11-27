@@ -32,14 +32,15 @@ The Governance Router centralizes authorization for FL1C credential minting, cre
 Safe Multisig
       |
       v
-Governance Router
-      |
-      +--> FL1C credential authorization
-      +--> Epoch management dependency
-      +--> Lineage registry dependency
+Governance Router ---> FL1C credential authorization
+
+Epoch Authority and other subsystem owners remain separately controlled
+unless their ownership is explicitly transferred to the approved Safe.
 ```
 
 The current governance authority may propose a transfer but cannot complete it by changing the authority directly. The pending authority must accept the transfer.
+
+The router stores FL1C, epoch manager, and lineage registry addresses as validated deployment references. It does not call epoch-management or lineage-registry functions. Their privileged operations remain controlled by their own contract authorization until a separately reviewed ownership migration is performed.
 
 The canonical source for the router is `freedomlink1-root/contracts/governance/GovernanceRouter.sol`.
 
@@ -120,6 +121,8 @@ Signer roles:
 5. Institutional Reserve Steward.
 
 Production deployment is a governed operation and must follow the applicable institutional review process.
+
+The local deployment script resolves the FL1C/router constructor dependency by predicting FL1C's CREATE address. It must deploy the router and then deploy FL1C as the next transaction from the same deployer, with no intervening transaction. Permission assignment occurs only after both deployments. The script verifies the predicted address against the deployed FL1C and router configuration. Production deployment must independently verify its chosen deployment sequence and constructor arguments; this local nonce procedure is not a production deployment endorsement.
 
 ## 9. Constructor Interface
 

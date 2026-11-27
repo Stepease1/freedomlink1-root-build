@@ -37,7 +37,6 @@ describe("FL1C Governance Credential", function () {
       await epochAuthority.getAddress(),
       await lineage.getAddress()
     );
-    await governance.setPermissions(owner.address, true, true, true);
 
     const fl1c: any = await (await ethers.getContractFactory("FL1C")).deploy(
       await governance.getAddress(),
@@ -45,6 +44,9 @@ describe("FL1C Governance Credential", function () {
       await rootstone.getAddress(),
       await lineage.getAddress()
     );
+    expect(await fl1c.getAddress()).to.equal(predictedFl1cAddress);
+    expect(await governance.fl1c()).to.equal(await fl1c.getAddress());
+    await governance.setPermissions(owner.address, true, true, true);
     await epochAuthority.registerEpochClient(await fl1c.getAddress());
 
     return { owner, governance, epochAuthority, userA, userB, stranger, rootstone, lineage, fl1c, lineageNode };
