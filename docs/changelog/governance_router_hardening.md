@@ -83,7 +83,7 @@ Production readiness requires:
 - Reviewed and verified contract source.
 - Independent review of production dependencies.
 
-The repository's Hardhat tests use signer accounts and do not deploy a Safe contract. They verify the router's two-step authority behavior, not Safe transaction execution or Safe control of Epoch Authority, Rootstone Registry, or other subsystem ownership. Production approval must include an independently reviewed multisig deployment and explicit ownership migration and operation tests for each subsystem that is intended to be Safe-controlled.
+The repository includes a lightweight `MockSafe` test harness. It verifies contract-mediated calls for router permission changes, FL1C credential issuance and revocation, and Epoch Authority advancement with automatic lineage synchronization. It is not the Safe multisig implementation and does not verify signature thresholds, Safe modules, or Safe transaction validation. Production approval must include an independently reviewed Safe deployment and explicit ownership migration and operation tests for each subsystem intended to be Safe-controlled. Rootstone Registry ownership remains separate in the current architecture.
 
 ## Architectural Outcome
 
