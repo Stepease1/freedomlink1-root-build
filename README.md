@@ -1,45 +1,111 @@
-# Freedomlink
+# Freedomlink1 — A New Digital Governance Species
 
-A decentralized, cryptographically-verified governance and record-keeping system with immutable blockchain anchors, timestamp proofs, and transparent verification capabilities.
+### Sovereign-Grade Governance • Merkle Forest Lineage • Steward Cycles • Decade Seals
 
-[FreedomLink1 GitHub Pages](https://stepease1.github.io/freedomlink1-root-build/)
+Freedomlink1 is not a blockchain.  
+It is not a DAO.  
+It is not a smart-contract platform.
 
-![Epoch: Genesis](https://img.shields.io/badge/Epoch-Genesis-4af2c5)
-![Verification: Open](https://img.shields.io/badge/Verification-Open-5f8cff)
-![Governance: Active](https://img.shields.io/badge/Governance-Active-c28bff)
-![Root Build v1.0.0](https://img.shields.io/badge/Root_Build-v1.0.0-0b1020)
+Freedomlink1 is a **sovereign digital governance organism** — a new species of computational institution designed to coordinate identity, authority, attestation, and continuity across decades.
 
-![Root Build Integrity](docs/badges/integrity.svg)
-![Integrity Monitor](docs/badges/integrity-monitor.svg)
-![Governance Tests](https://github.com/Freedomlink1/root-build/actions/workflows/governance-tests.yml/badge.svg)
-![Smoke Tests](https://github.com/Freedomlink1/root-build/actions/workflows/root-governance-pipeline.yml/badge.svg)
+## 🜂 What Freedomlink1 Is
 
-## 🔐 Freedomlink1 Governance Status
+Freedomlink1 is a **root governance engine** built around:
 
-| Check | Status |
-|------|--------|
-| Root Build Integrity | ✔ Verified |
-| Sovereign Signature | ✔ Valid |
-| Merkle Root | ✔ Regenerated |
-| Canonicalization | ✔ Passed |
-| Hash Manifest | ✔ Verified |
-| Lineage Structure | ✔ Confirmed |
-| Module Verification | ✔ Passed |
-| POC Verification | ✔ Passed |
-| Smoke Tests | ✔ Passed |
-| Governance Tests | ✔ Passed |
+- **Steward Roles** — human or institutional actors entrusted with continuity
+- **Decade Seal Cycles** — multi-phase governance lifecycles producing sealed institutional decisions
+- **Merkle Forest Lineage** — a multi-branch governance memory structure preserving institutional history
+- **Policy Evaluation Engine** — deterministic governance logic executed before any sealed action
+- **Task Enqueue + Sealed Execution** — governance-driven execution flows, not smart contracts
+- **Audit-Grade Transparency** — every governance action logged, sealed, and lineage-anchored
 
-<p align="center">
-	<img src="docs/badges/integrity-seal.svg" width="180">
-</p>
+Freedomlink1 is built for **institutions**, not speculation.
 
-<p align="center">
-  <img src="docs/badges/sentinel-seal.svg" width="200">
-</p>
+## 🜁 What Freedomlink1 Is Not
 
-<p align="center">
-	<img src="docs/badges/constitution-seal.svg" width="220">
-</p>
+- Not a blockchain
+- Not a token economy
+- Not a financial instrument
+- Not a DAO voting system
+- Not a smart-contract execution layer
+
+Freedomlink1 does not compete with Ethereum, Solana, Cosmos, or Polkadot.  
+It **replaces the category** with something fundamentally new.
+
+## 🜄 Core Innovations
+
+### **Decade Seal Cycle**
+
+A structured, auditable governance lifecycle that:
+
+- collects steward votes
+- evaluates policy
+- enqueues tasks
+- executes sealed actions
+- produces a cryptographic “Decade Seal”
+
+### **Merkle Forest**
+
+A lineage engine that:
+
+- preserves institutional memory
+- supports multi-branch governance evolution
+- anchors every artifact to a sovereign root
+
+### **Governance Tested Like Software**
+
+Freedomlink1 governance is:
+
+- deterministic
+- reproducible
+- CI-validated
+- DevOps-native
+
+The system integrates directly with:
+
+- **VS Code**
+- **GitHub**
+- **Ephemeral Postgres + Redis CI environments**
+
+## 🜃 Why Freedomlink1 Exists
+
+Blockchains were built for transactions.  
+DAOs were built for votes.  
+Smart contracts were built for automation.
+
+None were built for **institutions**.
+
+Freedomlink1 is the first system designed for:
+
+- continuity
+- lineage
+- ceremony
+- governance
+- stewardship
+
+It is a **sovereign digital governance species** — the first of its kind.
+
+## 🜁 Root Build Status
+
+The **Freedomlink1 Root Build** is live and connected directly to VS Code → GitHub.  
+It includes:
+
+- health endpoints
+- admin seed routes
+- audit logging
+- steward flow simulation
+- Decade Seal execution
+- CI integration tests
+- lineage-anchored artifacts
+
+## 🜂 Contact
+
+**Maintainer:** Joshua  
+**Email:** joshua@freedomlink1.com  
+**Legal / NDA:** legal@freedomlink1.com
+
+Freedomlink1 is a living institution.  
+This repository is its root.
 
 ## 🎯 Core Principles
 
